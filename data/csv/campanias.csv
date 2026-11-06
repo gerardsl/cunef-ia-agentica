@@ -1,0 +1,27 @@
+id_campania,nombre,canal,categoria_objetivo,fecha_inicio,fecha_fin,ambito,presupuesto_eur,impresiones,clics,conversiones,ingresos_atribuidos_eur
+CMP01,Rebajas de invierno 2025,Redes sociales,Moda y complementos,2025-01-07,2025-02-15,Todas,9000.0,1428720,18968,378,22962.6
+CMP02,Propósitos fitness 2025,Buscadores,Deporte,2025-01-02,2025-01-31,Todas,6000.0,256209,10388,443,28709.73
+CMP03,San Valentín 2025,Email,Belleza y cuidado,2025-02-03,2025-02-14,Todas,2500.0,2380020,84158,134,8714.59
+CMP04,Día del Padre 2025,Redes sociales,Electrónica,2025-03-03,2025-03-19,Todas,5000.0,847067,8269,254,21758.08
+CMP05,Primavera en casa 2025,Influencers,Hogar,2025-04-01,2025-04-30,Todas,12000.0,2911513,23767,324,27036.84
+CMP06,Día de la Madre 2025,Email,Belleza y cuidado,2025-04-21,2025-05-04,Todas,3000.0,2619304,64546,131,8333.54
+CMP07,Operación verano 2025,Buscadores,Deporte,2025-05-15,2025-06-30,Todas,8000.0,400038,18222,620,51595.08
+CMP08,Almansa Days 2025,Redes sociales,Electrónica,2025-07-08,2025-07-11,Todas,10000.0,1427974,13913,83,6389.58
+CMP09,Rebajas de verano 2025,Email,Moda y complementos,2025-07-01,2025-08-31,Todas,4000.0,3557170,90550,689,40643.56
+CMP10,Vuelta al cole 2025,Buscadores,Electrónica,2025-08-25,2025-09-21,Todas,9000.0,421204,19300,466,46438.29
+CMP11,Lanzamiento app Almansa,Influencers,Todas,2025-09-15,2025-10-15,Todas,15000.0,3353681,22316,936,65167.33
+CMP12,Otoño gourmet 2025,Email,Gourmet,2025-10-01,2025-10-31,Todas,2000.0,1758280,57969,252,18827.42
+CMP13,Black Friday 2025,Redes sociales,Electrónica,2025-11-21,2025-12-01,Todas,20000.0,2892100,32895,625,52182.5
+CMP14,Navidad 2025 (campaña de marca),Exterior,Gourmet,2025-12-01,2025-12-24,Todas,25000.0,32084753,14672,38,1911.44
+CMP15,Regalos de Navidad 2025,Email,Belleza y cuidado,2025-12-05,2025-12-24,Todas,4000.0,3623452,129793,322,23845.13
+CMP16,Rebajas de invierno 2026,Redes sociales,Moda y complementos,2026-01-07,2026-02-15,Todas,9500.0,1531578,19172,424,27722.86
+CMP17,Propósitos fitness 2026,Buscadores,Deporte,2026-01-02,2026-01-31,Todas,6500.0,324623,12480,489,34857.12
+CMP18,Día del Padre 2026,Redes sociales,Electrónica,2026-03-02,2026-03-19,Todas,5500.0,926724,13174,230,23706.98
+CMP19,Reapertura Valencia,Exterior,Todas,2026-03-16,2026-04-15,T04,7000.0,7221769,3067,190,11390.04
+CMP20,Primavera en casa 2026,Influencers,Hogar,2026-04-01,2026-04-30,Todas,13000.0,3278030,27788,387,31092.4
+CMP21,Día de la Madre 2026,Email,Belleza y cuidado,2026-04-20,2026-05-03,Todas,3200.0,3240713,92809,140,8392.53
+CMP22,Operación verano 2026,Buscadores,Deporte,2026-05-15,2026-06-30,Todas,8500.0,418630,21524,672,53624.56
+CMP23,Influencers Hogar verano 2026,Influencers,Hogar,2026-07-01,2026-08-15,Todas,45000.0,9700929,87289,329,27286.25
+CMP24,Almansa Days 2026,Redes sociales,Electrónica,2026-07-07,2026-07-10,Todas,11000.0,1723842,16552,96,8711.26
+CMP25,Vuelta al cole 2026,Buscadores,Electrónica,2026-08-24,2026-09-20,Todas,9500.0,405318,19332,516,54478.41
+CMP26,Otoño gourmet 2026,Email,Gourmet,2026-10-01,2026-10-31,Todas,2200.0,1779632,46277,262,17865.3

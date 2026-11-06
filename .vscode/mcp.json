@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "almansa-datos": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["${workspaceFolder}/sesion2/servidor_mcp_almansa.py"]
+    }
+  }
+}

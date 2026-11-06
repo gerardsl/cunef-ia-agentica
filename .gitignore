@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+sesion3/trabajo/
+*.log

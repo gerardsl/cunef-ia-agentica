@@ -1,0 +1,109 @@
+id_producto,nombre,categoria,subcategoria,marca,proveedor,precio_lista,coste_unitario,fecha_alta,fecha_baja,activo
+P001,Auriculares Voltix Pro X,Electrónica,Audio,Voltix,ElectroIberia Distribución,89.9,57.41,2025-02-15,,1
+P002,Auriculares Voltix Lite,Electrónica,Audio,Voltix,ElectroIberia Distribución,39.9,27.18,2023-01-01,,1
+P003,Auriculares deportivos Voltix Run,Electrónica,Audio,Voltix,ElectroIberia Distribución,59.9,38.14,2023-01-01,,1
+P004,Altavoz Sonara Mini,Electrónica,Audio,Sonara,ElectroIberia Distribución,34.9,24.12,2023-01-01,,1
+P005,Altavoz Sonara Max,Electrónica,Audio,Sonara,ElectroIberia Distribución,119.0,84.59,2023-01-01,,1
+P006,Barra de sonido Sonara Cine,Electrónica,Audio,Sonara,ElectroIberia Distribución,179.0,126.21,2025-10-15,,1
+P007,Smartwatch Pulsar S2,Electrónica,Wearables,Pulsar,ElectroIberia Distribución,149.0,105.39,2025-03-01,,1
+P008,Pulsera de actividad Pulsar Fit,Electrónica,Wearables,Pulsar,ElectroIberia Distribución,49.9,32.52,2023-01-01,,1
+P009,Cargador rápido Voltix 65W,Electrónica,Accesorios,Voltix,ElectroIberia Distribución,29.9,19.07,2023-01-01,,1
+P010,Powerbank Voltix 20.000 mAh,Electrónica,Accesorios,Voltix,ElectroIberia Distribución,39.9,26.91,2023-01-01,,1
+P011,Cable USB-C trenzado 2 m,Electrónica,Accesorios,Voltix,ElectroIberia Distribución,12.9,9.03,2023-01-01,,1
+P012,"Tablet Nébula 10""",Electrónica,Informática,Nébula,ElectroIberia Distribución,229.0,148.5,2025-09-01,,1
+P013,Funda para tablet Nébula,Electrónica,Informática,Nébula,ElectroIberia Distribución,24.9,18.23,2025-09-01,,1
+P014,Teclado inalámbrico Kéntro,Electrónica,Informática,Kéntro,ElectroIberia Distribución,49.9,35.59,2023-01-01,,1
+P015,Ratón ergonómico Kéntro,Electrónica,Informática,Kéntro,ElectroIberia Distribución,34.9,23.78,2023-01-01,,1
+P016,Webcam Kéntro HD,Electrónica,Informática,Kéntro,ElectroIberia Distribución,59.9,39.69,2023-01-01,2026-03-31,0
+P017,Disco SSD portátil Datafy 1 TB,Electrónica,Informática,Datafy,ElectroIberia Distribución,99.0,65.08,2023-01-01,,1
+P018,Lector de libros electrónicos Nébula Paper,Electrónica,Informática,Nébula,ElectroIberia Distribución,129.0,93.0,2024-05-01,,1
+P019,Juego de sábanas algodón 150,Hogar,Textil hogar,Kasa Viva,Textiles Levante S.L.,49.9,22.73,2023-01-01,,1
+P020,Edredón nórdico 4 estaciones,Hogar,Textil hogar,Kasa Viva,Textiles Levante S.L.,89.9,41.82,2023-01-01,,1
+P021,Pack 2 toallas de baño,Hogar,Textil hogar,Kasa Viva,Textiles Levante S.L.,24.9,11.07,2023-01-01,,1
+P022,Cojín decorativo de lino,Hogar,Textil hogar,Kasa Viva,Textiles Levante S.L.,19.9,9.08,2023-01-01,,1
+P023,Manta de sofá de punto,Hogar,Textil hogar,Kasa Viva,Textiles Levante S.L.,39.9,16.85,2023-01-01,,1
+P024,Cortina opaca 140x260,Hogar,Textil hogar,Kasa Viva,Textiles Levante S.L.,34.9,16.33,2023-01-01,,1
+P025,Alfombra de yute 160x230,Hogar,Textil hogar,Kasa Viva,Textiles Levante S.L.,119.0,53.47,2023-01-01,,1
+P026,Vela aromática Kasa Viva,Hogar,Decoración,Kasa Viva,Textiles Levante S.L.,14.9,6.45,2023-01-01,,1
+P027,Difusor de aromas,Hogar,Decoración,Kasa Viva,Textiles Levante S.L.,29.9,14.37,2023-01-01,,1
+P028,Organizador de armario,Hogar,Decoración,Kasa Viva,Textiles Levante S.L.,22.9,10.33,2023-01-01,,1
+P029,Sartén antiadherente 28 cm,Hogar,Cocina,Nordhaus,Menaje Atlántico,32.9,14.15,2023-01-01,,1
+P030,Batería de cocina 5 piezas,Hogar,Cocina,Nordhaus,Menaje Atlántico,129.0,53.86,2023-01-01,,1
+P031,Juego de cuchillos Nordhaus,Hogar,Cocina,Nordhaus,Menaje Atlántico,59.9,28.62,2023-01-01,,1
+P032,Cafetera italiana 6 tazas,Hogar,Cocina,Nordhaus,Menaje Atlántico,27.9,12.8,2023-01-01,,1
+P033,Set 6 vasos de cristal,Hogar,Cocina,Nordhaus,Menaje Atlántico,18.9,8.48,2023-01-01,,1
+P034,Lámpara de pie nórdica,Hogar,Iluminación,Lumen&Co,Lumen&Co Iluminación,89.0,42.52,2023-01-01,,1
+P035,Lámpara de escritorio LED,Hogar,Iluminación,Lumen&Co,Lumen&Co Iluminación,39.9,17.83,2023-01-01,,1
+P036,Pack 2 bombillas inteligentes,Hogar,Iluminación,Lumen&Co,Lumen&Co Iluminación,24.9,11.97,2023-01-01,,1
+P037,Esterilla de yoga 6 mm,Deporte,Fitness,Ritmo,SportNorte,29.9,15.06,2023-01-01,,1
+P038,Mancuernas ajustables 2x10 kg,Deporte,Fitness,Ritmo,SportNorte,89.9,46.17,2023-01-01,,1
+P039,Set de bandas elásticas,Deporte,Fitness,Ritmo,SportNorte,19.9,10.43,2023-01-01,,1
+P040,Comba de velocidad,Deporte,Fitness,Ritmo,SportNorte,12.9,6.43,2023-01-01,,1
+P041,Rodillo de masaje,Deporte,Fitness,Ritmo,SportNorte,24.9,12.32,2023-01-01,,1
+P042,Pelota de pilates,Deporte,Fitness,Ritmo,SportNorte,16.9,,2023-01-01,,1
+P043,Kettlebell 12 kg,Deporte,Fitness,Ritmo,SportNorte,39.9,20.45,2026-01-05,,1
+P044,Zapatillas running Ritmo Air,Deporte,Running,Ritmo,SportNorte,79.9,39.68,2023-01-01,,1
+P045,Camiseta técnica de running,Deporte,Running,Ritmo,SportNorte,19.9,9.93,2023-01-01,,1
+P046,Mallas de running,Deporte,Running,Ritmo,SportNorte,29.9,14.38,2023-01-01,,1
+P047,Gorra de running,Deporte,Running,Ritmo,SportNorte,14.9,7.46,2023-01-01,,1
+P048,Botella térmica 750 ml,Deporte,Outdoor,Cumbre,SportNorte,22.9,12.01,2023-01-01,,1
+P049,Mochila de trekking 30 L,Deporte,Outdoor,Cumbre,SportNorte,69.9,37.23,2023-01-01,,1
+P050,Bastones de trekking,Deporte,Outdoor,Cumbre,SportNorte,49.9,24.22,2023-01-01,,1
+P051,Chaqueta cortavientos,Deporte,Outdoor,Cumbre,SportNorte,59.9,28.03,2023-01-01,,1
+P052,Linterna frontal,Deporte,Outdoor,Cumbre,SportNorte,24.9,13.02,2023-01-01,,1
+P053,Tienda de campaña 2 plazas,Deporte,Outdoor,Cumbre,SportNorte,129.0,64.01,2023-01-01,,1
+P054,Saco de dormir,Deporte,Outdoor,Cumbre,SportNorte,79.0,42.45,2023-01-01,,1
+P055,Mochila urbana Altamar,Moda y complementos,Bolsos y mochilas,Altamar,Altamar Textil,49.9,20.89,2023-01-01,,1
+P056,Bolso bandolera Bruma,Moda y complementos,Bolsos y mochilas,Bruma,Altamar Textil,39.9,16.13,2023-01-01,,1
+P057,Riñonera Altamar,Moda y complementos,Bolsos y mochilas,Altamar,Altamar Textil,24.9,9.78,2023-01-01,,1
+P058,Maleta de cabina,Moda y complementos,Bolsos y mochilas,Altamar,Altamar Textil,99.0,40.99,2023-01-01,,1
+P059,Neceser de viaje,Moda y complementos,Bolsos y mochilas,Bruma,Altamar Textil,19.9,7.71,2023-01-01,,1
+P060,Gafas de sol polarizadas,Moda y complementos,Complementos,Bruma,Altamar Textil,59.9,25.48,2023-01-01,,1
+P061,Cartera de piel,Moda y complementos,Complementos,Altamar,Altamar Textil,34.9,13.68,2023-01-01,,1
+P062,Cinturón de piel,Moda y complementos,Complementos,Altamar,Altamar Textil,29.9,12.05,2023-01-01,,1
+P063,Reloj analógico Altamar,Moda y complementos,Complementos,Altamar,Altamar Textil,79.9,34.91,2023-01-01,,1
+P064,Paraguas plegable,Moda y complementos,Complementos,Altamar,Altamar Textil,19.9,8.58,2023-01-01,,1
+P065,Bufanda de lana merino,Moda y complementos,Invierno,Bruma,Altamar Textil,29.9,11.86,2023-01-01,,1
+P066,Gorro de punto,Moda y complementos,Invierno,Bruma,Altamar Textil,16.9,7.19,2023-01-01,,1
+P067,Guantes táctiles,Moda y complementos,Invierno,Bruma,Altamar Textil,19.9,8.96,2023-01-01,,1
+P068,Pañuelo de seda,Moda y complementos,Complementos,Bruma,Altamar Textil,34.9,,2023-01-01,,1
+P069,Sudadera básica,Moda y complementos,Ropa,Altamar,Altamar Textil,34.9,14.01,2023-01-01,,1
+P070,Camiseta de algodón orgánico,Moda y complementos,Ropa,Altamar,Altamar Textil,19.9,8.97,2023-01-01,,1
+P071,Pack 5 pares de calcetines,Moda y complementos,Ropa,Altamar,Altamar Textil,14.9,6.26,2023-01-01,,1
+P072,Zapatillas de lona,Moda y complementos,Ropa,Altamar,Altamar Textil,44.9,19.37,2023-01-01,,1
+P073,Crema facial hidratante,Belleza y cuidado,Cuidado facial,Aura,BelleCos Lab,24.9,9.89,2023-01-01,,1
+P074,Sérum de vitamina C,Belleza y cuidado,Cuidado facial,Aura,BelleCos Lab,29.9,11.01,2023-01-01,,1
+P075,Contorno de ojos,Belleza y cuidado,Cuidado facial,Aura,BelleCos Lab,21.9,8.73,2023-01-01,,1
+P076,Bruma facial hidratante,Belleza y cuidado,Cuidado facial,Aura,BelleCos Lab,12.9,4.66,2026-04-01,,1
+P077,Protector solar SPF50,Belleza y cuidado,Cuidado facial,Aura,BelleCos Lab,19.9,7.09,2023-01-01,,1
+P078,Champú sólido,Belleza y cuidado,Cuidado corporal,Verdea,BelleCos Lab,9.9,3.49,2023-01-01,,1
+P079,Gel de ducha natural,Belleza y cuidado,Cuidado corporal,Verdea,BelleCos Lab,7.9,2.93,2023-01-01,,1
+P080,Desodorante natural,Belleza y cuidado,Cuidado corporal,Verdea,BelleCos Lab,6.9,2.42,2023-01-01,,1
+P081,Crema de manos,Belleza y cuidado,Cuidado corporal,Verdea,BelleCos Lab,5.9,2.18,2023-01-01,,1
+P082,Aceite corporal,Belleza y cuidado,Cuidado corporal,Verdea,BelleCos Lab,16.9,6.24,2023-01-01,,1
+P083,Pack 3 bálsamos labiales,Belleza y cuidado,Cuidado corporal,Verdea,BelleCos Lab,8.9,3.62,2023-01-01,,1
+P084,Mascarilla capilar,Belleza y cuidado,Cabello,Verdea,BelleCos Lab,14.9,5.94,2023-01-01,,1
+P085,Secador iónico Aura,Belleza y cuidado,Cabello,Aura,BelleCos Lab,59.9,22.83,2023-01-01,,1
+P086,Plancha de pelo Aura,Belleza y cuidado,Cabello,Aura,BelleCos Lab,44.9,16.62,2023-01-01,,1
+P087,Cepillo dental eléctrico,Belleza y cuidado,Electro-belleza,Aura,BelleCos Lab,49.9,19.5,2023-01-01,,1
+P088,Afeitadora eléctrica,Belleza y cuidado,Electro-belleza,Aura,BelleCos Lab,79.9,29.87,2023-01-01,,1
+P089,Kit de manicura,Belleza y cuidado,Electro-belleza,Aura,BelleCos Lab,19.9,8.07,2023-01-01,,1
+P090,Perfume Agua Almansa 100 ml,Belleza y cuidado,Perfumería,Almansa Selección,BelleCos Lab,39.9,15.27,2023-01-01,,1
+P091,Aceite de oliva virgen extra 1 L,Gourmet,Despensa,Oliva Real,Gourmet del Sur,12.9,7.68,2023-01-01,,1
+P092,AOVE premium 500 ml,Gourmet,Despensa,Oliva Real,Gourmet del Sur,14.9,8.49,2023-01-01,,1
+P093,Vinagre de Jerez,Gourmet,Despensa,Gourmet del Sur,Gourmet del Sur,6.9,4.39,2023-01-01,,1
+P094,Pimentón de la Vera,Gourmet,Despensa,Gourmet del Sur,Gourmet del Sur,3.9,2.35,2023-01-01,,1
+P095,Conservas de atún en aceite,Gourmet,Despensa,Gourmet del Sur,Gourmet del Sur,7.9,4.75,2023-01-01,,1
+P096,Miel de romero,Gourmet,Despensa,Gourmet del Sur,Gourmet del Sur,8.9,5.05,2023-01-01,,1
+P097,Mermelada de naranja amarga,Gourmet,Despensa,Gourmet del Sur,Gourmet del Sur,5.9,3.48,2023-01-01,,1
+P098,Café en grano 1 kg,Gourmet,Café y té,Almansa Selección,Gourmet del Sur,19.9,11.78,2023-01-01,,1
+P099,Café molido 250 g,Gourmet,Café y té,Almansa Selección,Gourmet del Sur,6.9,4.01,2023-01-01,,1
+P100,Té verde matcha,Gourmet,Café y té,Almansa Selección,Gourmet del Sur,18.9,10.91,2026-02-01,,1
+P101,Chocolate negro 85 %,Gourmet,Dulces,Almansa Selección,Gourmet del Sur,3.9,2.44,2023-01-01,,1
+P102,Galletas artesanas,Gourmet,Dulces,Almansa Selección,Gourmet del Sur,4.9,2.92,2023-01-01,,1
+P103,Turrón artesano,Gourmet,Dulces,Almansa Selección,Gourmet del Sur,9.9,5.92,2023-01-01,,1
+P104,Frutos secos premium,Gourmet,Dulces,Almansa Selección,Gourmet del Sur,9.9,6.22,2023-01-01,,1
+P105,Jamón ibérico loncheado 100 g,Gourmet,Charcutería y quesos,Gourmet del Sur,Gourmet del Sur,14.9,9.39,2023-01-01,,1
+P106,Queso manchego curado,Gourmet,Charcutería y quesos,Gourmet del Sur,Gourmet del Sur,16.9,9.7,2023-01-01,,1
+P107,Vino tinto crianza,Gourmet,Bodega,Gourmet del Sur,Gourmet del Sur,12.9,8.21,2023-01-01,,1
+P108,Pack regalo gourmet,Gourmet,Regalo,Almansa Selección,Gourmet del Sur,49.9,29.5,2023-01-01,,1
