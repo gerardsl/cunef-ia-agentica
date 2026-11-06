@@ -28,4 +28,4 @@ El segundo trimestre de 2026 cierra con ventas netas de **1,35 M€**, un **10 %
 
 ## Previsión para el tercer trimestre
 
-Se prevé un crecimiento del 6 % apoyado en Almansa Days (julio), la campaña de influencers de Hogar y la vuelta al cole. La previsión no incluye el posible impacto de los retrasos del proveedor de textil hogar.
+Se prevé un crecimiento del 6 % apoyado en MUCDIA Days (julio), la campaña de influencers de Hogar y la vuelta al cole. La previsión no incluye el posible impacto de los retrasos del proveedor de textil hogar.

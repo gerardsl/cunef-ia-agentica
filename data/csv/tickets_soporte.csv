@@ -17,7 +17,7 @@ TK00015,2025-01-10,C01769,V000343,P065,chat,Devolución,media,resuelto,13.2,4,De
 TK00016,2025-01-10,C00025,V000415,P083,email,Devolución,media,cerrado,43.0,,Quiere devolver Pack 3 bálsamos labiales del pedido V000415 y pregunta por el reembolso: ha encontrado mejor precio.
 TK00017,2025-01-10,C02550,V000950,P038,chat,Envío,alta,cerrado,10.0,4,Entrega fallida del pedido V000950: el repartidor no dejó aviso.
 TK00018,2025-01-10,C00131,,,email,Otro,media,cerrado,16.3,4,Consulta sobre el horario de la tienda de Málaga.
-TK00019,2025-01-11,C02842,,,email,Otro,media,resuelto,8.8,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK00019,2025-01-11,C02842,,,email,Otro,media,resuelto,8.8,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK00020,2025-01-11,C02018,V000937,P048,teléfono,Envío,media,resuelto,10.7,,Entrega fallida del pedido V000937: el repartidor no dejó aviso.
 TK00021,2025-01-11,C01548,V000989,P079,teléfono,Envío,alta,resuelto,11.4,5,Entrega fallida del pedido V000989: el repartidor no dejó aviso.
 TK00022,2025-01-11,,V001067,P064,teléfono,Devolución,media,cerrado,49.2,,Solicita la devolución de Paraguas plegable (pedido V001067): no es lo que esperaba.
@@ -58,7 +58,7 @@ TK00056,2025-01-16,,V000206,P009,chat,Devolución,media,cerrado,16.4,5,Quiere de
 TK00057,2025-01-16,C04119,V000572,P048,email,Devolución,media,resuelto,34.7,3,Solicita la devolución de Botella térmica 750 ml (pedido V000572): llegó dañado.
 TK00058,2025-01-16,C02882,V001391,P096,chat,Devolución,media,cerrado,10.6,5,Quiere devolver Miel de romero del pedido V001391 y pregunta por el reembolso: llegó dañado.
 TK00059,2025-01-16,C03858,V002337,P059,teléfono,Devolución,media,cerrado,69.0,3,Solicita la devolución de Neceser de viaje (pedido V002337): llegó dañado.
-TK00060,2025-01-16,C01912,,,teléfono,Otro,media,resuelto,8.3,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK00060,2025-01-16,C01912,,,teléfono,Otro,media,resuelto,8.3,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK00061,2025-01-16,C01108,V002649,P019,chat,Envío,alta,cerrado,19.5,4,Pedido V002649 sin entregar tras 11 días. El seguimiento de LogiRápido no se actualiza.
 TK00062,2025-01-16,C03194,,,email,Otro,baja,cerrado,6.8,4,Sugiere ampliar el catálogo de productos gourmet.
 TK00063,2025-01-16,,V002937,P092,email,Facturación,media,resuelto,11.4,4,El descuento de la campaña no se aplicó en el pedido V002937.
@@ -112,7 +112,7 @@ TK00110,2025-01-21,,V003207,P077,email,Devolución,media,resuelto,19.1,4,Solicit
 TK00111,2025-01-21,C00849,V003665,P011,teléfono,Devolución,media,resuelto,28.1,5,Solicita la devolución de Cable USB-C trenzado 2 m (pedido V003665): llegó dañado.
 TK00112,2025-01-22,,V001405,P008,email,Devolución,media,cerrado,23.6,5,Quiere devolver Pulsera de actividad Pulsar Fit del pedido V001405 y pregunta por el reembolso: era un regalo duplicado.
 TK00113,2025-01-22,C03736,V001453,P039,teléfono,Devolución,media,cerrado,8.3,5,Devolución de Set de bandas elásticas (pedido V001453) pendiente de recogida: no es lo que esperaba.
-TK00114,2025-01-22,C01649,,,chat,Otro,baja,cerrado,3.4,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK00114,2025-01-22,C01649,,,chat,Otro,baja,cerrado,3.4,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK00115,2025-01-22,,V003449,P078,email,Devolución,baja,resuelto,23.9,,Quiere devolver Champú sólido del pedido V003449 y pregunta por el reembolso: ha encontrado mejor precio.
 TK00116,2025-01-22,C02759,V003645,P066,chat,Facturación,media,resuelto,11.4,4,Cobro duplicado en el pedido V003645.
 TK00117,2025-01-22,C03261,V004010,P019,chat,Devolución,media,resuelto,26.4,3,Quiere devolver Juego de sábanas algodón 150 del pedido V004010 y pregunta por el reembolso: ha encontrado mejor precio.
@@ -159,7 +159,7 @@ TK00157,2025-01-27,C03856,V003286,P017,chat,Devolución,baja,resuelto,35.8,4,Sol
 TK00158,2025-01-27,,V003666,P011,teléfono,Devolución,media,cerrado,55.3,3,Devolución de Cable USB-C trenzado 2 m (pedido V003666) pendiente de recogida: no es lo que esperaba.
 TK00159,2025-01-27,C02906,V003701,P048,chat,Facturación,baja,cerrado,26.4,3,Cobro duplicado en el pedido V003701.
 TK00160,2025-01-27,,V003929,P061,chat,Devolución,media,cerrado,12.9,4,Quiere devolver Cartera de piel del pedido V003929 y pregunta por el reembolso: llegó dañado.
-TK00161,2025-01-27,C02645,,,teléfono,Otro,baja,resuelto,13.8,3,Pregunta por las ventajas de la tarjeta Almansa+.
+TK00161,2025-01-27,C02645,,,teléfono,Otro,baja,resuelto,13.8,3,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK00162,2025-01-27,C03771,V004135,P004,email,Devolución,baja,cerrado,19.3,3,Quiere devolver Altavoz Sonara Mini del pedido V004135 y pregunta por el reembolso: ha encontrado mejor precio.
 TK00163,2025-01-27,C00326,V004297,P050,chat,Envío,media,cerrado,64.7,4,El cliente pregunta por el retraso del pedido V004297; el transportista indica incidencia en almacén.
 TK00164,2025-01-27,C03501,V004524,P061,teléfono,Envío,media,cerrado,2.5,5,El cliente pregunta por el retraso del pedido V004524; el transportista indica incidencia en almacén.
@@ -203,7 +203,7 @@ TK00201,2025-01-31,,V004826,P003,teléfono,Devolución,media,resuelto,51.6,5,Qui
 TK00202,2025-01-31,C01434,V005022,P002,teléfono,Devolución,baja,resuelto,53.8,,Devolución de Auriculares Voltix Lite (pedido V005022) pendiente de recogida: llegó dañado.
 TK00203,2025-01-31,C00782,V005957,P107,chat,Envío,alta,resuelto,37.0,,Entrega fallida del pedido V005957: el repartidor no dejó aviso.
 TK00204,2025-02-01,,V003548,P064,email,Devolución,media,resuelto,63.9,2,Solicita la devolución de Paraguas plegable (pedido V003548): no es lo que esperaba.
-TK00205,2025-02-01,C01253,V004074,P090,chat,Devolución,media,cerrado,59.8,,Solicita la devolución de Perfume Agua Almansa 100 ml (pedido V004074): la talla o medida no es correcta.
+TK00205,2025-02-01,C01253,V004074,P090,chat,Devolución,media,cerrado,59.8,,Solicita la devolución de Perfume Agua MUCDIA 100 ml (pedido V004074): la talla o medida no es correcta.
 TK00206,2025-02-01,,V004161,P009,email,Devolución,media,cerrado,24.2,,Solicita la devolución de Cargador rápido Voltix 65W (pedido V004161): era un regalo duplicado.
 TK00207,2025-02-01,C00871,V004394,P011,teléfono,Devolución,media,resuelto,12.6,,Devolución de Cable USB-C trenzado 2 m (pedido V004394) pendiente de recogida: ha encontrado mejor precio.
 TK00208,2025-02-01,,V005084,P061,email,Devolución,baja,cerrado,40.7,4,Solicita la devolución de Cartera de piel (pedido V005084): llegó dañado.
@@ -291,7 +291,7 @@ TK00289,2025-02-12,C02893,V008315,P069,chat,Devolución,media,resuelto,44.4,,Qui
 TK00290,2025-02-12,,V008339,P003,chat,Devolución,media,resuelto,8.4,,Devolución de Auriculares deportivos Voltix Run (pedido V008339) pendiente de recogida: ha encontrado mejor precio.
 TK00291,2025-02-13,,V003058,P010,email,Producto defectuoso,alta,cerrado,59.7,1,"Powerbank Voltix 20.000 mAh defectuoso, solicita sustitución (pedido V003058): no enciende."
 TK00292,2025-02-13,,V004164,P004,teléfono,Producto defectuoso,alta,resuelto,39.7,5,Altavoz Sonara Mini del pedido V004164 presenta fallos: llegó con un golpe.
-TK00293,2025-02-13,,V006503,P090,chat,Devolución,media,resuelto,18.6,3,Solicita la devolución de Perfume Agua Almansa 100 ml (pedido V006503): la talla o medida no es correcta.
+TK00293,2025-02-13,,V006503,P090,chat,Devolución,media,resuelto,18.6,3,Solicita la devolución de Perfume Agua MUCDIA 100 ml (pedido V006503): la talla o medida no es correcta.
 TK00294,2025-02-13,,V007258,P062,email,Devolución,media,resuelto,9.4,4,Solicita la devolución de Cinturón de piel (pedido V007258): no es lo que esperaba.
 TK00295,2025-02-13,C00426,V007312,P071,chat,Devolución,media,resuelto,6.0,2,Devolución de Pack 5 pares de calcetines (pedido V007312) pendiente de recogida: ha encontrado mejor precio.
 TK00296,2025-02-13,C03009,,,email,Otro,media,resuelto,4.9,,Pide darse de baja de las comunicaciones comerciales y saber qué datos personales se guardan.
@@ -313,7 +313,7 @@ TK00311,2025-02-15,C00450,V007511,P061,email,Devolución,media,resuelto,18.0,4,Q
 TK00312,2025-02-16,,V007154,P066,email,Devolución,media,cerrado,47.2,4,Devolución de Gorro de punto (pedido V007154) pendiente de recogida: llegó dañado.
 TK00313,2025-02-16,C01243,V007859,P065,chat,Devolución,media,cerrado,24.3,5,Devolución de Bufanda de lana merino (pedido V007859) pendiente de recogida: era un regalo duplicado.
 TK00314,2025-02-16,C02779,V007984,P067,chat,Devolución,baja,cerrado,35.8,,Quiere devolver Guantes táctiles del pedido V007984 y pregunta por el reembolso: no es lo que esperaba.
-TK00315,2025-02-16,C03153,,,teléfono,Otro,media,resuelto,23.5,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK00315,2025-02-16,C03153,,,teléfono,Otro,media,resuelto,23.5,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK00316,2025-02-16,,V008396,P070,email,Devolución,media,resuelto,23.2,4,Devolución de Camiseta de algodón orgánico (pedido V008396) pendiente de recogida: llegó dañado.
 TK00317,2025-02-16,C03511,V008868,P005,chat,Devolución,media,cerrado,95.5,1,Solicita la devolución de Altavoz Sonara Max (pedido V008868): llegó dañado.
 TK00318,2025-02-16,C04057,V009146,P057,chat,Facturación,baja,resuelto,6.8,,Cobro duplicado en el pedido V009146.
@@ -337,7 +337,7 @@ TK00335,2025-02-18,,V009728,P103,chat,Facturación,media,resuelto,7.2,5,Solicita
 TK00336,2025-02-18,C02882,V010002,P064,chat,Devolución,baja,resuelto,22.7,,Quiere devolver Paraguas plegable del pedido V010002 y pregunta por el reembolso: no es lo que esperaba.
 TK00337,2025-02-19,C02633,V008428,P055,chat,Devolución,media,resuelto,38.6,,Devolución de Mochila urbana Altamar (pedido V008428) pendiente de recogida: no es lo que esperaba.
 TK00338,2025-02-19,C02893,V008564,P071,chat,Devolución,media,cerrado,36.0,2,Quiere devolver Pack 5 pares de calcetines del pedido V008564 y pregunta por el reembolso: ha encontrado mejor precio.
-TK00339,2025-02-19,C03927,,,chat,Otro,media,resuelto,12.1,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK00339,2025-02-19,C03927,,,chat,Otro,media,resuelto,12.1,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK00340,2025-02-19,C00219,V009412,P054,email,Devolución,baja,resuelto,32.7,,Solicita la devolución de Saco de dormir (pedido V009412): ha encontrado mejor precio.
 TK00341,2025-02-19,,V009585,P072,email,Devolución,media,cerrado,10.9,5,Quiere devolver Zapatillas de lona del pedido V009585 y pregunta por el reembolso: era un regalo duplicado.
 TK00342,2025-02-19,C04073,V009695,P017,chat,Envío,alta,cerrado,22.6,4,El cliente pregunta por el retraso del pedido V009695; el transportista indica incidencia en almacén.
@@ -361,7 +361,7 @@ TK00359,2025-02-22,,V009344,P019,chat,Devolución,baja,cerrado,94.0,1,Solicita l
 TK00360,2025-02-22,,V009389,P039,chat,Devolución,media,cerrado,21.5,3,Quiere devolver Set de bandas elásticas del pedido V009389 y pregunta por el reembolso: ha encontrado mejor precio.
 TK00361,2025-02-22,,V009435,P093,email,Facturación,baja,cerrado,42.7,4,Solicita factura con datos de empresa para el pedido V009435.
 TK00362,2025-02-22,C01266,V009717,P069,chat,Devolución,baja,resuelto,45.6,,Solicita la devolución de Sudadera básica (pedido V009717): llegó dañado.
-TK00363,2025-02-22,,,,chat,Otro,media,resuelto,11.7,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK00363,2025-02-22,,,,chat,Otro,media,resuelto,11.7,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK00364,2025-02-22,C01834,V009960,P017,chat,Envío,alta,cerrado,9.8,,El cliente pregunta por el retraso del pedido V009960; el transportista indica incidencia en almacén.
 TK00365,2025-02-22,C02626,V010202,P026,chat,Envío,baja,resuelto,31.3,3,Pedido V010202 entregado en una dirección equivocada.
 TK00366,2025-02-22,C01840,V010370,P056,chat,Envío,baja,cerrado,10.2,5,Entrega fallida del pedido V010370: el repartidor no dejó aviso.
@@ -386,9 +386,9 @@ TK00384,2025-02-25,C03515,V009300,P067,email,Devolución,media,resuelto,66.0,2,Q
 TK00385,2025-02-25,C03052,V009426,P065,chat,Devolución,media,cerrado,36.3,,Devolución de Bufanda de lana merino (pedido V009426) pendiente de recogida: no es lo que esperaba.
 TK00386,2025-02-25,C03826,V009636,P004,email,Devolución,media,resuelto,9.6,3,Solicita la devolución de Altavoz Sonara Mini (pedido V009636): la talla o medida no es correcta.
 TK00387,2025-02-25,C00298,V009703,P003,email,Devolución,baja,resuelto,69.3,3,Solicita la devolución de Auriculares deportivos Voltix Run (pedido V009703): era un regalo duplicado.
-TK00388,2025-02-25,C01339,,,chat,Otro,media,cerrado,10.1,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK00388,2025-02-25,C01339,,,chat,Otro,media,cerrado,10.1,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK00389,2025-02-25,,V010109,P105,email,Facturación,media,cerrado,11.0,,El descuento de la campaña no se aplicó en el pedido V010109.
-TK00390,2025-02-25,,,,email,Otro,baja,cerrado,6.3,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK00390,2025-02-25,,,,email,Otro,baja,cerrado,6.3,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK00391,2025-02-25,C02598,V010483,P047,chat,Devolución,media,resuelto,45.9,,Quiere devolver Gorra de running del pedido V010483 y pregunta por el reembolso: ha encontrado mejor precio.
 TK00392,2025-02-25,C01619,V010669,P056,teléfono,Facturación,media,resuelto,4.6,,Cobro duplicado en el pedido V010669.
 TK00393,2025-02-25,C01758,V011170,P003,email,Facturación,media,cerrado,5.5,,Cobro duplicado en el pedido V011170.
@@ -402,7 +402,7 @@ TK00400,2025-02-26,,,,chat,Otro,baja,resuelto,2.8,,Pide darse de baja de las com
 TK00401,2025-02-26,C03312,V011233,P080,teléfono,Envío,alta,resuelto,22.5,4,Pedido V011233 sin entregar tras 7 días. El seguimiento de LogiRápido no se actualiza.
 TK00402,2025-02-26,C00152,V011378,P029,chat,Facturación,baja,resuelto,3.8,4,Cobro duplicado en el pedido V011378.
 TK00403,2025-02-27,C03204,V009886,P011,chat,Devolución,baja,resuelto,56.5,3,Quiere devolver Cable USB-C trenzado 2 m del pedido V009886 y pregunta por el reembolso: llegó dañado.
-TK00404,2025-02-27,,,,teléfono,Otro,media,resuelto,10.2,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK00404,2025-02-27,,,,teléfono,Otro,media,resuelto,10.2,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK00405,2025-02-27,,V010105,P063,chat,Devolución,media,resuelto,81.7,,Quiere devolver Reloj analógico Altamar del pedido V010105 y pregunta por el reembolso: no es lo que esperaba.
 TK00406,2025-02-27,C01383,V011423,P066,chat,Devolución,media,resuelto,27.2,5,Solicita la devolución de Gorro de punto (pedido V011423): llegó dañado.
 TK00407,2025-02-28,,V009375,P068,chat,Devolución,media,resuelto,21.4,5,Quiere devolver Pañuelo de seda del pedido V009375 y pregunta por el reembolso: llegó dañado.
@@ -465,7 +465,7 @@ TK00463,2025-03-07,,,,chat,Otro,media,resuelto,2.5,3,Consulta sobre el horario d
 TK00464,2025-03-07,C01883,V012649,P086,teléfono,Envío,media,resuelto,13.8,,Pedido V012649 entregado en una dirección equivocada.
 TK00465,2025-03-07,C02783,V012651,P048,chat,Envío,alta,resuelto,25.0,,El cliente pregunta por el retraso del pedido V012651; el transportista indica incidencia en almacén.
 TK00466,2025-03-07,C00750,V012876,P070,chat,Devolución,media,resuelto,24.7,3,Quiere devolver Camiseta de algodón orgánico del pedido V012876 y pregunta por el reembolso: llegó dañado.
-TK00467,2025-03-07,,,,chat,Otro,baja,resuelto,2.4,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK00467,2025-03-07,,,,chat,Otro,baja,resuelto,2.4,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK00468,2025-03-08,,V010785,P055,email,Devolución,media,cerrado,45.3,5,Quiere devolver Mochila urbana Altamar del pedido V010785 y pregunta por el reembolso: no es lo que esperaba.
 TK00469,2025-03-08,C03618,V011137,P014,email,Devolución,baja,cerrado,2.5,4,Solicita la devolución de Teclado inalámbrico Kéntro (pedido V011137): era un regalo duplicado.
 TK00470,2025-03-08,C00720,V011398,P051,email,Devolución,baja,cerrado,81.6,2,Quiere devolver Chaqueta cortavientos del pedido V011398 y pregunta por el reembolso: ha encontrado mejor precio.
@@ -538,7 +538,7 @@ TK00536,2025-03-18,,V013603,P050,email,Facturación,media,cerrado,14.9,4,Solicit
 TK00537,2025-03-18,C01554,V014255,P002,teléfono,Devolución,media,resuelto,20.0,5,Solicita la devolución de Auriculares Voltix Lite (pedido V014255): llegó dañado.
 TK00538,2025-03-18,C01744,V014346,P001,chat,Devolución,baja,cerrado,22.7,3,Quiere devolver Auriculares Voltix Pro X del pedido V014346 y pregunta por el reembolso: llegó dañado.
 TK00539,2025-03-18,,V014728,P060,chat,Devolución,media,cerrado,17.9,,Solicita la devolución de Gafas de sol polarizadas (pedido V014728): era un regalo duplicado.
-TK00540,2025-03-18,C02882,V014730,P090,chat,Devolución,media,resuelto,41.9,2,Quiere devolver Perfume Agua Almansa 100 ml del pedido V014730 y pregunta por el reembolso: llegó dañado.
+TK00540,2025-03-18,C02882,V014730,P090,chat,Devolución,media,resuelto,41.9,2,Quiere devolver Perfume Agua MUCDIA 100 ml del pedido V014730 y pregunta por el reembolso: llegó dañado.
 TK00541,2025-03-18,C01357,V014871,P086,email,Envío,media,cerrado,8.2,4,Entrega fallida del pedido V014871: el repartidor no dejó aviso.
 TK00542,2025-03-18,,V014903,P011,teléfono,Devolución,media,resuelto,38.4,3,Quiere devolver Cable USB-C trenzado 2 m del pedido V014903 y pregunta por el reembolso: llegó dañado.
 TK00543,2025-03-18,C01130,V015123,P057,chat,Devolución,media,cerrado,35.3,3,Quiere devolver Riñonera Altamar del pedido V015123 y pregunta por el reembolso: era un regalo duplicado.
@@ -546,7 +546,7 @@ TK00544,2025-03-19,,V014186,P070,email,Devolución,media,resuelto,50.3,3,Devoluc
 TK00545,2025-03-19,,V014404,P044,chat,Devolución,media,resuelto,42.2,,Devolución de Zapatillas running Ritmo Air (pedido V014404) pendiente de recogida: ha encontrado mejor precio.
 TK00546,2025-03-19,C00210,V014879,P069,chat,Devolución,media,cerrado,9.5,4,Solicita la devolución de Sudadera básica (pedido V014879): era un regalo duplicado.
 TK00547,2025-03-19,C01820,V015129,P036,chat,Devolución,media,cerrado,27.4,4,Devolución de Pack 2 bombillas inteligentes (pedido V015129) pendiente de recogida: llegó dañado.
-TK00548,2025-03-19,,V015241,P090,email,Devolución,baja,cerrado,27.3,,Solicita la devolución de Perfume Agua Almansa 100 ml (pedido V015241): ha encontrado mejor precio.
+TK00548,2025-03-19,,V015241,P090,email,Devolución,baja,cerrado,27.3,,Solicita la devolución de Perfume Agua MUCDIA 100 ml (pedido V015241): ha encontrado mejor precio.
 TK00549,2025-03-19,,V015263,P059,chat,Facturación,media,resuelto,1.7,4,Solicita factura con datos de empresa para el pedido V015263.
 TK00550,2025-03-19,,V015383,P026,chat,Devolución,baja,cerrado,25.5,4,Solicita la devolución de Vela aromática Kasa Viva (pedido V015383): la talla o medida no es correcta.
 TK00551,2025-03-20,C03120,V013199,P064,email,Devolución,media,cerrado,44.3,3,Devolución de Paraguas plegable (pedido V013199) pendiente de recogida: era un regalo duplicado.
@@ -574,14 +574,14 @@ TK00572,2025-03-23,C03385,,,chat,Otro,media,cerrado,3.0,,Pide darse de baja de l
 TK00573,2025-03-24,C00726,V014264,P004,email,Devolución,media,cerrado,49.4,3,Devolución de Altavoz Sonara Mini (pedido V014264) pendiente de recogida: llegó dañado.
 TK00574,2025-03-24,C02455,V014878,P044,chat,Devolución,baja,cerrado,12.8,4,Solicita la devolución de Zapatillas running Ritmo Air (pedido V014878): era un regalo duplicado.
 TK00575,2025-03-24,C02919,V015093,P032,chat,Devolución,baja,cerrado,66.3,,Quiere devolver Cafetera italiana 6 tazas del pedido V015093 y pregunta por el reembolso: era un regalo duplicado.
-TK00576,2025-03-24,C02107,,,email,Otro,media,resuelto,2.8,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK00576,2025-03-24,C02107,,,email,Otro,media,resuelto,2.8,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK00577,2025-03-24,C01079,V015915,P072,email,Devolución,media,resuelto,12.0,,Solicita la devolución de Zapatillas de lona (pedido V015915): ha encontrado mejor precio.
 TK00578,2025-03-24,C02314,V016086,P048,chat,Envío,media,cerrado,3.4,5,Entrega fallida del pedido V016086: el repartidor no dejó aviso.
 TK00579,2025-03-24,,V016464,P092,chat,Facturación,media,resuelto,17.4,3,Solicita factura con datos de empresa para el pedido V016464.
 TK00580,2025-03-25,,V014133,P069,chat,Devolución,baja,resuelto,13.8,5,Quiere devolver Sudadera básica del pedido V014133 y pregunta por el reembolso: la talla o medida no es correcta.
 TK00581,2025-03-25,C02145,V015687,P005,email,Devolución,baja,cerrado,39.7,,Quiere devolver Altavoz Sonara Max del pedido V015687 y pregunta por el reembolso: llegó dañado.
 TK00582,2025-03-25,C04032,V015882,P007,chat,Envío,alta,cerrado,16.3,,Entrega fallida del pedido V015882: el repartidor no dejó aviso.
-TK00583,2025-03-25,C02457,V015948,P090,email,Devolución,media,resuelto,32.5,4,Solicita la devolución de Perfume Agua Almansa 100 ml (pedido V015948): no es lo que esperaba.
+TK00583,2025-03-25,C02457,V015948,P090,email,Devolución,media,resuelto,32.5,4,Solicita la devolución de Perfume Agua MUCDIA 100 ml (pedido V015948): no es lo que esperaba.
 TK00584,2025-03-25,,V016349,P019,teléfono,Devolución,baja,resuelto,39.5,4,Quiere devolver Juego de sábanas algodón 150 del pedido V016349 y pregunta por el reembolso: llegó dañado.
 TK00585,2025-03-25,,V016400,P055,email,Devolución,media,cerrado,40.5,4,Solicita la devolución de Mochila urbana Altamar (pedido V016400): no es lo que esperaba.
 TK00586,2025-03-25,,V016522,P010,chat,Devolución,media,resuelto,7.9,5,Quiere devolver Powerbank Voltix 20.000 mAh del pedido V016522 y pregunta por el reembolso: ha encontrado mejor precio.
@@ -703,7 +703,7 @@ TK00701,2025-04-10,C00139,V019052,P009,chat,Devolución,media,resuelto,2.7,,Devo
 TK00702,2025-04-10,C02694,V019530,P068,chat,Devolución,baja,cerrado,30.0,,Devolución de Pañuelo de seda (pedido V019530) pendiente de recogida: ha encontrado mejor precio.
 TK00703,2025-04-10,C02535,V019616,P022,teléfono,Devolución,media,resuelto,29.3,4,Quiere devolver Cojín decorativo de lino del pedido V019616 y pregunta por el reembolso: la talla o medida no es correcta.
 TK00704,2025-04-11,C03746,V018000,P001,email,Devolución,media,resuelto,79.5,2,Devolución de Auriculares Voltix Pro X (pedido V018000) pendiente de recogida: llegó dañado.
-TK00705,2025-04-11,C02003,,,email,Otro,baja,cerrado,5.1,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK00705,2025-04-11,C02003,,,email,Otro,baja,cerrado,5.1,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK00706,2025-04-11,,V018379,P067,chat,Devolución,media,resuelto,19.5,4,Devolución de Guantes táctiles (pedido V018379) pendiente de recogida: era un regalo duplicado.
 TK00707,2025-04-11,,V018531,P101,chat,Facturación,baja,cerrado,4.4,5,Solicita factura con datos de empresa para el pedido V018531.
 TK00708,2025-04-11,C02681,V019054,P033,email,Devolución,media,cerrado,35.3,4,Solicita la devolución de Set 6 vasos de cristal (pedido V019054): llegó dañado.
@@ -715,7 +715,7 @@ TK00713,2025-04-12,,V018239,P007,teléfono,Devolución,media,resuelto,38.0,3,Qui
 TK00714,2025-04-12,C01929,V018635,P003,teléfono,Facturación,media,resuelto,9.2,3,Cobro duplicado en el pedido V018635.
 TK00715,2025-04-12,C03357,V018733,P011,chat,Devolución,media,resuelto,34.3,3,Solicita la devolución de Cable USB-C trenzado 2 m (pedido V018733): llegó dañado.
 TK00716,2025-04-12,C00276,V018988,P079,chat,Devolución,baja,resuelto,25.4,5,Solicita la devolución de Gel de ducha natural (pedido V018988): no es lo que esperaba.
-TK00717,2025-04-12,,,,teléfono,Otro,media,resuelto,3.3,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK00717,2025-04-12,,,,teléfono,Otro,media,resuelto,3.3,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK00718,2025-04-12,C00525,V019668,P026,chat,Envío,media,cerrado,16.7,4,Pedido V019668 entregado en una dirección equivocada.
 TK00719,2025-04-12,C01708,V020172,P014,teléfono,Devolución,baja,resuelto,18.6,4,Devolución de Teclado inalámbrico Kéntro (pedido V020172) pendiente de recogida: no es lo que esperaba.
 TK00720,2025-04-12,C02318,,,teléfono,Otro,media,cerrado,1.6,4,Sugiere ampliar el catálogo de productos gourmet.
@@ -755,7 +755,7 @@ TK00753,2025-04-17,,V018877,P068,email,Devolución,media,resuelto,65.4,2,Solicit
 TK00754,2025-04-17,,V019886,P058,chat,Devolución,media,cerrado,45.7,,Solicita la devolución de Maleta de cabina (pedido V019886): era un regalo duplicado.
 TK00755,2025-04-17,C03194,V020350,P048,email,Envío,baja,resuelto,17.1,,El cliente pregunta por el retraso del pedido V020350; el transportista indica incidencia en almacén.
 TK00756,2025-04-17,C03030,,,email,Otro,media,cerrado,2.4,,Pide darse de baja de las comunicaciones comerciales y saber qué datos personales se guardan.
-TK00757,2025-04-17,C01540,,,chat,Otro,media,cerrado,8.2,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK00757,2025-04-17,C01540,,,chat,Otro,media,cerrado,8.2,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK00758,2025-04-17,C02688,V021877,P075,email,Facturación,media,resuelto,22.3,5,El descuento de la campaña no se aplicó en el pedido V021877.
 TK00759,2025-04-18,C02336,V018746,P057,teléfono,Devolución,baja,cerrado,39.7,3,Solicita la devolución de Riñonera Altamar (pedido V018746): ha encontrado mejor precio.
 TK00760,2025-04-18,C03738,V019440,P062,chat,Devolución,media,cerrado,12.2,5,Quiere devolver Cinturón de piel del pedido V019440 y pregunta por el reembolso: llegó dañado.
@@ -790,8 +790,8 @@ TK00788,2025-04-21,C03542,V020745,P065,chat,Devolución,baja,resuelto,33.6,4,Dev
 TK00789,2025-04-21,C03647,V020839,P011,email,Devolución,baja,resuelto,24.0,3,Devolución de Cable USB-C trenzado 2 m (pedido V020839) pendiente de recogida: era un regalo duplicado.
 TK00790,2025-04-21,C04195,V021338,P051,chat,Facturación,media,cerrado,1.8,5,Cobro duplicado en el pedido V021338.
 TK00791,2025-04-21,C03815,V021637,P081,chat,Envío,media,resuelto,29.7,3,Pedido V021637 entregado incompleto: falta Crema de manos.
-TK00792,2025-04-21,C00638,,,chat,Otro,baja,cerrado,6.7,5,Pregunta por las ventajas de la tarjeta Almansa+.
-TK00793,2025-04-22,,V019840,P090,teléfono,Devolución,media,resuelto,19.3,,Solicita la devolución de Perfume Agua Almansa 100 ml (pedido V019840): era un regalo duplicado.
+TK00792,2025-04-21,C00638,,,chat,Otro,baja,cerrado,6.7,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
+TK00793,2025-04-22,,V019840,P090,teléfono,Devolución,media,resuelto,19.3,,Solicita la devolución de Perfume Agua MUCDIA 100 ml (pedido V019840): era un regalo duplicado.
 TK00794,2025-04-22,C00118,V020335,P018,chat,Devolución,baja,resuelto,13.1,3,Quiere devolver Lector de libros electrónicos Nébula Paper del pedido V020335 y pregunta por el reembolso: llegó dañado.
 TK00795,2025-04-22,C01130,V020336,P068,chat,Devolución,baja,cerrado,39.3,3,Solicita la devolución de Pañuelo de seda (pedido V020336): llegó dañado.
 TK00796,2025-04-22,,V020509,P060,email,Devolución,baja,cerrado,18.1,5,Solicita la devolución de Gafas de sol polarizadas (pedido V020509): ha encontrado mejor precio.
@@ -804,7 +804,7 @@ TK00802,2025-04-23,C01005,V021865,P107,email,Envío,alta,resuelto,33.9,2,Entrega
 TK00803,2025-04-23,,V022117,P014,chat,Devolución,media,resuelto,58.1,3,Quiere devolver Teclado inalámbrico Kéntro del pedido V022117 y pregunta por el reembolso: llegó dañado.
 TK00804,2025-04-24,,V020251,P030,chat,Devolución,media,resuelto,16.3,5,Devolución de Batería de cocina 5 piezas (pedido V020251) pendiente de recogida: la talla o medida no es correcta.
 TK00805,2025-04-24,C01926,V020609,P059,email,Devolución,media,resuelto,25.3,4,Devolución de Neceser de viaje (pedido V020609) pendiente de recogida: no es lo que esperaba.
-TK00806,2025-04-24,,,,teléfono,Otro,baja,resuelto,2.8,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK00806,2025-04-24,,,,teléfono,Otro,baja,resuelto,2.8,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK00807,2025-04-24,,,,chat,Otro,baja,cerrado,7.9,5,Sugiere ampliar el catálogo de productos gourmet.
 TK00808,2025-04-24,C01611,V021369,P058,chat,Devolución,media,cerrado,38.0,3,Devolución de Maleta de cabina (pedido V021369) pendiente de recogida: no es lo que esperaba.
 TK00809,2025-04-24,C01536,V022132,P036,email,Facturación,baja,resuelto,4.2,,Solicita factura con datos de empresa para el pedido V022132.
@@ -856,7 +856,7 @@ TK00854,2025-04-29,C01208,V024387,P017,chat,Facturación,media,resuelto,21.8,4,E
 TK00855,2025-04-30,,V021260,P001,chat,Devolución,media,cerrado,10.7,,Solicita la devolución de Auriculares Voltix Pro X (pedido V021260): la talla o medida no es correcta.
 TK00856,2025-04-30,,V021848,P021,email,Devolución,baja,cerrado,28.4,4,Quiere devolver Pack 2 toallas de baño del pedido V021848 y pregunta por el reembolso: era un regalo duplicado.
 TK00857,2025-04-30,,V021954,P022,teléfono,Devolución,baja,resuelto,17.1,4,Quiere devolver Cojín decorativo de lino del pedido V021954 y pregunta por el reembolso: la talla o medida no es correcta.
-TK00858,2025-04-30,,,,email,Otro,baja,resuelto,11.0,3,Pregunta por las ventajas de la tarjeta Almansa+.
+TK00858,2025-04-30,,,,email,Otro,baja,resuelto,11.0,3,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK00859,2025-04-30,C02142,V023958,P001,teléfono,Envío,baja,cerrado,67.9,,Pedido V023958 entregado incompleto: falta Auriculares Voltix Pro X.
 TK00860,2025-05-01,C03045,V022007,P014,email,Devolución,media,resuelto,16.2,5,Devolución de Teclado inalámbrico Kéntro (pedido V022007) pendiente de recogida: ha encontrado mejor precio.
 TK00861,2025-05-01,C01001,V022029,P061,chat,Devolución,media,resuelto,28.9,5,Solicita la devolución de Cartera de piel (pedido V022029): la talla o medida no es correcta.
@@ -877,7 +877,7 @@ TK00875,2025-05-04,,V023764,P055,teléfono,Devolución,media,resuelto,9.0,5,Devo
 TK00876,2025-05-04,,V023993,P066,chat,Devolución,baja,cerrado,27.3,5,Quiere devolver Gorro de punto del pedido V023993 y pregunta por el reembolso: la talla o medida no es correcta.
 TK00877,2025-05-04,C03642,V024397,P001,email,Envío,alta,cerrado,8.6,5,Pedido V024397 entregado en una dirección equivocada.
 TK00878,2025-05-04,C03343,V024676,P028,teléfono,Envío,baja,cerrado,17.8,4,Pedido V024676 entregado en una dirección equivocada.
-TK00879,2025-05-04,C00904,,,chat,Otro,baja,resuelto,9.0,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK00879,2025-05-04,C00904,,,chat,Otro,baja,resuelto,9.0,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK00880,2025-05-05,C00208,V023110,P002,teléfono,Devolución,media,cerrado,15.0,4,Solicita la devolución de Auriculares Voltix Lite (pedido V023110): la talla o medida no es correcta.
 TK00881,2025-05-05,C02919,V023364,P023,chat,Devolución,media,cerrado,39.7,4,Quiere devolver Manta de sofá de punto del pedido V023364 y pregunta por el reembolso: ha encontrado mejor precio.
 TK00882,2025-05-05,,V023425,P067,chat,Devolución,media,resuelto,12.3,4,Quiere devolver Guantes táctiles del pedido V023425 y pregunta por el reembolso: era un regalo duplicado.
@@ -1133,7 +1133,7 @@ TK01131,2025-05-31,C02138,,,chat,Otro,baja,cerrado,14.4,4,Consulta sobre el hora
 TK01132,2025-05-31,C00082,V029784,P022,email,Devolución,media,cerrado,17.2,,Solicita la devolución de Cojín decorativo de lino (pedido V029784): era un regalo duplicado.
 TK01133,2025-06-01,,V027703,P050,teléfono,Devolución,media,resuelto,38.5,4,Solicita la devolución de Bastones de trekking (pedido V027703): ha encontrado mejor precio.
 TK01134,2025-06-01,C03906,V028529,P055,chat,Devolución,media,resuelto,32.2,,Quiere devolver Mochila urbana Altamar del pedido V028529 y pregunta por el reembolso: ha encontrado mejor precio.
-TK01135,2025-06-01,C03671,,,email,Otro,baja,resuelto,9.3,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01135,2025-06-01,C03671,,,email,Otro,baja,resuelto,9.3,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01136,2025-06-01,C00677,,,chat,Otro,media,resuelto,8.3,4,Consulta sobre el horario de la tienda de Barcelona.
 TK01137,2025-06-01,C00540,V030333,P072,chat,Devolución,baja,resuelto,15.3,,Quiere devolver Zapatillas de lona del pedido V030333 y pregunta por el reembolso: la talla o medida no es correcta.
 TK01138,2025-06-01,,V030780,P051,chat,Facturación,media,resuelto,3.8,,Solicita factura con datos de empresa para el pedido V030780.
@@ -1144,10 +1144,10 @@ TK01142,2025-06-02,C03211,V029726,P097,email,Envío,alta,cerrado,18.4,3,Pedido V
 TK01143,2025-06-02,C01773,V029958,P075,chat,Devolución,media,resuelto,11.7,4,Quiere devolver Contorno de ojos del pedido V029958 y pregunta por el reembolso: llegó dañado.
 TK01144,2025-06-02,,V029971,P002,chat,Facturación,media,resuelto,19.3,,Cobro duplicado en el pedido V029971.
 TK01145,2025-06-02,C00389,V030360,P039,teléfono,Envío,media,resuelto,34.3,4,Pedido V030360 sin entregar tras 10 días. El seguimiento de LogiRápido no se actualiza.
-TK01146,2025-06-02,,,,chat,Otro,media,resuelto,8.1,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01146,2025-06-02,,,,chat,Otro,media,resuelto,8.1,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01147,2025-06-02,C02852,V030574,P056,email,Devolución,media,cerrado,24.4,5,Quiere devolver Bolso bandolera Bruma del pedido V030574 y pregunta por el reembolso: ha encontrado mejor precio.
 TK01148,2025-06-02,C02365,V030599,P020,email,Envío,alta,resuelto,10.2,4,Pedido V030599 entregado incompleto: falta Edredón nórdico 4 estaciones.
-TK01149,2025-06-02,C03323,,,chat,Otro,baja,resuelto,4.6,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01149,2025-06-02,C03323,,,chat,Otro,baja,resuelto,4.6,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01150,2025-06-03,,V028273,P072,teléfono,Devolución,media,cerrado,10.4,4,Solicita la devolución de Zapatillas de lona (pedido V028273): ha encontrado mejor precio.
 TK01151,2025-06-03,C00217,V029047,P069,chat,Devolución,media,resuelto,36.2,,Solicita la devolución de Sudadera básica (pedido V029047): era un regalo duplicado.
 TK01152,2025-06-03,,,,email,Otro,media,resuelto,6.9,5,Consulta sobre el horario de la tienda de Madrid.
@@ -1167,7 +1167,7 @@ TK01165,2025-06-04,C00257,V031028,P080,email,Envío,media,cerrado,7.1,4,Pedido V
 TK01166,2025-06-05,C03202,V028499,P019,chat,Devolución,baja,cerrado,104.9,,Devolución de Juego de sábanas algodón 150 (pedido V028499) pendiente de recogida: llegó dañado.
 TK01167,2025-06-05,C00572,V028543,P001,chat,Devolución,baja,cerrado,40.0,2,Quiere devolver Auriculares Voltix Pro X del pedido V028543 y pregunta por el reembolso: era un regalo duplicado.
 TK01168,2025-06-05,C01378,V029107,P009,chat,Devolución,baja,resuelto,29.3,2,Solicita la devolución de Cargador rápido Voltix 65W (pedido V029107): ha encontrado mejor precio.
-TK01169,2025-06-05,,,,email,Otro,baja,resuelto,14.4,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01169,2025-06-05,,,,email,Otro,baja,resuelto,14.4,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01170,2025-06-05,C03480,V030935,P011,chat,Envío,media,cerrado,15.4,4,Entrega fallida del pedido V030935: el repartidor no dejó aviso.
 TK01171,2025-06-05,C01271,V031008,P059,chat,Devolución,media,resuelto,60.3,3,Quiere devolver Neceser de viaje del pedido V031008 y pregunta por el reembolso: ha encontrado mejor precio.
 TK01172,2025-06-05,,V031363,P072,chat,Devolución,media,resuelto,12.8,4,Solicita la devolución de Zapatillas de lona (pedido V031363): ha encontrado mejor precio.
@@ -1232,7 +1232,7 @@ TK01230,2025-06-12,C00923,V032271,P018,chat,Devolución,baja,resuelto,26.0,4,Sol
 TK01231,2025-06-13,C01669,V030692,P004,chat,Devolución,media,resuelto,19.1,,Solicita la devolución de Altavoz Sonara Mini (pedido V030692): la talla o medida no es correcta.
 TK01232,2025-06-13,C02171,V031301,P087,teléfono,Facturación,baja,cerrado,2.1,5,El descuento de la campaña no se aplicó en el pedido V031301.
 TK01233,2025-06-13,C03247,V031761,P097,teléfono,Devolución,media,resuelto,42.5,3,Devolución de Mermelada de naranja amarga (pedido V031761) pendiente de recogida: ha encontrado mejor precio.
-TK01234,2025-06-13,,,,email,Otro,media,cerrado,2.6,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01234,2025-06-13,,,,email,Otro,media,cerrado,2.6,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01235,2025-06-13,C02828,V032515,P024,email,Devolución,media,cerrado,1.9,5,Quiere devolver Cortina opaca 140x260 del pedido V032515 y pregunta por el reembolso: llegó dañado.
 TK01236,2025-06-13,C02515,,,chat,Otro,baja,cerrado,4.6,5,Consulta sobre el horario de la tienda de Málaga.
 TK01237,2025-06-13,,,,teléfono,Otro,media,resuelto,14.8,,Sugiere ampliar el catálogo de productos gourmet.
@@ -1279,14 +1279,14 @@ TK01277,2025-06-19,C00049,V033294,P016,chat,Envío,alta,resuelto,32.5,3,El clien
 TK01278,2025-06-19,C01616,V033439,P001,chat,Devolución,media,resuelto,6.5,5,Solicita la devolución de Auriculares Voltix Pro X (pedido V033439): la talla o medida no es correcta.
 TK01279,2025-06-19,C01984,V033526,P007,email,Envío,media,cerrado,17.1,4,Pedido V033526 sin entregar tras 5 días. El seguimiento de LogiRápido no se actualiza.
 TK01280,2025-06-20,C01539,V032635,P048,chat,Devolución,media,resuelto,34.6,3,Devolución de Botella térmica 750 ml (pedido V032635) pendiente de recogida: llegó dañado.
-TK01281,2025-06-20,C01180,,,email,Otro,baja,cerrado,0.2,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01281,2025-06-20,C01180,,,email,Otro,baja,cerrado,0.2,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01282,2025-06-20,,V033738,P048,email,Devolución,baja,resuelto,38.8,4,Solicita la devolución de Botella térmica 750 ml (pedido V033738): ha encontrado mejor precio.
 TK01283,2025-06-20,C03838,V033910,P002,chat,Envío,alta,cerrado,5.7,5,Pedido V033910 sin entregar tras 9 días. El seguimiento de LogiRápido no se actualiza.
 TK01284,2025-06-20,,V034291,P069,chat,Devolución,baja,cerrado,42.3,,Quiere devolver Sudadera básica del pedido V034291 y pregunta por el reembolso: era un regalo duplicado.
 TK01285,2025-06-20,,V034458,P019,email,Facturación,baja,cerrado,14.0,,El descuento de la campaña no se aplicó en el pedido V034458.
 TK01286,2025-06-20,,V034654,P044,teléfono,Facturación,media,resuelto,2.4,,Cobro duplicado en el pedido V034654.
 TK01287,2025-06-21,C01247,V033485,P072,email,Devolución,media,cerrado,19.0,4,Solicita la devolución de Zapatillas de lona (pedido V033485): llegó dañado.
-TK01288,2025-06-21,C01410,,,email,Otro,media,resuelto,4.8,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01288,2025-06-21,C01410,,,email,Otro,media,resuelto,4.8,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01289,2025-06-21,C01521,V034586,P073,teléfono,Facturación,media,cerrado,25.0,4,El descuento de la campaña no se aplicó en el pedido V034586.
 TK01290,2025-06-22,,V032126,P029,teléfono,Devolución,baja,resuelto,47.1,3,Quiere devolver Sartén antiadherente 28 cm del pedido V032126 y pregunta por el reembolso: la talla o medida no es correcta.
 TK01291,2025-06-22,,V032737,P056,chat,Devolución,baja,cerrado,18.2,3,Quiere devolver Bolso bandolera Bruma del pedido V032737 y pregunta por el reembolso: era un regalo duplicado.
@@ -1296,7 +1296,7 @@ TK01294,2025-06-22,C03344,V033038,P007,chat,Devolución,baja,cerrado,27.8,5,Soli
 TK01295,2025-06-22,C03248,V033046,P045,email,Devolución,media,cerrado,42.5,4,Quiere devolver Camiseta técnica de running del pedido V033046 y pregunta por el reembolso: la talla o medida no es correcta.
 TK01296,2025-06-22,C00296,V034317,P072,teléfono,Envío,media,cerrado,10.3,4,Pedido V034317 sin entregar tras 12 días. El seguimiento de LogiRápido no se actualiza.
 TK01297,2025-06-22,,V034517,P042,teléfono,Facturación,media,cerrado,7.7,4,Solicita factura con datos de empresa para el pedido V034517.
-TK01298,2025-06-22,,,,teléfono,Otro,media,cerrado,8.0,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01298,2025-06-22,,,,teléfono,Otro,media,cerrado,8.0,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01299,2025-06-23,C00596,V032429,P017,email,Devolución,baja,resuelto,42.8,3,Devolución de Disco SSD portátil Datafy 1 TB (pedido V032429) pendiente de recogida: no es lo que esperaba.
 TK01300,2025-06-23,,V032905,P003,teléfono,Devolución,baja,cerrado,56.3,,Solicita la devolución de Auriculares deportivos Voltix Run (pedido V032905): llegó dañado.
 TK01301,2025-06-23,C01822,V033667,P096,chat,Facturación,media,cerrado,18.2,4,El descuento de la campaña no se aplicó en el pedido V033667.
@@ -1347,7 +1347,7 @@ TK01345,2025-06-28,C02291,V034720,P014,email,Devolución,media,resuelto,18.9,4,Q
 TK01346,2025-06-28,C02369,V035367,P024,chat,Devolución,media,resuelto,33.5,5,Devolución de Cortina opaca 140x260 (pedido V035367) pendiente de recogida: ha encontrado mejor precio.
 TK01347,2025-06-28,C02195,V035394,P004,chat,Producto defectuoso,alta,resuelto,46.2,4,El cliente reclama por Altavoz Sonara Mini (pedido V035394): no enciende.
 TK01348,2025-06-28,C03020,V036282,P055,email,Facturación,baja,resuelto,3.2,5,El descuento de la campaña no se aplicó en el pedido V036282.
-TK01349,2025-06-28,C02520,,,email,Otro,media,resuelto,9.7,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01349,2025-06-28,C02520,,,email,Otro,media,resuelto,9.7,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01350,2025-06-29,C00150,V033695,P060,chat,Devolución,media,resuelto,47.5,3,Solicita la devolución de Gafas de sol polarizadas (pedido V033695): la talla o medida no es correcta.
 TK01351,2025-06-29,C03077,V034403,P060,chat,Devolución,media,cerrado,53.6,3,Quiere devolver Gafas de sol polarizadas del pedido V034403 y pregunta por el reembolso: ha encontrado mejor precio.
 TK01352,2025-06-29,C03976,V034409,P061,chat,Devolución,baja,cerrado,34.0,3,Devolución de Cartera de piel (pedido V034409) pendiente de recogida: era un regalo duplicado.
@@ -1377,13 +1377,13 @@ TK01375,2025-07-01,C02535,V036434,P084,chat,Devolución,baja,cerrado,11.7,4,Devo
 TK01376,2025-07-01,,V036509,P045,chat,Devolución,baja,cerrado,28.8,4,Devolución de Camiseta técnica de running (pedido V036509) pendiente de recogida: no es lo que esperaba.
 TK01377,2025-07-01,C03846,V036530,P077,chat,Envío,alta,resuelto,39.8,3,El cliente pregunta por el retraso del pedido V036530; el transportista indica incidencia en almacén.
 TK01378,2025-07-01,C01316,V036826,P069,chat,Devolución,media,cerrado,31.2,4,Quiere devolver Sudadera básica del pedido V036826 y pregunta por el reembolso: llegó dañado.
-TK01379,2025-07-01,,,,teléfono,Otro,baja,resuelto,17.1,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01379,2025-07-01,,,,teléfono,Otro,baja,resuelto,17.1,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01380,2025-07-02,C00830,V034203,P084,chat,Devolución,media,cerrado,20.9,4,Quiere devolver Mascarilla capilar del pedido V034203 y pregunta por el reembolso: ha encontrado mejor precio.
 TK01381,2025-07-02,C01822,V034915,P002,email,Devolución,baja,resuelto,28.5,,Devolución de Auriculares Voltix Lite (pedido V034915) pendiente de recogida: la talla o medida no es correcta.
 TK01382,2025-07-02,C01372,V035806,P055,email,Devolución,media,resuelto,10.7,4,Solicita la devolución de Mochila urbana Altamar (pedido V035806): ha encontrado mejor precio.
 TK01383,2025-07-02,C01997,V036161,P081,teléfono,Devolución,media,resuelto,14.9,5,Quiere devolver Crema de manos del pedido V036161 y pregunta por el reembolso: llegó dañado.
 TK01384,2025-07-02,,V036817,P021,chat,Devolución,media,resuelto,60.4,3,Solicita la devolución de Pack 2 toallas de baño (pedido V036817): llegó dañado.
-TK01385,2025-07-02,C02800,,,teléfono,Otro,media,resuelto,8.8,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01385,2025-07-02,C02800,,,teléfono,Otro,media,resuelto,8.8,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01386,2025-07-03,,V035958,P002,teléfono,Devolución,media,resuelto,25.0,,Quiere devolver Auriculares Voltix Lite del pedido V035958 y pregunta por el reembolso: ha encontrado mejor precio.
 TK01387,2025-07-03,C03767,V036506,P039,email,Devolución,baja,cerrado,48.8,5,Devolución de Set de bandas elásticas (pedido V036506) pendiente de recogida: era un regalo duplicado.
 TK01388,2025-07-03,C03099,V036551,P018,chat,Envío,media,resuelto,18.2,,Entrega fallida del pedido V036551: el repartidor no dejó aviso.
@@ -1399,7 +1399,7 @@ TK01397,2025-07-04,C01810,,,teléfono,Otro,media,resuelto,17.0,,Sugiere ampliar 
 TK01398,2025-07-04,C00654,V036640,P070,teléfono,Devolución,media,cerrado,23.0,,Devolución de Camiseta de algodón orgánico (pedido V036640) pendiente de recogida: llegó dañado.
 TK01399,2025-07-04,C00730,V036820,P005,chat,Devolución,media,cerrado,2.8,4,Quiere devolver Altavoz Sonara Max del pedido V036820 y pregunta por el reembolso: la talla o medida no es correcta.
 TK01400,2025-07-04,,V037089,P001,chat,Devolución,baja,cerrado,15.9,,Devolución de Auriculares Voltix Pro X (pedido V037089) pendiente de recogida: ha encontrado mejor precio.
-TK01401,2025-07-04,C00758,,,email,Otro,baja,resuelto,9.4,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01401,2025-07-04,C00758,,,email,Otro,baja,resuelto,9.4,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01402,2025-07-04,C00960,V037120,P010,chat,Envío,alta,cerrado,45.6,,Pedido V037120 sin entregar tras 12 días. El seguimiento de LogiRápido no se actualiza.
 TK01403,2025-07-04,C01840,,,email,Otro,media,resuelto,7.3,5,Sugiere ampliar el catálogo de productos gourmet.
 TK01404,2025-07-05,C01059,V033246,P001,teléfono,Producto defectuoso,alta,cerrado,29.5,3,Auriculares Voltix Pro X del pedido V033246 presenta fallos: llegó con un golpe.
@@ -1469,7 +1469,7 @@ TK01467,2025-07-11,C02090,V038338,P001,chat,Devolución,baja,cerrado,29.0,3,Devo
 TK01468,2025-07-11,C02868,V038443,P070,teléfono,Devolución,baja,resuelto,6.5,4,Quiere devolver Camiseta de algodón orgánico del pedido V038443 y pregunta por el reembolso: llegó dañado.
 TK01469,2025-07-11,C02598,V038801,P041,email,Devolución,media,cerrado,13.5,3,Quiere devolver Rodillo de masaje del pedido V038801 y pregunta por el reembolso: llegó dañado.
 TK01470,2025-07-11,C03602,V038870,P042,email,Facturación,media,cerrado,10.2,,Cobro duplicado en el pedido V038870.
-TK01471,2025-07-11,,,,teléfono,Otro,media,resuelto,6.5,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01471,2025-07-11,,,,teléfono,Otro,media,resuelto,6.5,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01472,2025-07-12,,V036607,P041,email,Devolución,media,cerrado,44.5,,Devolución de Rodillo de masaje (pedido V036607) pendiente de recogida: ha encontrado mejor precio.
 TK01473,2025-07-12,,V036647,P061,chat,Devolución,media,resuelto,46.5,,Solicita la devolución de Cartera de piel (pedido V036647): era un regalo duplicado.
 TK01474,2025-07-12,C03959,V036760,P105,email,Devolución,media,cerrado,7.5,4,Devolución de Jamón ibérico loncheado 100 g (pedido V036760) pendiente de recogida: no es lo que esperaba.
@@ -1520,7 +1520,7 @@ TK01518,2025-07-16,C03635,V040332,P057,teléfono,Devolución,media,cerrado,10.2,
 TK01519,2025-07-16,C01136,V040746,P063,chat,Facturación,media,resuelto,9.2,,Solicita factura con datos de empresa para el pedido V040746.
 TK01520,2025-07-17,C02958,V037522,P033,email,Devolución,baja,resuelto,69.8,,Devolución de Set 6 vasos de cristal (pedido V037522) pendiente de recogida: no es lo que esperaba.
 TK01521,2025-07-17,C00241,V037965,P071,teléfono,Devolución,media,cerrado,23.0,4,Solicita la devolución de Pack 5 pares de calcetines (pedido V037965): la talla o medida no es correcta.
-TK01522,2025-07-17,C04138,,,email,Otro,baja,resuelto,8.1,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01522,2025-07-17,C04138,,,email,Otro,baja,resuelto,8.1,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01523,2025-07-17,,V039265,P002,teléfono,Devolución,media,resuelto,28.6,,Devolución de Auriculares Voltix Lite (pedido V039265) pendiente de recogida: ha encontrado mejor precio.
 TK01524,2025-07-17,C01070,V039272,P074,chat,Devolución,media,cerrado,41.6,2,Quiere devolver Sérum de vitamina C del pedido V039272 y pregunta por el reembolso: era un regalo duplicado.
 TK01525,2025-07-17,C01578,V039444,P003,chat,Devolución,media,cerrado,22.0,4,Quiere devolver Auriculares deportivos Voltix Run del pedido V039444 y pregunta por el reembolso: ha encontrado mejor precio.
@@ -1684,7 +1684,7 @@ TK01682,2025-08-05,C03091,V042925,P047,email,Devolución,media,cerrado,23.3,4,De
 TK01683,2025-08-05,C01245,V043582,P011,email,Devolución,baja,resuelto,28.0,,Solicita la devolución de Cable USB-C trenzado 2 m (pedido V043582): la talla o medida no es correcta.
 TK01684,2025-08-05,C02368,V043661,P106,chat,Envío,baja,resuelto,26.9,3,Pedido V043661 entregado incompleto: falta Queso manchego curado.
 TK01685,2025-08-05,,V044054,P034,email,Facturación,media,cerrado,16.5,4,Cobro duplicado en el pedido V044054.
-TK01686,2025-08-05,C01404,,,email,Otro,baja,cerrado,6.9,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01686,2025-08-05,C01404,,,email,Otro,baja,cerrado,6.9,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01687,2025-08-05,,,,email,Otro,baja,resuelto,6.0,5,Sugiere ampliar el catálogo de productos gourmet.
 TK01688,2025-08-05,C01820,,,email,Otro,baja,resuelto,6.9,5,Pide darse de baja de las comunicaciones comerciales y saber qué datos personales se guardan.
 TK01689,2025-08-06,C04120,V042589,P046,email,Devolución,media,cerrado,8.6,,Devolución de Mallas de running (pedido V042589) pendiente de recogida: no es lo que esperaba.
@@ -1704,7 +1704,7 @@ TK01702,2025-08-07,C01005,V044112,P010,email,Facturación,media,resuelto,8.8,,El
 TK01703,2025-08-07,C02099,V044277,P035,email,Envío,alta,resuelto,31.8,,Pedido V044277 entregado incompleto: falta Lámpara de escritorio LED.
 TK01704,2025-08-07,C01375,V044475,P056,chat,Devolución,baja,cerrado,18.7,4,Quiere devolver Bolso bandolera Bruma del pedido V044475 y pregunta por el reembolso: era un regalo duplicado.
 TK01705,2025-08-07,,V044683,P009,chat,Devolución,baja,resuelto,25.4,3,Quiere devolver Cargador rápido Voltix 65W del pedido V044683 y pregunta por el reembolso: la talla o medida no es correcta.
-TK01706,2025-08-07,C03984,,,chat,Otro,media,resuelto,6.0,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01706,2025-08-07,C03984,,,chat,Otro,media,resuelto,6.0,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01707,2025-08-08,C03120,V042559,P084,email,Devolución,baja,resuelto,7.9,5,Devolución de Mascarilla capilar (pedido V042559) pendiente de recogida: ha encontrado mejor precio.
 TK01708,2025-08-08,C02882,V043932,P004,email,Devolución,media,resuelto,23.0,,Devolución de Altavoz Sonara Mini (pedido V043932) pendiente de recogida: era un regalo duplicado.
 TK01709,2025-08-08,C03019,V044069,P001,email,Producto defectuoso,media,cerrado,9.0,5,"Auriculares Voltix Pro X defectuoso, solicita sustitución (pedido V044069): llegó con un golpe."
@@ -1800,7 +1800,7 @@ TK01798,2025-08-22,,V045412,P055,chat,Devolución,media,resuelto,16.0,,Solicita 
 TK01799,2025-08-22,C02153,V045776,P060,chat,Devolución,media,cerrado,45.9,,Solicita la devolución de Gafas de sol polarizadas (pedido V045776): llegó dañado.
 TK01800,2025-08-22,C01865,V046161,P052,email,Devolución,media,resuelto,7.4,,Quiere devolver Linterna frontal del pedido V046161 y pregunta por el reembolso: llegó dañado.
 TK01801,2025-08-22,C02161,V046419,P099,teléfono,Devolución,baja,cerrado,66.5,,Devolución de Café molido 250 g (pedido V046419) pendiente de recogida: no es lo que esperaba.
-TK01802,2025-08-22,C00781,,,email,Otro,baja,cerrado,13.5,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01802,2025-08-22,C00781,,,email,Otro,baja,cerrado,13.5,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01803,2025-08-22,C03215,V046564,P025,email,Envío,media,resuelto,13.1,4,Entrega fallida del pedido V046564: el repartidor no dejó aviso.
 TK01804,2025-08-22,C00491,V046692,P019,email,Devolución,media,resuelto,16.3,5,Quiere devolver Juego de sábanas algodón 150 del pedido V046692 y pregunta por el reembolso: llegó dañado.
 TK01805,2025-08-22,C03044,V046695,P004,chat,Facturación,media,resuelto,5.5,4,El descuento de la campaña no se aplicó en el pedido V046695.
@@ -1810,7 +1810,7 @@ TK01808,2025-08-22,C02150,V047147,P037,chat,Devolución,media,resuelto,37.0,3,Qu
 TK01809,2025-08-22,C00012,V047204,P082,chat,Envío,media,resuelto,31.3,5,Pedido V047204 entregado en una dirección equivocada.
 TK01810,2025-08-23,C00538,V045472,P055,chat,Devolución,baja,resuelto,25.9,,Devolución de Mochila urbana Altamar (pedido V045472) pendiente de recogida: era un regalo duplicado.
 TK01811,2025-08-23,C01202,V046063,P068,email,Devolución,baja,cerrado,19.6,4,Quiere devolver Pañuelo de seda del pedido V046063 y pregunta por el reembolso: ha encontrado mejor precio.
-TK01812,2025-08-23,,,,chat,Otro,media,resuelto,10.7,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01812,2025-08-23,,,,chat,Otro,media,resuelto,10.7,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01813,2025-08-23,,V046994,P044,teléfono,Devolución,baja,cerrado,2.0,4,Quiere devolver Zapatillas running Ritmo Air del pedido V046994 y pregunta por el reembolso: llegó dañado.
 TK01814,2025-08-23,C00131,V047154,P023,email,Devolución,media,resuelto,24.6,4,Devolución de Manta de sofá de punto (pedido V047154) pendiente de recogida: era un regalo duplicado.
 TK01815,2025-08-24,C00632,V045511,P010,teléfono,Devolución,baja,cerrado,36.9,4,Devolución de Powerbank Voltix 20.000 mAh (pedido V045511) pendiente de recogida: era un regalo duplicado.
@@ -1823,7 +1823,7 @@ TK01821,2025-08-25,,V046707,P069,chat,Devolución,media,cerrado,23.7,4,Devoluci�
 TK01822,2025-08-25,C02542,V046912,P015,teléfono,Devolución,media,cerrado,35.9,5,Solicita la devolución de Ratón ergonómico Kéntro (pedido V046912): no es lo que esperaba.
 TK01823,2025-08-25,C01335,,,email,Otro,media,cerrado,3.3,4,Consulta sobre el horario de la tienda de Valencia.
 TK01824,2025-08-25,C03041,V047378,P052,chat,Envío,baja,cerrado,4.7,5,Pedido V047378 entregado incompleto: falta Linterna frontal.
-TK01825,2025-08-25,C02019,,,teléfono,Otro,media,cerrado,8.7,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01825,2025-08-25,C02019,,,teléfono,Otro,media,cerrado,8.7,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01826,2025-08-25,,V047643,P008,teléfono,Devolución,media,resuelto,7.7,,Quiere devolver Pulsera de actividad Pulsar Fit del pedido V047643 y pregunta por el reembolso: no es lo que esperaba.
 TK01827,2025-08-25,C04014,V047768,P014,email,Devolución,media,cerrado,12.2,5,Devolución de Teclado inalámbrico Kéntro (pedido V047768) pendiente de recogida: la talla o medida no es correcta.
 TK01828,2025-08-25,C02038,V047886,P020,chat,Devolución,media,resuelto,31.0,,Quiere devolver Edredón nórdico 4 estaciones del pedido V047886 y pregunta por el reembolso: era un regalo duplicado.
@@ -1908,7 +1908,7 @@ TK01906,2025-09-06,,,,chat,Otro,media,cerrado,9.0,4,Consulta sobre el horario de
 TK01907,2025-09-06,C02531,V049706,P008,chat,Producto defectuoso,media,cerrado,13.9,4,Pulsera de actividad Pulsar Fit del pedido V049706 presenta fallos: hace un ruido extraño.
 TK01908,2025-09-06,C00923,V049742,P035,chat,Envío,alta,cerrado,24.1,3,Pedido V049742 sin entregar tras 11 días. El seguimiento de LogiRápido no se actualiza.
 TK01909,2025-09-06,,V050215,P004,email,Devolución,media,resuelto,101.6,2,Solicita la devolución de Altavoz Sonara Mini (pedido V050215): era un regalo duplicado.
-TK01910,2025-09-06,C03215,,,email,Otro,baja,cerrado,23.7,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01910,2025-09-06,C03215,,,email,Otro,baja,cerrado,23.7,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01911,2025-09-07,C01993,V048250,P057,chat,Devolución,media,cerrado,39.7,4,Quiere devolver Riñonera Altamar del pedido V048250 y pregunta por el reembolso: no es lo que esperaba.
 TK01912,2025-09-07,C03248,V048541,P002,teléfono,Devolución,media,resuelto,38.5,,Quiere devolver Auriculares Voltix Lite del pedido V048541 y pregunta por el reembolso: era un regalo duplicado.
 TK01913,2025-09-07,C01270,V049504,P061,chat,Envío,alta,cerrado,34.9,4,Pedido V049504 entregado en una dirección equivocada.
@@ -1918,7 +1918,7 @@ TK01916,2025-09-07,C03414,V050223,P057,email,Facturación,media,cerrado,6.4,4,So
 TK01917,2025-09-07,,V050351,P032,email,Devolución,media,cerrado,22.6,5,Quiere devolver Cafetera italiana 6 tazas del pedido V050351 y pregunta por el reembolso: llegó dañado.
 TK01918,2025-09-07,C01083,V050438,P007,teléfono,Devolución,media,resuelto,33.9,3,Solicita la devolución de Smartwatch Pulsar S2 (pedido V050438): ha encontrado mejor precio.
 TK01919,2025-09-07,C02901,V050831,P003,teléfono,Facturación,baja,cerrado,7.5,,Solicita factura con datos de empresa para el pedido V050831.
-TK01920,2025-09-07,C02321,,,teléfono,Otro,media,resuelto,4.6,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01920,2025-09-07,C02321,,,teléfono,Otro,media,resuelto,4.6,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01921,2025-09-08,C01942,V048093,P104,email,Devolución,baja,resuelto,50.4,3,Solicita la devolución de Frutos secos premium (pedido V048093): llegó dañado.
 TK01922,2025-09-08,C02667,V048156,P070,email,Devolución,media,resuelto,7.3,4,Solicita la devolución de Camiseta de algodón orgánico (pedido V048156): la talla o medida no es correcta.
 TK01923,2025-09-08,,V048168,P002,email,Devolución,media,resuelto,28.0,2,Devolución de Auriculares Voltix Lite (pedido V048168) pendiente de recogida: ha encontrado mejor precio.
@@ -1985,7 +1985,7 @@ TK01983,2025-09-16,C02299,V049534,P008,email,Devolución,media,cerrado,26.9,4,De
 TK01984,2025-09-16,C02542,V049535,P062,chat,Devolución,media,cerrado,19.6,,Quiere devolver Cinturón de piel del pedido V049535 y pregunta por el reembolso: ha encontrado mejor precio.
 TK01985,2025-09-16,C03973,V049799,P011,email,Devolución,media,resuelto,41.9,,Devolución de Cable USB-C trenzado 2 m (pedido V049799) pendiente de recogida: ha encontrado mejor precio.
 TK01986,2025-09-16,C03385,V049855,P001,chat,Devolución,media,resuelto,15.9,4,Solicita la devolución de Auriculares Voltix Pro X (pedido V049855): ha encontrado mejor precio.
-TK01987,2025-09-16,,,,teléfono,Otro,baja,resuelto,4.7,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK01987,2025-09-16,,,,teléfono,Otro,baja,resuelto,4.7,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK01988,2025-09-16,,V051466,P046,teléfono,Devolución,baja,cerrado,40.9,2,Devolución de Mallas de running (pedido V051466) pendiente de recogida: era un regalo duplicado.
 TK01989,2025-09-16,,V051727,P038,chat,Facturación,media,resuelto,14.7,4,Solicita factura con datos de empresa para el pedido V051727.
 TK01990,2025-09-16,C01822,V051809,P004,email,Envío,alta,resuelto,7.9,4,Pedido V051809 entregado en una dirección equivocada.
@@ -2006,7 +2006,7 @@ TK02004,2025-09-17,C00189,V052512,P001,email,Envío,baja,cerrado,18.7,3,El clien
 TK02005,2025-09-18,,V050669,P002,email,Devolución,media,cerrado,32.5,5,Solicita la devolución de Auriculares Voltix Lite (pedido V050669): era un regalo duplicado.
 TK02006,2025-09-18,,V050988,P007,email,Facturación,media,cerrado,23.1,5,Solicita factura con datos de empresa para el pedido V050988.
 TK02007,2025-09-18,C01344,V051219,P069,teléfono,Devolución,media,resuelto,32.7,4,Quiere devolver Sudadera básica del pedido V051219 y pregunta por el reembolso: ha encontrado mejor precio.
-TK02008,2025-09-18,C02672,,,chat,Otro,media,resuelto,7.3,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK02008,2025-09-18,C02672,,,chat,Otro,media,resuelto,7.3,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK02009,2025-09-18,,V052432,P045,teléfono,Devolución,media,cerrado,39.3,4,Devolución de Camiseta técnica de running (pedido V052432) pendiente de recogida: la talla o medida no es correcta.
 TK02010,2025-09-18,,V052668,P023,chat,Facturación,media,resuelto,18.2,5,Solicita factura con datos de empresa para el pedido V052668.
 TK02011,2025-09-18,,V052844,P010,teléfono,Facturación,media,cerrado,14.1,,Cobro duplicado en el pedido V052844.
@@ -2071,7 +2071,7 @@ TK02069,2025-09-27,,V053259,P039,chat,Devolución,media,cerrado,14.9,,Quiere dev
 TK02070,2025-09-27,,V054473,P011,teléfono,Devolución,media,resuelto,42.0,3,Devolución de Cable USB-C trenzado 2 m (pedido V054473) pendiente de recogida: era un regalo duplicado.
 TK02071,2025-09-27,C00384,V054627,P008,teléfono,Envío,alta,cerrado,1.1,,El cliente pregunta por el retraso del pedido V054627; el transportista indica incidencia en almacén.
 TK02072,2025-09-27,,V054745,P063,email,Devolución,media,resuelto,91.6,,Solicita la devolución de Reloj analógico Altamar (pedido V054745): era un regalo duplicado.
-TK02073,2025-09-27,C03732,,,teléfono,Otro,media,resuelto,1.2,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK02073,2025-09-27,C03732,,,teléfono,Otro,media,resuelto,1.2,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK02074,2025-09-28,C02244,V052613,P037,email,Devolución,baja,resuelto,23.1,5,Quiere devolver Esterilla de yoga 6 mm del pedido V052613 y pregunta por el reembolso: ha encontrado mejor precio.
 TK02075,2025-09-28,,V053254,P069,chat,Devolución,media,resuelto,25.2,,Quiere devolver Sudadera básica del pedido V053254 y pregunta por el reembolso: era un regalo duplicado.
 TK02076,2025-09-28,,V053420,P059,chat,Facturación,media,cerrado,9.3,,El descuento de la campaña no se aplicó en el pedido V053420.
@@ -2090,7 +2090,7 @@ TK02088,2025-09-29,C01100,,,email,Otro,media,cerrado,15.2,4,Sugiere ampliar el c
 TK02089,2025-09-29,C02116,V054429,P069,email,Facturación,media,resuelto,4.0,,Cobro duplicado en el pedido V054429.
 TK02090,2025-09-29,C01066,V055035,P019,chat,Devolución,baja,resuelto,36.4,5,Solicita la devolución de Juego de sábanas algodón 150 (pedido V055035): no es lo que esperaba.
 TK02091,2025-09-29,C04056,V055121,P001,chat,Facturación,media,cerrado,25.5,4,El descuento de la campaña no se aplicó en el pedido V055121.
-TK02092,2025-09-29,,,,chat,Otro,baja,cerrado,5.3,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK02092,2025-09-29,,,,chat,Otro,baja,cerrado,5.3,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK02093,2025-09-29,C03777,V055336,P010,teléfono,Envío,media,resuelto,24.9,4,Pedido V055336 entregado en una dirección equivocada.
 TK02094,2025-09-29,C03733,V055386,P057,teléfono,Devolución,media,cerrado,5.5,5,Devolución de Riñonera Altamar (pedido V055386) pendiente de recogida: ha encontrado mejor precio.
 TK02095,2025-09-30,,V049218,P017,email,Producto defectuoso,alta,resuelto,6.0,4,Disco SSD portátil Datafy 1 TB del pedido V049218 presenta fallos: no enciende.
@@ -2155,7 +2155,7 @@ TK02153,2025-10-06,C01810,V056843,P059,email,Envío,baja,cerrado,9.4,5,Pedido V0
 TK02154,2025-10-07,,V054193,P030,chat,Devolución,media,cerrado,54.2,4,Quiere devolver Batería de cocina 5 piezas del pedido V054193 y pregunta por el reembolso: llegó dañado.
 TK02155,2025-10-07,C02680,V054278,P095,chat,Devolución,media,resuelto,5.0,5,Quiere devolver Conservas de atún en aceite del pedido V054278 y pregunta por el reembolso: ha encontrado mejor precio.
 TK02156,2025-10-07,C03377,V056936,P055,email,Devolución,media,resuelto,41.7,,Solicita la devolución de Mochila urbana Altamar (pedido V056936): llegó dañado.
-TK02157,2025-10-07,,,,chat,Otro,media,resuelto,6.4,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK02157,2025-10-07,,,,chat,Otro,media,resuelto,6.4,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK02158,2025-10-07,C00530,V057188,P027,teléfono,Envío,baja,cerrado,34.8,4,El cliente pregunta por el retraso del pedido V057188; el transportista indica incidencia en almacén.
 TK02159,2025-10-08,C01700,V055393,P017,teléfono,Devolución,baja,resuelto,58.0,3,Quiere devolver Disco SSD portátil Datafy 1 TB del pedido V055393 y pregunta por el reembolso: no es lo que esperaba.
 TK02160,2025-10-08,C00901,V055922,P047,email,Devolución,baja,cerrado,58.7,,Devolución de Gorra de running (pedido V055922) pendiente de recogida: ha encontrado mejor precio.
@@ -2173,7 +2173,7 @@ TK02171,2025-10-09,,V057004,P068,chat,Facturación,media,cerrado,2.1,4,Solicita 
 TK02172,2025-10-09,C00681,V057337,P057,chat,Devolución,media,cerrado,25.2,4,Quiere devolver Riñonera Altamar del pedido V057337 y pregunta por el reembolso: era un regalo duplicado.
 TK02173,2025-10-09,C03316,V057567,P071,chat,Envío,alta,cerrado,41.4,,Pedido V057567 entregado en una dirección equivocada.
 TK02174,2025-10-10,C01619,V056288,P063,email,Devolución,media,resuelto,36.3,2,Devolución de Reloj analógico Altamar (pedido V056288) pendiente de recogida: llegó dañado.
-TK02175,2025-10-10,C03042,,,email,Otro,media,cerrado,0.7,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK02175,2025-10-10,C03042,,,email,Otro,media,cerrado,0.7,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK02176,2025-10-11,C00224,V050142,P009,chat,Producto defectuoso,alta,resuelto,33.0,4,El cliente reclama por Cargador rápido Voltix 65W (pedido V050142): falla a los pocos días de uso.
 TK02177,2025-10-11,,V055206,P022,chat,Devolución,baja,resuelto,36.0,4,Devolución de Cojín decorativo de lino (pedido V055206) pendiente de recogida: llegó dañado.
 TK02178,2025-10-11,,,,email,Otro,media,resuelto,16.2,5,Pide darse de baja de las comunicaciones comerciales y saber qué datos personales se guardan.
@@ -2203,7 +2203,7 @@ TK02201,2025-10-14,,V057444,P058,chat,Devolución,media,cerrado,57.3,,Quiere dev
 TK02202,2025-10-14,C00005,V057705,P005,chat,Devolución,baja,cerrado,50.2,3,Quiere devolver Altavoz Sonara Max del pedido V057705 y pregunta por el reembolso: no es lo que esperaba.
 TK02203,2025-10-14,C02491,V058142,P045,teléfono,Devolución,media,resuelto,56.9,4,Quiere devolver Camiseta técnica de running del pedido V058142 y pregunta por el reembolso: la talla o medida no es correcta.
 TK02204,2025-10-14,,V058532,P008,chat,Devolución,media,cerrado,5.4,4,Quiere devolver Pulsera de actividad Pulsar Fit del pedido V058532 y pregunta por el reembolso: la talla o medida no es correcta.
-TK02205,2025-10-14,C02808,,,teléfono,Otro,baja,cerrado,6.2,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK02205,2025-10-14,C02808,,,teléfono,Otro,baja,cerrado,6.2,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK02206,2025-10-14,,V058953,P001,email,Devolución,baja,cerrado,8.7,,Devolución de Auriculares Voltix Pro X (pedido V058953) pendiente de recogida: no es lo que esperaba.
 TK02207,2025-10-15,C03186,V054136,P013,chat,Producto defectuoso,alta,cerrado,27.9,,El cliente reclama por Funda para tablet Nébula (pedido V054136): llegó con un golpe.
 TK02208,2025-10-15,C03267,V056018,P062,email,Devolución,baja,resuelto,37.7,3,Solicita la devolución de Cinturón de piel (pedido V056018): llegó dañado.
@@ -2256,7 +2256,7 @@ TK02254,2025-10-21,C03002,V059257,P047,chat,Devolución,media,resuelto,44.7,,Qui
 TK02255,2025-10-21,,V059261,P072,chat,Devolución,media,cerrado,17.0,3,Devolución de Zapatillas de lona (pedido V059261) pendiente de recogida: llegó dañado.
 TK02256,2025-10-21,C02413,V059294,P026,teléfono,Envío,media,cerrado,6.6,5,Pedido V059294 entregado en una dirección equivocada.
 TK02257,2025-10-21,C04051,V059985,P022,email,Devolución,media,cerrado,83.6,,Solicita la devolución de Cojín decorativo de lino (pedido V059985): no es lo que esperaba.
-TK02258,2025-10-21,C01692,,,teléfono,Otro,media,resuelto,7.0,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK02258,2025-10-21,C01692,,,teléfono,Otro,media,resuelto,7.0,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK02259,2025-10-21,C02179,V060346,P079,teléfono,Envío,media,resuelto,2.8,5,Entrega fallida del pedido V060346: el repartidor no dejó aviso.
 TK02260,2025-10-21,C03033,V060601,P046,teléfono,Facturación,media,resuelto,17.3,2,Cobro duplicado en el pedido V060601.
 TK02261,2025-10-22,,V053899,P001,teléfono,Producto defectuoso,media,cerrado,104.8,2,El cliente reclama por Auriculares Voltix Pro X (pedido V053899): no enciende.
@@ -2393,7 +2393,7 @@ TK02391,2025-11-09,C03275,V062600,P047,email,Devolución,media,cerrado,39.9,,Dev
 TK02392,2025-11-09,C01157,V062682,P070,chat,Devolución,baja,resuelto,17.8,5,Solicita la devolución de Camiseta de algodón orgánico (pedido V062682): no es lo que esperaba.
 TK02393,2025-11-09,C03756,,,teléfono,Otro,media,resuelto,5.5,5,Pide darse de baja de las comunicaciones comerciales y saber qué datos personales se guardan.
 TK02394,2025-11-09,C02981,V063897,P001,email,Facturación,media,cerrado,22.4,3,El descuento de la campaña no se aplicó en el pedido V063897.
-TK02395,2025-11-09,C02882,,,teléfono,Otro,baja,cerrado,2.3,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK02395,2025-11-09,C02882,,,teléfono,Otro,baja,cerrado,2.3,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK02396,2025-11-09,C03393,V064009,P074,email,Devolución,media,cerrado,40.0,4,Solicita la devolución de Sérum de vitamina C (pedido V064009): era un regalo duplicado.
 TK02397,2025-11-09,,V064324,P044,chat,Devolución,baja,cerrado,8.4,5,Quiere devolver Zapatillas running Ritmo Air del pedido V064324 y pregunta por el reembolso: no es lo que esperaba.
 TK02398,2025-11-09,C01838,V064418,P008,chat,Devolución,baja,resuelto,32.8,4,Devolución de Pulsera de actividad Pulsar Fit (pedido V064418) pendiente de recogida: era un regalo duplicado.
@@ -2421,7 +2421,7 @@ TK02419,2025-11-14,,V062772,P009,teléfono,Devolución,media,cerrado,46.5,,Quier
 TK02420,2025-11-14,C03457,V063122,P018,chat,Devolución,media,resuelto,35.4,,Devolución de Lector de libros electrónicos Nébula Paper (pedido V063122) pendiente de recogida: ha encontrado mejor precio.
 TK02421,2025-11-14,,V064089,P009,email,Devolución,media,resuelto,30.4,5,Quiere devolver Cargador rápido Voltix 65W del pedido V064089 y pregunta por el reembolso: no es lo que esperaba.
 TK02422,2025-11-14,C01253,,,chat,Otro,baja,cerrado,2.6,,Consulta sobre el horario de la tienda de Sevilla.
-TK02423,2025-11-14,C00885,,,email,Otro,media,resuelto,0.9,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK02423,2025-11-14,C00885,,,email,Otro,media,resuelto,0.9,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK02424,2025-11-14,,V065202,P001,chat,Facturación,media,resuelto,5.2,,El descuento de la campaña no se aplicó en el pedido V065202.
 TK02425,2025-11-15,C04178,V063166,P010,teléfono,Devolución,media,resuelto,15.6,5,Quiere devolver Powerbank Voltix 20.000 mAh del pedido V063166 y pregunta por el reembolso: era un regalo duplicado.
 TK02426,2025-11-15,C03858,V063259,P023,chat,Devolución,media,cerrado,19.6,5,Solicita la devolución de Manta de sofá de punto (pedido V063259): llegó dañado.
@@ -2435,7 +2435,7 @@ TK02433,2025-11-16,C00839,V063554,P006,email,Devolución,media,resuelto,19.9,4,D
 TK02434,2025-11-16,,V063997,P014,email,Producto defectuoso,media,resuelto,41.1,3,Teclado inalámbrico Kéntro del pedido V063997 presenta fallos: llegó con un golpe.
 TK02435,2025-11-16,C03451,V064083,P048,teléfono,Devolución,media,resuelto,39.4,3,Quiere devolver Botella térmica 750 ml del pedido V064083 y pregunta por el reembolso: no es lo que esperaba.
 TK02436,2025-11-16,,V064228,P017,email,Producto defectuoso,alta,resuelto,21.5,5,El cliente reclama por Disco SSD portátil Datafy 1 TB (pedido V064228): no enciende.
-TK02437,2025-11-16,C01103,,,email,Otro,media,cerrado,3.7,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK02437,2025-11-16,C01103,,,email,Otro,media,cerrado,3.7,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK02438,2025-11-16,,V064880,P014,email,Devolución,media,resuelto,13.0,3,Quiere devolver Teclado inalámbrico Kéntro del pedido V064880 y pregunta por el reembolso: llegó dañado.
 TK02439,2025-11-16,C03269,V064946,P070,teléfono,Devolución,media,cerrado,22.1,4,Devolución de Camiseta de algodón orgánico (pedido V064946) pendiente de recogida: llegó dañado.
 TK02440,2025-11-16,C01675,V065465,P007,chat,Envío,media,resuelto,9.2,,Entrega fallida del pedido V065465: el repartidor no dejó aviso.
@@ -2445,7 +2445,7 @@ TK02443,2025-11-17,C00960,V063248,P067,email,Devolución,media,resuelto,14.1,5,Q
 TK02444,2025-11-17,C02010,V063561,P010,chat,Devolución,media,cerrado,48.6,4,Solicita la devolución de Powerbank Voltix 20.000 mAh (pedido V063561): era un regalo duplicado.
 TK02445,2025-11-17,,V063762,P004,chat,Devolución,baja,resuelto,46.9,2,Quiere devolver Altavoz Sonara Mini del pedido V063762 y pregunta por el reembolso: la talla o medida no es correcta.
 TK02446,2025-11-17,C01443,V064519,P004,teléfono,Facturación,baja,resuelto,17.9,4,El descuento de la campaña no se aplicó en el pedido V064519.
-TK02447,2025-11-17,C00495,,,chat,Otro,baja,resuelto,5.5,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK02447,2025-11-17,C00495,,,chat,Otro,baja,resuelto,5.5,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK02448,2025-11-17,C01600,V065524,P003,chat,Devolución,baja,cerrado,6.7,,Devolución de Auriculares deportivos Voltix Run (pedido V065524) pendiente de recogida: la talla o medida no es correcta.
 TK02449,2025-11-17,C01537,V065953,P006,email,Facturación,baja,cerrado,11.3,,El descuento de la campaña no se aplicó en el pedido V065953.
 TK02450,2025-11-18,C01394,V063261,P056,email,Devolución,media,cerrado,73.0,2,Quiere devolver Bolso bandolera Bruma del pedido V063261 y pregunta por el reembolso: no es lo que esperaba.
@@ -2482,7 +2482,7 @@ TK02480,2025-11-20,,,,teléfono,Otro,media,resuelto,2.6,5,Consulta sobre el hora
 TK02481,2025-11-20,C03959,V066808,P019,email,Devolución,media,cerrado,35.0,3,Quiere devolver Juego de sábanas algodón 150 del pedido V066808 y pregunta por el reembolso: la talla o medida no es correcta.
 TK02482,2025-11-21,C02893,V062339,P018,teléfono,Producto defectuoso,alta,resuelto,70.3,2,Lector de libros electrónicos Nébula Paper del pedido V062339 presenta fallos: llegó con un golpe.
 TK02483,2025-11-21,,V064969,P062,chat,Devolución,media,resuelto,25.4,2,Devolución de Cinturón de piel (pedido V064969) pendiente de recogida: no es lo que esperaba.
-TK02484,2025-11-21,C03261,,,chat,Otro,media,cerrado,3.3,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK02484,2025-11-21,C03261,,,chat,Otro,media,cerrado,3.3,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK02485,2025-11-21,C03392,V066300,P018,teléfono,Envío,baja,cerrado,4.5,5,Pedido V066300 sin entregar tras 7 días. El seguimiento de LogiRápido no se actualiza.
 TK02486,2025-11-22,C00824,V064239,P048,chat,Devolución,media,cerrado,30.7,3,Quiere devolver Botella térmica 750 ml del pedido V064239 y pregunta por el reembolso: la talla o medida no es correcta.
 TK02487,2025-11-22,C02815,V065355,P078,email,Devolución,media,resuelto,37.3,4,Solicita la devolución de Champú sólido (pedido V065355): llegó dañado.
@@ -2498,7 +2498,7 @@ TK02496,2025-11-23,C03870,V065819,P007,chat,Devolución,media,resuelto,16.5,4,De
 TK02497,2025-11-23,C02718,V066149,P009,email,Devolución,media,resuelto,29.5,5,Solicita la devolución de Cargador rápido Voltix 65W (pedido V066149): no es lo que esperaba.
 TK02498,2025-11-23,C03060,V067178,P069,email,Devolución,media,resuelto,28.8,4,Devolución de Sudadera básica (pedido V067178) pendiente de recogida: era un regalo duplicado.
 TK02499,2025-11-23,C01130,V067240,P069,chat,Devolución,baja,cerrado,15.7,,Devolución de Sudadera básica (pedido V067240) pendiente de recogida: era un regalo duplicado.
-TK02500,2025-11-23,,,,chat,Otro,media,cerrado,6.9,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK02500,2025-11-23,,,,chat,Otro,media,cerrado,6.9,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK02501,2025-11-23,C01185,V068692,P092,email,Facturación,media,resuelto,21.1,3,Cobro duplicado en el pedido V068692.
 TK02502,2025-11-24,C01615,V066090,P089,teléfono,Devolución,media,resuelto,15.5,5,Quiere devolver Kit de manicura del pedido V066090 y pregunta por el reembolso: llegó dañado.
 TK02503,2025-11-24,C01727,V066719,P061,chat,Devolución,media,cerrado,32.6,2,Solicita la devolución de Cartera de piel (pedido V066719): no es lo que esperaba.
@@ -2519,7 +2519,7 @@ TK02517,2025-11-25,C03668,V066447,P006,email,Devolución,media,resuelto,48.5,4,D
 TK02518,2025-11-25,,V066672,P021,chat,Facturación,baja,resuelto,19.7,,Solicita factura con datos de empresa para el pedido V066672.
 TK02519,2025-11-25,C02469,V066742,P016,email,Devolución,media,resuelto,0.7,4,Solicita la devolución de Webcam Kéntro HD (pedido V066742): la talla o medida no es correcta.
 TK02520,2025-11-25,C00536,V066804,P017,email,Devolución,baja,resuelto,25.2,4,Solicita la devolución de Disco SSD portátil Datafy 1 TB (pedido V066804): ha encontrado mejor precio.
-TK02521,2025-11-25,C03953,V067235,P090,teléfono,Devolución,baja,cerrado,47.6,3,Devolución de Perfume Agua Almansa 100 ml (pedido V067235) pendiente de recogida: llegó dañado.
+TK02521,2025-11-25,C03953,V067235,P090,teléfono,Devolución,baja,cerrado,47.6,3,Devolución de Perfume Agua MUCDIA 100 ml (pedido V067235) pendiente de recogida: llegó dañado.
 TK02522,2025-11-25,C03257,V067863,P010,email,Envío,media,resuelto,41.7,3,Entrega fallida del pedido V067863: el repartidor no dejó aviso.
 TK02523,2025-11-25,C00653,V068164,P063,teléfono,Devolución,baja,resuelto,33.6,3,Solicita la devolución de Reloj analógico Altamar (pedido V068164): la talla o medida no es correcta.
 TK02524,2025-11-26,C02505,V064754,P009,chat,Producto defectuoso,media,cerrado,63.6,,El cliente reclama por Cargador rápido Voltix 65W (pedido V064754): llegó con un golpe.
@@ -2737,7 +2737,7 @@ TK02735,2025-12-07,C00563,V073151,P009,chat,Envío,media,resuelto,92.0,2,Pedido 
 TK02736,2025-12-07,C01033,V073485,P070,teléfono,Devolución,baja,resuelto,13.1,,Devolución de Camiseta de algodón orgánico (pedido V073485) pendiente de recogida: era un regalo duplicado.
 TK02737,2025-12-07,C01838,V073522,P036,email,Devolución,media,resuelto,21.9,5,Solicita la devolución de Pack 2 bombillas inteligentes (pedido V073522): no es lo que esperaba.
 TK02738,2025-12-07,C03519,V073893,P044,chat,Facturación,media,cerrado,4.3,,Solicita factura con datos de empresa para el pedido V073893.
-TK02739,2025-12-07,C03144,,,chat,Otro,baja,resuelto,4.7,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK02739,2025-12-07,C03144,,,chat,Otro,baja,resuelto,4.7,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK02740,2025-12-08,C02348,V068659,P011,email,Devolución,media,resuelto,38.1,,Devolución de Cable USB-C trenzado 2 m (pedido V068659) pendiente de recogida: no es lo que esperaba.
 TK02741,2025-12-08,C01518,V068820,P012,chat,Devolución,media,cerrado,51.2,3,"Solicita la devolución de Tablet Nébula 10"" (pedido V068820): la talla o medida no es correcta."
 TK02742,2025-12-08,C01499,V068995,P064,chat,Devolución,media,resuelto,12.6,4,Solicita la devolución de Paraguas plegable (pedido V068995): no es lo que esperaba.
@@ -2759,7 +2759,7 @@ TK02757,2025-12-08,C03428,V073402,P002,email,Envío,alta,resuelto,56.7,3,El clie
 TK02758,2025-12-08,C03048,V073427,P101,teléfono,Envío,media,resuelto,80.2,3,Pedido V073427 sin entregar tras 8 días. El seguimiento de LogiRápido no se actualiza.
 TK02759,2025-12-08,C01456,V073443,P004,email,Envío,baja,cerrado,38.9,2,Pedido V073443 entregado en una dirección equivocada.
 TK02760,2025-12-08,C01063,V073698,P015,email,Envío,alta,cerrado,48.9,3,Pedido V073698 entregado en una dirección equivocada.
-TK02761,2025-12-08,C01600,,,chat,Otro,baja,cerrado,18.4,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK02761,2025-12-08,C01600,,,chat,Otro,baja,cerrado,18.4,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK02762,2025-12-08,C00822,V074070,P105,teléfono,Envío,media,cerrado,28.4,4,Entrega fallida del pedido V074070: el repartidor no dejó aviso.
 TK02763,2025-12-08,C01489,V074079,P049,teléfono,Envío,alta,cerrado,18.8,5,Pedido V074079 entregado incompleto: falta Mochila de trekking 30 L.
 TK02764,2025-12-09,C01717,V068893,P003,email,Devolución,baja,cerrado,40.3,3,Quiere devolver Auriculares deportivos Voltix Run del pedido V068893 y pregunta por el reembolso: llegó dañado.
@@ -2936,7 +2936,7 @@ TK02934,2025-12-19,C01430,V077139,P014,email,Devolución,media,resuelto,61.7,3,S
 TK02935,2025-12-19,,V078081,P020,chat,Facturación,media,resuelto,22.7,4,Solicita factura con datos de empresa para el pedido V078081.
 TK02936,2025-12-20,,V074237,P072,email,Devolución,media,resuelto,12.1,5,Devolución de Zapatillas de lona (pedido V074237) pendiente de recogida: la talla o medida no es correcta.
 TK02937,2025-12-20,C00757,V074304,P068,chat,Devolución,baja,resuelto,30.6,5,Devolución de Pañuelo de seda (pedido V074304) pendiente de recogida: la talla o medida no es correcta.
-TK02938,2025-12-20,C01576,,,chat,Otro,media,resuelto,4.0,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK02938,2025-12-20,C01576,,,chat,Otro,media,resuelto,4.0,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK02939,2025-12-20,C03657,V075667,P002,teléfono,Devolución,media,resuelto,5.6,5,Solicita la devolución de Auriculares Voltix Lite (pedido V075667): era un regalo duplicado.
 TK02940,2025-12-20,C02294,V076086,P031,email,Facturación,media,cerrado,15.8,,Cobro duplicado en el pedido V076086.
 TK02941,2025-12-20,C03158,V076301,P073,email,Devolución,baja,cerrado,38.3,4,Quiere devolver Crema facial hidratante del pedido V076301 y pregunta por el reembolso: la talla o medida no es correcta.
@@ -3245,7 +3245,7 @@ TK03243,2026-01-05,,V082654,P004,email,Devolución,media,cerrado,19.2,4,Solicita
 TK03244,2026-01-05,C01167,V082873,P029,chat,Devolución,media,cerrado,27.5,3,Devolución de Sartén antiadherente 28 cm (pedido V082873) pendiente de recogida: la talla o medida no es correcta.
 TK03245,2026-01-05,,V082898,P071,email,Devolución,baja,cerrado,42.0,,Quiere devolver Pack 5 pares de calcetines del pedido V082898 y pregunta por el reembolso: llegó dañado.
 TK03246,2026-01-05,C00299,V083008,P046,chat,Devolución,baja,cerrado,21.6,5,Quiere devolver Mallas de running del pedido V083008 y pregunta por el reembolso: la talla o medida no es correcta.
-TK03247,2026-01-05,C02637,,,chat,Otro,media,resuelto,5.2,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK03247,2026-01-05,C02637,,,chat,Otro,media,resuelto,5.2,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK03248,2026-01-05,C01196,V083056,P105,chat,Facturación,media,cerrado,6.4,3,Cobro duplicado en el pedido V083056.
 TK03249,2026-01-06,,V073881,P001,chat,Producto defectuoso,media,cerrado,37.9,,El cliente reclama por Auriculares Voltix Pro X (pedido V073881): no enciende.
 TK03250,2026-01-06,C03546,V080256,P065,teléfono,Devolución,media,resuelto,5.6,4,Solicita la devolución de Bufanda de lana merino (pedido V080256): la talla o medida no es correcta.
@@ -3311,10 +3311,10 @@ TK03309,2026-01-13,,V084193,P047,email,Devolución,media,cerrado,106.1,1,Devoluc
 TK03310,2026-01-13,,V084234,P102,email,Facturación,baja,resuelto,21.6,4,Cobro duplicado en el pedido V084234.
 TK03311,2026-01-13,C04168,V084314,P029,teléfono,Envío,alta,resuelto,18.8,5,Pedido V084314 entregado en una dirección equivocada.
 TK03312,2026-01-13,C00634,V084320,P023,chat,Facturación,media,cerrado,17.9,5,El descuento de la campaña no se aplicó en el pedido V084320.
-TK03313,2026-01-13,C03777,,,email,Otro,media,cerrado,4.8,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK03313,2026-01-13,C03777,,,email,Otro,media,cerrado,4.8,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK03314,2026-01-13,C02969,V084557,P004,chat,Devolución,baja,cerrado,3.1,5,Devolución de Altavoz Sonara Mini (pedido V084557) pendiente de recogida: la talla o medida no es correcta.
 TK03315,2026-01-13,C01475,V084778,P011,chat,Devolución,media,cerrado,27.0,4,Devolución de Cable USB-C trenzado 2 m (pedido V084778) pendiente de recogida: llegó dañado.
-TK03316,2026-01-13,C00162,,,chat,Otro,media,cerrado,13.5,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK03316,2026-01-13,C00162,,,chat,Otro,media,cerrado,13.5,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK03317,2026-01-14,,V074979,P008,teléfono,Producto defectuoso,baja,resuelto,33.8,4,Pulsera de actividad Pulsar Fit del pedido V074979 presenta fallos: llegó con un golpe.
 TK03318,2026-01-14,C03846,V082062,P016,teléfono,Producto defectuoso,baja,resuelto,39.3,,El cliente reclama por Webcam Kéntro HD (pedido V082062): no enciende.
 TK03319,2026-01-14,C03726,V082495,P007,chat,Devolución,baja,resuelto,96.6,1,Devolución de Smartwatch Pulsar S2 (pedido V082495) pendiente de recogida: no es lo que esperaba.
@@ -3325,12 +3325,12 @@ TK03323,2026-01-14,C01850,V084274,P045,chat,Facturación,media,resuelto,19.1,3,E
 TK03324,2026-01-14,C00329,V084322,P059,email,Envío,alta,resuelto,26.0,4,Pedido V084322 sin entregar tras 8 días. El seguimiento de LogiRápido no se actualiza.
 TK03325,2026-01-14,,V084696,P044,teléfono,Facturación,baja,cerrado,9.7,,El descuento de la campaña no se aplicó en el pedido V084696.
 TK03326,2026-01-14,C04116,V085050,P046,chat,Facturación,media,cerrado,18.8,4,Solicita factura con datos de empresa para el pedido V085050.
-TK03327,2026-01-14,C02637,,,email,Otro,baja,cerrado,18.3,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK03327,2026-01-14,C02637,,,email,Otro,baja,cerrado,18.3,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK03328,2026-01-14,C02039,V085204,P032,chat,Facturación,media,cerrado,12.7,,Cobro duplicado en el pedido V085204.
 TK03329,2026-01-15,,V083630,P026,chat,Devolución,media,resuelto,29.2,3,Devolución de Vela aromática Kasa Viva (pedido V083630) pendiente de recogida: no es lo que esperaba.
 TK03330,2026-01-15,C02031,V083971,P029,chat,Envío,alta,resuelto,14.1,,Pedido V083971 entregado incompleto: falta Sartén antiadherente 28 cm.
 TK03331,2026-01-15,,V084826,P016,chat,Devolución,media,resuelto,21.0,3,Quiere devolver Webcam Kéntro HD del pedido V084826 y pregunta por el reembolso: la talla o medida no es correcta.
-TK03332,2026-01-15,C02686,V084931,P090,teléfono,Devolución,media,cerrado,5.8,,Quiere devolver Perfume Agua Almansa 100 ml del pedido V084931 y pregunta por el reembolso: la talla o medida no es correcta.
+TK03332,2026-01-15,C02686,V084931,P090,teléfono,Devolución,media,cerrado,5.8,,Quiere devolver Perfume Agua MUCDIA 100 ml del pedido V084931 y pregunta por el reembolso: la talla o medida no es correcta.
 TK03333,2026-01-15,C00430,V085114,P074,chat,Devolución,baja,cerrado,37.2,,Devolución de Sérum de vitamina C (pedido V085114) pendiente de recogida: era un regalo duplicado.
 TK03334,2026-01-15,C01221,V085125,P056,email,Devolución,media,resuelto,10.3,4,Solicita la devolución de Bolso bandolera Bruma (pedido V085125): no es lo que esperaba.
 TK03335,2026-01-16,C00492,V082860,P071,chat,Devolución,baja,cerrado,5.2,,Solicita la devolución de Pack 5 pares de calcetines (pedido V082860): no es lo que esperaba.
@@ -3472,7 +3472,7 @@ TK03470,2026-01-29,,V085977,P062,chat,Devolución,media,cerrado,65.1,,Devolució
 TK03471,2026-01-29,C01398,V086335,P055,teléfono,Devolución,media,cerrado,55.0,2,Solicita la devolución de Mochila urbana Altamar (pedido V086335): ha encontrado mejor precio.
 TK03472,2026-01-29,C02303,V087330,P012,teléfono,Devolución,media,cerrado,0.8,5,"Quiere devolver Tablet Nébula 10"" del pedido V087330 y pregunta por el reembolso: llegó dañado."
 TK03473,2026-01-29,,V087615,P024,email,Devolución,media,resuelto,7.7,,Devolución de Cortina opaca 140x260 (pedido V087615) pendiente de recogida: no es lo que esperaba.
-TK03474,2026-01-29,C00246,,,chat,Otro,media,resuelto,4.2,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK03474,2026-01-29,C00246,,,chat,Otro,media,resuelto,4.2,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK03475,2026-01-29,C03771,V088132,P017,email,Envío,media,cerrado,48.4,,Pedido V088132 entregado en una dirección equivocada.
 TK03476,2026-01-29,C00012,V088246,P071,email,Envío,media,cerrado,2.1,4,Pedido V088246 entregado incompleto: falta Pack 5 pares de calcetines.
 TK03477,2026-01-29,C03932,V088434,P065,chat,Devolución,media,cerrado,22.5,4,Quiere devolver Bufanda de lana merino del pedido V088434 y pregunta por el reembolso: no es lo que esperaba.
@@ -3506,7 +3506,7 @@ TK03504,2026-02-02,C03335,V087098,P004,email,Devolución,baja,cerrado,6.8,5,Quie
 TK03505,2026-02-02,,V087136,P039,chat,Devolución,baja,cerrado,19.7,4,Devolución de Set de bandas elásticas (pedido V087136) pendiente de recogida: era un regalo duplicado.
 TK03506,2026-02-02,C00577,V087832,P091,chat,Devolución,baja,resuelto,20.8,5,Quiere devolver Aceite de oliva virgen extra 1 L del pedido V087832 y pregunta por el reembolso: ha encontrado mejor precio.
 TK03507,2026-02-02,,V088023,P067,chat,Devolución,baja,cerrado,18.1,5,Devolución de Guantes táctiles (pedido V088023) pendiente de recogida: era un regalo duplicado.
-TK03508,2026-02-02,C02779,,,email,Otro,media,resuelto,17.6,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK03508,2026-02-02,C02779,,,email,Otro,media,resuelto,17.6,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK03509,2026-02-02,C03713,V089339,P066,teléfono,Devolución,media,cerrado,33.5,4,Solicita la devolución de Gorro de punto (pedido V089339): ha encontrado mejor precio.
 TK03510,2026-02-02,C00955,V089381,P058,chat,Devolución,media,cerrado,82.5,2,Quiere devolver Maleta de cabina del pedido V089381 y pregunta por el reembolso: era un regalo duplicado.
 TK03511,2026-02-03,C01207,V087620,P062,chat,Devolución,media,cerrado,44.9,3,Devolución de Cinturón de piel (pedido V087620) pendiente de recogida: llegó dañado.
@@ -3523,7 +3523,7 @@ TK03521,2026-02-04,C00781,V087798,P010,chat,Devolución,baja,resuelto,16.5,,Devo
 TK03522,2026-02-04,,V088438,P055,chat,Devolución,media,cerrado,30.4,4,Quiere devolver Mochila urbana Altamar del pedido V088438 y pregunta por el reembolso: ha encontrado mejor precio.
 TK03523,2026-02-04,,V089089,P045,teléfono,Devolución,media,cerrado,2.8,4,Solicita la devolución de Camiseta técnica de running (pedido V089089): ha encontrado mejor precio.
 TK03524,2026-02-04,C02923,V089118,P005,chat,Devolución,media,cerrado,50.4,,Quiere devolver Altavoz Sonara Max del pedido V089118 y pregunta por el reembolso: no es lo que esperaba.
-TK03525,2026-02-04,,V089178,P090,chat,Devolución,media,resuelto,24.9,3,Solicita la devolución de Perfume Agua Almansa 100 ml (pedido V089178): la talla o medida no es correcta.
+TK03525,2026-02-04,,V089178,P090,chat,Devolución,media,resuelto,24.9,3,Solicita la devolución de Perfume Agua MUCDIA 100 ml (pedido V089178): la talla o medida no es correcta.
 TK03526,2026-02-04,,V089316,P029,chat,Devolución,media,resuelto,4.0,3,Devolución de Sartén antiadherente 28 cm (pedido V089316) pendiente de recogida: no es lo que esperaba.
 TK03527,2026-02-04,,V090421,P099,teléfono,Facturación,baja,resuelto,12.7,,Solicita factura con datos de empresa para el pedido V090421.
 TK03528,2026-02-05,C02882,V086748,P010,chat,Producto defectuoso,baja,resuelto,32.1,4,El cliente reclama por Powerbank Voltix 20.000 mAh (pedido V086748): no enciende.
@@ -3576,7 +3576,7 @@ TK03574,2026-02-10,C00342,V089394,P055,teléfono,Devolución,baja,resuelto,40.7,
 TK03575,2026-02-10,C02848,V089672,P072,chat,Devolución,media,resuelto,8.5,,Devolución de Zapatillas de lona (pedido V089672) pendiente de recogida: llegó dañado.
 TK03576,2026-02-10,,V089854,P054,chat,Devolución,media,cerrado,30.4,4,Solicita la devolución de Saco de dormir (pedido V089854): ha encontrado mejor precio.
 TK03577,2026-02-10,,V089939,P056,chat,Devolución,media,resuelto,98.0,2,Solicita la devolución de Bolso bandolera Bruma (pedido V089939): la talla o medida no es correcta.
-TK03578,2026-02-10,C02119,,,chat,Otro,media,resuelto,5.8,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK03578,2026-02-10,C02119,,,chat,Otro,media,resuelto,5.8,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK03579,2026-02-10,C02196,V090476,P048,teléfono,Facturación,baja,resuelto,19.4,3,Cobro duplicado en el pedido V090476.
 TK03580,2026-02-11,C00757,V088890,P011,email,Producto defectuoso,media,resuelto,15.7,4,"Cable USB-C trenzado 2 m defectuoso, solicita sustitución (pedido V088890): falla a los pocos días de uso."
 TK03581,2026-02-11,,V088892,P009,email,Devolución,media,resuelto,9.7,3,Solicita la devolución de Cargador rápido Voltix 65W (pedido V088892): la talla o medida no es correcta.
@@ -3692,7 +3692,7 @@ TK03690,2026-02-23,C02840,V093511,P072,chat,Devolución,baja,cerrado,12.4,5,Quie
 TK03691,2026-02-23,C01592,V093523,P030,chat,Devolución,baja,cerrado,27.8,5,Solicita la devolución de Batería de cocina 5 piezas (pedido V093523): era un regalo duplicado.
 TK03692,2026-02-24,C00317,V091382,P058,chat,Devolución,media,resuelto,45.2,,Devolución de Maleta de cabina (pedido V091382) pendiente de recogida: la talla o medida no es correcta.
 TK03693,2026-02-24,C03036,V093044,P040,chat,Devolución,media,resuelto,17.3,5,Devolución de Comba de velocidad (pedido V093044) pendiente de recogida: la talla o medida no es correcta.
-TK03694,2026-02-24,C02909,,,email,Otro,baja,resuelto,2.6,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK03694,2026-02-24,C02909,,,email,Otro,baja,resuelto,2.6,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK03695,2026-02-25,C03564,V091573,P055,email,Devolución,baja,cerrado,24.4,,Solicita la devolución de Mochila urbana Altamar (pedido V091573): la talla o medida no es correcta.
 TK03696,2026-02-25,,V091898,P036,chat,Devolución,media,resuelto,13.9,4,Solicita la devolución de Pack 2 bombillas inteligentes (pedido V091898): ha encontrado mejor precio.
 TK03697,2026-02-25,C03477,V092298,P071,email,Devolución,baja,resuelto,26.0,4,Solicita la devolución de Pack 5 pares de calcetines (pedido V092298): era un regalo duplicado.
@@ -3701,7 +3701,7 @@ TK03699,2026-02-25,,V092771,P057,chat,Devolución,baja,cerrado,30.0,3,Devolució
 TK03700,2026-02-25,,V093609,P070,email,Facturación,baja,cerrado,5.5,,El descuento de la campaña no se aplicó en el pedido V093609.
 TK03701,2026-02-25,C01573,V093683,P041,teléfono,Envío,alta,cerrado,10.0,,Pedido V093683 entregado incompleto: falta Rodillo de masaje.
 TK03702,2026-02-25,C01103,V093704,P061,chat,Envío,media,resuelto,25.5,,Pedido V093704 sin entregar tras 10 días. El seguimiento de LogiRápido no se actualiza.
-TK03703,2026-02-25,C03815,,,chat,Otro,media,cerrado,7.0,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK03703,2026-02-25,C03815,,,chat,Otro,media,cerrado,7.0,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK03704,2026-02-26,,V091854,P053,chat,Devolución,media,cerrado,30.4,4,Devolución de Tienda de campaña 2 plazas (pedido V091854) pendiente de recogida: era un regalo duplicado.
 TK03705,2026-02-26,C02536,V091870,P037,chat,Devolución,media,cerrado,34.1,,Solicita la devolución de Esterilla de yoga 6 mm (pedido V091870): era un regalo duplicado.
 TK03706,2026-02-26,C00278,V092272,P069,chat,Devolución,media,resuelto,3.8,5,Devolución de Sudadera básica (pedido V092272) pendiente de recogida: llegó dañado.
@@ -3758,7 +3758,7 @@ TK03756,2026-03-03,C02425,V094091,P008,chat,Devolución,media,resuelto,41.7,2,So
 TK03757,2026-03-03,C03829,,,chat,Otro,baja,resuelto,7.3,5,Consulta sobre el horario de la tienda de Barcelona.
 TK03758,2026-03-03,C03852,V094621,P001,email,Devolución,media,resuelto,34.7,3,Solicita la devolución de Auriculares Voltix Pro X (pedido V094621): ha encontrado mejor precio.
 TK03759,2026-03-03,C01616,V094866,P100,chat,Envío,alta,cerrado,8.5,5,Pedido V094866 sin entregar tras 5 días. El seguimiento de LogiRápido no se actualiza.
-TK03760,2026-03-03,C02942,,,chat,Otro,baja,resuelto,3.2,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK03760,2026-03-03,C02942,,,chat,Otro,baja,resuelto,3.2,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK03761,2026-03-03,C03862,,,teléfono,Otro,media,cerrado,17.2,4,Consulta sobre el horario de la tienda de Madrid.
 TK03762,2026-03-04,,V092976,P066,chat,Devolución,media,cerrado,7.1,4,Devolución de Gorro de punto (pedido V092976) pendiente de recogida: la talla o medida no es correcta.
 TK03763,2026-03-04,C00932,V093277,P046,email,Devolución,media,resuelto,61.4,2,Quiere devolver Mallas de running del pedido V093277 y pregunta por el reembolso: la talla o medida no es correcta.
@@ -3823,7 +3823,7 @@ TK03821,2026-03-11,,V095479,P073,chat,Facturación,media,cerrado,6.4,4,Cobro dup
 TK03822,2026-03-11,C00655,V096484,P006,email,Devolución,baja,resuelto,10.1,5,Quiere devolver Barra de sonido Sonara Cine del pedido V096484 y pregunta por el reembolso: llegó dañado.
 TK03823,2026-03-12,C03746,V092019,P017,chat,Producto defectuoso,media,cerrado,5.3,4,"Disco SSD portátil Datafy 1 TB defectuoso, solicita sustitución (pedido V092019): no enciende."
 TK03824,2026-03-12,C00969,V094853,P002,email,Devolución,media,cerrado,63.2,3,Devolución de Auriculares Voltix Lite (pedido V094853) pendiente de recogida: ha encontrado mejor precio.
-TK03825,2026-03-12,C01289,,,email,Otro,media,cerrado,2.2,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK03825,2026-03-12,C01289,,,email,Otro,media,cerrado,2.2,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK03826,2026-03-12,C00564,V095620,P026,chat,Devolución,baja,cerrado,30.1,3,Quiere devolver Vela aromática Kasa Viva del pedido V095620 y pregunta por el reembolso: ha encontrado mejor precio.
 TK03827,2026-03-12,C04140,V095709,P069,teléfono,Envío,media,resuelto,28.0,4,El cliente pregunta por el retraso del pedido V095709; el transportista indica incidencia en almacén.
 TK03828,2026-03-12,C01240,,,chat,Otro,media,resuelto,11.7,,Consulta sobre el horario de la tienda de Madrid.
@@ -3898,7 +3898,7 @@ TK03896,2026-03-20,C03364,V098126,P039,email,Envío,alta,cerrado,34.0,,Entrega f
 TK03897,2026-03-20,,V098158,P069,chat,Devolución,media,cerrado,24.8,4,Solicita la devolución de Sudadera básica (pedido V098158): era un regalo duplicado.
 TK03898,2026-03-21,C00445,V095758,P059,chat,Devolución,media,resuelto,58.0,2,Solicita la devolución de Neceser de viaje (pedido V095758): era un regalo duplicado.
 TK03899,2026-03-21,C02594,V095836,P085,teléfono,Devolución,media,resuelto,59.3,,Quiere devolver Secador iónico Aura del pedido V095836 y pregunta por el reembolso: llegó dañado.
-TK03900,2026-03-21,C02148,,,chat,Otro,media,cerrado,11.8,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK03900,2026-03-21,C02148,,,chat,Otro,media,cerrado,11.8,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK03901,2026-03-21,C00734,V097618,P019,chat,Envío,alta,resuelto,11.7,4,Pedido V097618 entregado incompleto: falta Juego de sábanas algodón 150.
 TK03902,2026-03-21,C01280,V097716,P001,chat,Facturación,media,cerrado,8.6,,Cobro duplicado en el pedido V097716.
 TK03903,2026-03-21,,V098458,P049,teléfono,Devolución,baja,cerrado,9.8,,Solicita la devolución de Mochila de trekking 30 L (pedido V098458): era un regalo duplicado.
@@ -3924,9 +3924,9 @@ TK03922,2026-03-24,,V096637,P032,email,Devolución,baja,cerrado,67.2,,Devolució
 TK03923,2026-03-24,C02148,V098116,P077,teléfono,Envío,alta,cerrado,7.9,5,El cliente pregunta por el retraso del pedido V098116; el transportista indica incidencia en almacén.
 TK03924,2026-03-24,C03309,V098487,P005,chat,Devolución,baja,cerrado,51.1,3,Solicita la devolución de Altavoz Sonara Max (pedido V098487): era un regalo duplicado.
 TK03925,2026-03-24,C03935,V098787,P027,email,Envío,alta,cerrado,11.5,4,El cliente pregunta por el retraso del pedido V098787; el transportista indica incidencia en almacén.
-TK03926,2026-03-24,C03514,,,teléfono,Otro,media,resuelto,7.2,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK03926,2026-03-24,C03514,,,teléfono,Otro,media,resuelto,7.2,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK03927,2026-03-24,,V098930,P004,chat,Devolución,media,cerrado,21.6,3,Quiere devolver Altavoz Sonara Mini del pedido V098930 y pregunta por el reembolso: llegó dañado.
-TK03928,2026-03-24,,,,email,Otro,media,resuelto,24.0,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK03928,2026-03-24,,,,email,Otro,media,resuelto,24.0,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK03929,2026-03-24,C03354,V099109,P038,teléfono,Envío,alta,cerrado,8.0,,Pedido V099109 entregado en una dirección equivocada.
 TK03930,2026-03-25,,V096950,P057,email,Devolución,baja,cerrado,7.5,4,Quiere devolver Riñonera Altamar del pedido V096950 y pregunta por el reembolso: era un regalo duplicado.
 TK03931,2026-03-25,,V097098,P047,email,Devolución,media,cerrado,22.5,5,Devolución de Gorra de running (pedido V097098) pendiente de recogida: ha encontrado mejor precio.
@@ -3977,7 +3977,7 @@ TK03975,2026-03-30,C03217,V098303,P046,chat,Devolución,media,resuelto,13.3,4,De
 TK03976,2026-03-30,C02400,V098455,P067,teléfono,Devolución,media,resuelto,22.6,4,Solicita la devolución de Guantes táctiles (pedido V098455): era un regalo duplicado.
 TK03977,2026-03-30,C03014,V099378,P060,chat,Envío,media,cerrado,13.6,4,Pedido V099378 entregado incompleto: falta Gafas de sol polarizadas.
 TK03978,2026-03-30,,V099466,P055,email,Devolución,baja,resuelto,3.2,4,Quiere devolver Mochila urbana Altamar del pedido V099466 y pregunta por el reembolso: ha encontrado mejor precio.
-TK03979,2026-03-30,C00445,,,teléfono,Otro,media,cerrado,18.2,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK03979,2026-03-30,C00445,,,teléfono,Otro,media,cerrado,18.2,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK03980,2026-03-30,C02263,V100004,P010,chat,Envío,media,cerrado,18.7,4,Pedido V100004 sin entregar tras 8 días. El seguimiento de LogiRápido no se actualiza.
 TK03981,2026-03-30,C01218,,,chat,Otro,media,cerrado,7.8,5,Consulta sobre el horario de la tienda de Zaragoza.
 TK03982,2026-03-31,C00196,V097717,P017,chat,Devolución,media,cerrado,5.4,3,Solicita la devolución de Disco SSD portátil Datafy 1 TB (pedido V097717): la talla o medida no es correcta.
@@ -4020,7 +4020,7 @@ TK04018,2026-04-04,,V101262,P020,chat,Devolución,media,cerrado,23.3,,Quiere dev
 TK04019,2026-04-04,C02919,V101356,P013,chat,Devolución,media,resuelto,9.0,,Devolución de Funda para tablet Nébula (pedido V101356) pendiente de recogida: no es lo que esperaba.
 TK04020,2026-04-05,C04006,V098824,P010,chat,Devolución,baja,cerrado,50.8,,Devolución de Powerbank Voltix 20.000 mAh (pedido V098824) pendiente de recogida: la talla o medida no es correcta.
 TK04021,2026-04-05,C01194,V099681,P001,chat,Devolución,media,resuelto,21.0,3,Solicita la devolución de Auriculares Voltix Pro X (pedido V099681): no es lo que esperaba.
-TK04022,2026-04-05,,,,chat,Otro,media,cerrado,14.0,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04022,2026-04-05,,,,chat,Otro,media,cerrado,14.0,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04023,2026-04-05,,V100281,P002,chat,Devolución,baja,cerrado,35.6,3,Devolución de Auriculares Voltix Lite (pedido V100281) pendiente de recogida: no es lo que esperaba.
 TK04024,2026-04-05,C02153,V101148,P033,email,Devolución,media,cerrado,34.3,,Quiere devolver Set 6 vasos de cristal del pedido V101148 y pregunta por el reembolso: la talla o medida no es correcta.
 TK04025,2026-04-06,,V095915,P004,chat,Producto defectuoso,media,resuelto,112.8,3,El cliente reclama por Altavoz Sonara Mini (pedido V095915): hace un ruido extraño.
@@ -4029,7 +4029,7 @@ TK04027,2026-04-06,C00560,V099217,P044,teléfono,Devolución,media,cerrado,35.9,
 TK04028,2026-04-06,C01669,V100342,P062,chat,Devolución,media,cerrado,8.8,,Quiere devolver Cinturón de piel del pedido V100342 y pregunta por el reembolso: era un regalo duplicado.
 TK04029,2026-04-06,C03505,V100651,P036,email,Devolución,baja,resuelto,14.6,4,Devolución de Pack 2 bombillas inteligentes (pedido V100651) pendiente de recogida: era un regalo duplicado.
 TK04030,2026-04-06,C00715,V100758,P061,chat,Devolución,media,resuelto,22.7,,Devolución de Cartera de piel (pedido V100758) pendiente de recogida: era un regalo duplicado.
-TK04031,2026-04-06,C00541,,,chat,Otro,baja,resuelto,12.8,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04031,2026-04-06,C00541,,,chat,Otro,baja,resuelto,12.8,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04032,2026-04-06,C04189,V101098,P107,chat,Devolución,media,cerrado,16.2,5,Quiere devolver Vino tinto crianza del pedido V101098 y pregunta por el reembolso: no es lo que esperaba.
 TK04033,2026-04-06,C00095,V101202,P059,chat,Envío,alta,resuelto,17.0,,El cliente pregunta por el retraso del pedido V101202; el transportista indica incidencia en almacén.
 TK04034,2026-04-06,C01180,V101389,P023,teléfono,Devolución,media,resuelto,53.0,3,Solicita la devolución de Manta de sofá de punto (pedido V101389): la talla o medida no es correcta.
@@ -4058,7 +4058,7 @@ TK04056,2026-04-09,C00923,V102287,P070,chat,Devolución,baja,resuelto,36.0,,Devo
 TK04057,2026-04-10,C01838,V100536,P021,teléfono,Devolución,baja,cerrado,9.2,4,Devolución de Pack 2 toallas de baño (pedido V100536) pendiente de recogida: llegó dañado.
 TK04058,2026-04-10,C02919,V101864,P011,teléfono,Devolución,media,cerrado,40.2,,Solicita la devolución de Cable USB-C trenzado 2 m (pedido V101864): la talla o medida no es correcta.
 TK04059,2026-04-10,C00799,V102165,P100,email,Envío,media,cerrado,8.8,5,El cliente pregunta por el retraso del pedido V102165; el transportista indica incidencia en almacén.
-TK04060,2026-04-10,C01130,,,chat,Otro,baja,cerrado,8.2,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04060,2026-04-10,C01130,,,chat,Otro,baja,cerrado,8.2,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04061,2026-04-11,,V095591,P011,email,Producto defectuoso,media,cerrado,27.4,,El cliente reclama por Cable USB-C trenzado 2 m (pedido V095591): no enciende.
 TK04062,2026-04-11,,V100405,P035,chat,Devolución,media,cerrado,59.1,3,Quiere devolver Lámpara de escritorio LED del pedido V100405 y pregunta por el reembolso: ha encontrado mejor precio.
 TK04063,2026-04-11,,V100621,P009,email,Devolución,media,cerrado,41.5,3,Solicita la devolución de Cargador rápido Voltix 65W (pedido V100621): era un regalo duplicado.
@@ -4137,7 +4137,7 @@ TK04135,2026-04-19,C00445,V099137,P001,email,Producto defectuoso,media,cerrado,2
 TK04136,2026-04-19,C01335,V102058,P064,teléfono,Devolución,baja,cerrado,12.3,,Quiere devolver Paraguas plegable del pedido V102058 y pregunta por el reembolso: ha encontrado mejor precio.
 TK04137,2026-04-19,C00627,V103048,P045,email,Devolución,media,cerrado,11.5,4,Devolución de Camiseta técnica de running (pedido V103048) pendiente de recogida: la talla o medida no es correcta.
 TK04138,2026-04-19,,V103184,P068,email,Devolución,media,cerrado,21.9,,Quiere devolver Pañuelo de seda del pedido V103184 y pregunta por el reembolso: llegó dañado.
-TK04139,2026-04-19,C00497,,,email,Otro,baja,cerrado,5.0,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04139,2026-04-19,C00497,,,email,Otro,baja,cerrado,5.0,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04140,2026-04-19,C02909,V103818,P046,teléfono,Devolución,baja,cerrado,5.5,5,Quiere devolver Mallas de running del pedido V103818 y pregunta por el reembolso: la talla o medida no es correcta.
 TK04141,2026-04-20,,V102624,P060,chat,Devolución,baja,resuelto,44.9,3,Devolución de Gafas de sol polarizadas (pedido V102624) pendiente de recogida: ha encontrado mejor precio.
 TK04142,2026-04-20,C04100,V102848,P062,teléfono,Devolución,media,cerrado,30.5,4,Quiere devolver Cinturón de piel del pedido V102848 y pregunta por el reembolso: llegó dañado.
@@ -4250,7 +4250,7 @@ TK04248,2026-05-04,,V105996,P056,chat,Devolución,media,cerrado,5.6,4,Solicita l
 TK04249,2026-05-04,C03041,V106683,P004,email,Devolución,media,resuelto,21.0,5,Quiere devolver Altavoz Sonara Mini del pedido V106683 y pregunta por el reembolso: no es lo que esperaba.
 TK04250,2026-05-04,,V107196,P055,chat,Devolución,media,resuelto,3.6,3,Solicita la devolución de Mochila urbana Altamar (pedido V107196): llegó dañado.
 TK04251,2026-05-04,,V107987,P062,chat,Devolución,media,cerrado,10.0,5,Devolución de Cinturón de piel (pedido V107987) pendiente de recogida: llegó dañado.
-TK04252,2026-05-04,,,,chat,Otro,baja,cerrado,2.0,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04252,2026-05-04,,,,chat,Otro,baja,cerrado,2.0,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04253,2026-05-05,C02840,V105674,P056,email,Devolución,media,resuelto,26.1,,Quiere devolver Bolso bandolera Bruma del pedido V105674 y pregunta por el reembolso: la talla o medida no es correcta.
 TK04254,2026-05-05,C02260,V105845,P038,chat,Devolución,media,cerrado,16.2,4,Devolución de Mancuernas ajustables 2x10 kg (pedido V105845) pendiente de recogida: ha encontrado mejor precio.
 TK04255,2026-05-05,C02158,V107433,P009,chat,Envío,baja,resuelto,3.1,5,Pedido V107433 entregado en una dirección equivocada.
@@ -4277,7 +4277,7 @@ TK04275,2026-05-08,C02054,V105968,P071,chat,Devolución,media,resuelto,15.6,5,Qu
 TK04276,2026-05-08,,V105995,P001,chat,Devolución,media,resuelto,18.8,3,Quiere devolver Auriculares Voltix Pro X del pedido V105995 y pregunta por el reembolso: ha encontrado mejor precio.
 TK04277,2026-05-08,,V106257,P002,teléfono,Devolución,baja,resuelto,15.7,,Quiere devolver Auriculares Voltix Lite del pedido V106257 y pregunta por el reembolso: la talla o medida no es correcta.
 TK04278,2026-05-08,C04012,V107230,P009,email,Facturación,media,resuelto,3.5,,Cobro duplicado en el pedido V107230.
-TK04279,2026-05-08,C00235,,,email,Otro,media,resuelto,6.0,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04279,2026-05-08,C00235,,,email,Otro,media,resuelto,6.0,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04280,2026-05-08,C01083,V108202,P024,teléfono,Devolución,media,cerrado,22.4,5,Solicita la devolución de Cortina opaca 140x260 (pedido V108202): llegó dañado.
 TK04281,2026-05-08,C00803,V108590,P002,chat,Devolución,media,resuelto,49.2,,Solicita la devolución de Auriculares Voltix Lite (pedido V108590): era un regalo duplicado.
 TK04282,2026-05-08,C01638,V108757,P058,email,Envío,media,resuelto,1.9,,Entrega fallida del pedido V108757: el repartidor no dejó aviso.
@@ -4312,7 +4312,7 @@ TK04310,2026-05-12,C03935,V108072,P010,chat,Devolución,media,cerrado,84.2,,Soli
 TK04311,2026-05-12,C01050,V109170,P034,teléfono,Envío,alta,resuelto,11.0,5,Pedido V109170 entregado incompleto: falta Lámpara de pie nórdica.
 TK04312,2026-05-12,,V109389,P013,chat,Devolución,media,resuelto,21.4,4,Quiere devolver Funda para tablet Nébula del pedido V109389 y pregunta por el reembolso: era un regalo duplicado.
 TK04313,2026-05-12,C01247,V109413,P064,email,Devolución,media,cerrado,21.5,4,Quiere devolver Paraguas plegable del pedido V109413 y pregunta por el reembolso: no es lo que esperaba.
-TK04314,2026-05-12,C01538,,,email,Otro,media,resuelto,7.2,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04314,2026-05-12,C01538,,,email,Otro,media,resuelto,7.2,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04315,2026-05-12,C01818,V109628,P011,email,Devolución,media,resuelto,15.8,5,Devolución de Cable USB-C trenzado 2 m (pedido V109628) pendiente de recogida: era un regalo duplicado.
 TK04316,2026-05-13,,V107249,P038,email,Devolución,baja,resuelto,48.5,3,Solicita la devolución de Mancuernas ajustables 2x10 kg (pedido V107249): era un regalo duplicado.
 TK04317,2026-05-13,C02678,V107438,P021,teléfono,Devolución,media,resuelto,19.1,3,Devolución de Pack 2 toallas de baño (pedido V107438) pendiente de recogida: era un regalo duplicado.
@@ -4356,7 +4356,7 @@ TK04354,2026-05-17,C00435,V110644,P009,chat,Devolución,media,resuelto,18.8,5,De
 TK04355,2026-05-17,C03396,,,email,Otro,media,cerrado,9.7,5,Consulta sobre el horario de la tienda de Málaga.
 TK04356,2026-05-17,C03671,,,chat,Otro,baja,cerrado,4.7,5,Consulta sobre el horario de la tienda de Zaragoza.
 TK04357,2026-05-18,C04008,V110183,P065,email,Devolución,media,resuelto,60.7,3,Devolución de Bufanda de lana merino (pedido V110183) pendiente de recogida: llegó dañado.
-TK04358,2026-05-18,C03033,,,teléfono,Otro,media,cerrado,15.1,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04358,2026-05-18,C03033,,,teléfono,Otro,media,cerrado,15.1,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04359,2026-05-18,C01327,V110402,P070,chat,Devolución,media,cerrado,17.0,5,Devolución de Camiseta de algodón orgánico (pedido V110402) pendiente de recogida: ha encontrado mejor precio.
 TK04360,2026-05-19,C04075,V108677,P017,chat,Devolución,media,resuelto,58.8,1,Quiere devolver Disco SSD portátil Datafy 1 TB del pedido V108677 y pregunta por el reembolso: era un regalo duplicado.
 TK04361,2026-05-19,C02769,V108738,P104,chat,Devolución,media,cerrado,26.9,4,Quiere devolver Frutos secos premium del pedido V108738 y pregunta por el reembolso: llegó dañado.
@@ -4435,7 +4435,7 @@ TK04433,2026-05-28,C01394,V111238,P061,email,Devolución,media,cerrado,17.5,4,De
 TK04434,2026-05-28,C01489,V111428,P055,chat,Devolución,media,resuelto,8.1,,Devolución de Mochila urbana Altamar (pedido V111428) pendiente de recogida: era un regalo duplicado.
 TK04435,2026-05-28,C03871,V111965,P071,teléfono,Devolución,media,cerrado,17.0,4,Devolución de Pack 5 pares de calcetines (pedido V111965) pendiente de recogida: la talla o medida no es correcta.
 TK04436,2026-05-28,,V112184,P070,chat,Facturación,media,cerrado,11.3,,Solicita factura con datos de empresa para el pedido V112184.
-TK04437,2026-05-28,C03627,,,email,Otro,baja,cerrado,11.4,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04437,2026-05-28,C03627,,,email,Otro,baja,cerrado,11.4,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04438,2026-05-28,C04057,V112613,P069,chat,Devolución,media,resuelto,5.5,5,Quiere devolver Sudadera básica del pedido V112613 y pregunta por el reembolso: no es lo que esperaba.
 TK04439,2026-05-28,,V112618,P053,email,Devolución,baja,resuelto,20.8,3,Quiere devolver Tienda de campaña 2 plazas del pedido V112618 y pregunta por el reembolso: la talla o medida no es correcta.
 TK04440,2026-05-28,,V112769,P056,teléfono,Devolución,media,cerrado,19.0,5,Quiere devolver Bolso bandolera Bruma del pedido V112769 y pregunta por el reembolso: llegó dañado.
@@ -4528,7 +4528,7 @@ TK04526,2026-06-07,C01582,,,chat,Otro,media,cerrado,1.1,5,Consulta sobre el hora
 TK04527,2026-06-07,C03320,V114558,P018,chat,Devolución,media,resuelto,23.4,,Solicita la devolución de Lector de libros electrónicos Nébula Paper (pedido V114558): era un regalo duplicado.
 TK04528,2026-06-07,C03276,V114703,P049,email,Envío,baja,resuelto,2.9,4,Pedido V114703 entregado en una dirección equivocada.
 TK04529,2026-06-07,C03685,V114739,P045,teléfono,Facturación,media,cerrado,14.9,3,Solicita factura con datos de empresa para el pedido V114739.
-TK04530,2026-06-07,,,,chat,Otro,media,cerrado,10.1,3,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04530,2026-06-07,,,,chat,Otro,media,cerrado,10.1,3,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04531,2026-06-07,C01856,V115290,P001,chat,Devolución,media,resuelto,28.5,5,Quiere devolver Auriculares Voltix Pro X del pedido V115290 y pregunta por el reembolso: era un regalo duplicado.
 TK04532,2026-06-07,C04057,V115598,P062,chat,Devolución,media,cerrado,34.4,4,Quiere devolver Cinturón de piel del pedido V115598 y pregunta por el reembolso: era un regalo duplicado.
 TK04533,2026-06-08,C04126,V112906,P060,email,Devolución,baja,resuelto,45.2,3,Solicita la devolución de Gafas de sol polarizadas (pedido V112906): no es lo que esperaba.
@@ -4544,7 +4544,7 @@ TK04542,2026-06-08,,V115829,P059,teléfono,Facturación,media,cerrado,2.9,5,El d
 TK04543,2026-06-09,,V113816,P055,chat,Devolución,baja,cerrado,43.6,4,Devolución de Mochila urbana Altamar (pedido V113816) pendiente de recogida: la talla o medida no es correcta.
 TK04544,2026-06-09,C01997,V113881,P100,teléfono,Devolución,baja,resuelto,23.4,,Devolución de Té verde matcha (pedido V113881) pendiente de recogida: la talla o medida no es correcta.
 TK04545,2026-06-09,C02150,V114641,P017,email,Devolución,media,resuelto,15.4,5,Devolución de Disco SSD portátil Datafy 1 TB (pedido V114641) pendiente de recogida: ha encontrado mejor precio.
-TK04546,2026-06-09,,,,teléfono,Otro,media,cerrado,2.8,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04546,2026-06-09,,,,teléfono,Otro,media,cerrado,2.8,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04547,2026-06-09,C02598,V115487,P045,chat,Devolución,baja,cerrado,21.5,3,Quiere devolver Camiseta técnica de running del pedido V115487 y pregunta por el reembolso: ha encontrado mejor precio.
 TK04548,2026-06-10,,V113920,P022,teléfono,Devolución,media,resuelto,40.9,4,Quiere devolver Cojín decorativo de lino del pedido V113920 y pregunta por el reembolso: ha encontrado mejor precio.
 TK04549,2026-06-10,C00564,V114475,P024,teléfono,Devolución,baja,resuelto,33.1,4,Solicita la devolución de Cortina opaca 140x260 (pedido V114475): llegó dañado.
@@ -4565,7 +4565,7 @@ TK04563,2026-06-11,,V116766,P055,chat,Facturación,baja,resuelto,6.2,4,El descue
 TK04564,2026-06-12,,V113563,P040,email,Devolución,baja,cerrado,15.6,4,Solicita la devolución de Comba de velocidad (pedido V113563): era un regalo duplicado.
 TK04565,2026-06-12,C01842,V113700,P072,email,Devolución,baja,cerrado,28.6,4,Quiere devolver Zapatillas de lona del pedido V113700 y pregunta por el reembolso: ha encontrado mejor precio.
 TK04566,2026-06-12,C02494,,,chat,Otro,media,cerrado,5.8,,Consulta sobre el horario de la tienda de Valencia.
-TK04567,2026-06-12,C00717,,,chat,Otro,media,cerrado,7.4,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04567,2026-06-12,C00717,,,chat,Otro,media,cerrado,7.4,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04568,2026-06-12,C00726,V115719,P004,email,Devolución,media,cerrado,31.2,4,Devolución de Altavoz Sonara Mini (pedido V115719) pendiente de recogida: era un regalo duplicado.
 TK04569,2026-06-12,C04153,V115907,P027,email,Devolución,media,resuelto,25.7,,Devolución de Difusor de aromas (pedido V115907) pendiente de recogida: llegó dañado.
 TK04570,2026-06-12,C03290,V116118,P001,chat,Devolución,media,resuelto,17.9,4,Quiere devolver Auriculares Voltix Pro X del pedido V116118 y pregunta por el reembolso: no es lo que esperaba.
@@ -4582,7 +4582,7 @@ TK04580,2026-06-14,C01005,V116230,P055,chat,Devolución,media,resuelto,41.2,4,So
 TK04581,2026-06-14,C01382,,,email,Otro,baja,cerrado,11.6,,Sugiere ampliar el catálogo de productos gourmet.
 TK04582,2026-06-14,C00781,V116288,P042,chat,Devolución,media,cerrado,26.2,3,Quiere devolver Pelota de pilates del pedido V116288 y pregunta por el reembolso: llegó dañado.
 TK04583,2026-06-14,C02598,,,teléfono,Otro,media,resuelto,11.8,,Sugiere ampliar el catálogo de productos gourmet.
-TK04584,2026-06-14,,V116785,P090,teléfono,Devolución,media,cerrado,4.9,,Quiere devolver Perfume Agua Almansa 100 ml del pedido V116785 y pregunta por el reembolso: llegó dañado.
+TK04584,2026-06-14,,V116785,P090,teléfono,Devolución,media,cerrado,4.9,,Quiere devolver Perfume Agua MUCDIA 100 ml del pedido V116785 y pregunta por el reembolso: llegó dañado.
 TK04585,2026-06-14,C00224,,,email,Otro,baja,resuelto,4.3,3,Pide darse de baja de las comunicaciones comerciales y saber qué datos personales se guardan.
 TK04586,2026-06-15,,V115384,P029,email,Facturación,media,cerrado,6.4,4,Cobro duplicado en el pedido V115384.
 TK04587,2026-06-15,C02662,V115634,P048,email,Devolución,media,resuelto,7.1,,Devolución de Botella térmica 750 ml (pedido V115634) pendiente de recogida: ha encontrado mejor precio.
@@ -4593,7 +4593,7 @@ TK04591,2026-06-15,C00661,V116989,P068,chat,Devolución,media,cerrado,2.4,,Devol
 TK04592,2026-06-15,C01270,V117178,P019,chat,Facturación,media,resuelto,15.0,4,Solicita factura con datos de empresa para el pedido V117178.
 TK04593,2026-06-15,C02382,V117314,P008,chat,Devolución,media,resuelto,62.4,2,Solicita la devolución de Pulsera de actividad Pulsar Fit (pedido V117314): era un regalo duplicado.
 TK04594,2026-06-15,C01306,V117358,P002,email,Devolución,media,resuelto,43.7,,Solicita la devolución de Auriculares Voltix Lite (pedido V117358): llegó dañado.
-TK04595,2026-06-15,C02291,V117382,P090,chat,Devolución,baja,resuelto,52.4,3,Quiere devolver Perfume Agua Almansa 100 ml del pedido V117382 y pregunta por el reembolso: llegó dañado.
+TK04595,2026-06-15,C02291,V117382,P090,chat,Devolución,baja,resuelto,52.4,3,Quiere devolver Perfume Agua MUCDIA 100 ml del pedido V117382 y pregunta por el reembolso: llegó dañado.
 TK04596,2026-06-16,,V114522,P013,teléfono,Devolución,baja,resuelto,18.8,,Solicita la devolución de Funda para tablet Nébula (pedido V114522): ha encontrado mejor precio.
 TK04597,2026-06-16,C03310,V114598,P054,chat,Devolución,media,cerrado,65.9,3,Solicita la devolución de Saco de dormir (pedido V114598): la talla o medida no es correcta.
 TK04598,2026-06-16,,V114773,P010,chat,Devolución,media,cerrado,42.5,3,Quiere devolver Powerbank Voltix 20.000 mAh del pedido V114773 y pregunta por el reembolso: no es lo que esperaba.
@@ -4716,15 +4716,15 @@ TK04714,2026-06-27,C02682,V119715,P007,email,Devolución,media,resuelto,7.0,4,De
 TK04715,2026-06-27,C00142,V119732,P077,chat,Envío,alta,cerrado,18.9,,Pedido V119732 entregado incompleto: falta Protector solar SPF50.
 TK04716,2026-06-28,C03565,V114248,P005,email,Producto defectuoso,media,cerrado,26.8,3,"Altavoz Sonara Max defectuoso, solicita sustitución (pedido V114248): no enciende."
 TK04717,2026-06-28,C00171,V117980,P002,teléfono,Devolución,baja,cerrado,23.7,2,Quiere devolver Auriculares Voltix Lite del pedido V117980 y pregunta por el reembolso: la talla o medida no es correcta.
-TK04718,2026-06-28,C00046,,,chat,Otro,media,resuelto,3.6,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04718,2026-06-28,C00046,,,chat,Otro,media,resuelto,3.6,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04719,2026-06-28,C02817,V119094,P080,teléfono,Envío,media,resuelto,40.2,4,Entrega fallida del pedido V119094: el repartidor no dejó aviso.
 TK04720,2026-06-28,C02667,V119196,P059,email,Devolución,media,resuelto,78.3,2,Devolución de Neceser de viaje (pedido V119196) pendiente de recogida: era un regalo duplicado.
 TK04721,2026-06-28,C03057,V119516,P054,chat,Devolución,media,cerrado,52.7,,Quiere devolver Saco de dormir del pedido V119516 y pregunta por el reembolso: llegó dañado.
 TK04722,2026-06-28,C03452,V119519,P057,chat,Devolución,baja,resuelto,16.5,4,Devolución de Riñonera Altamar (pedido V119519) pendiente de recogida: llegó dañado.
-TK04723,2026-06-28,,V119663,P090,chat,Devolución,media,cerrado,12.1,3,Devolución de Perfume Agua Almansa 100 ml (pedido V119663) pendiente de recogida: no es lo que esperaba.
+TK04723,2026-06-28,,V119663,P090,chat,Devolución,media,cerrado,12.1,3,Devolución de Perfume Agua MUCDIA 100 ml (pedido V119663) pendiente de recogida: no es lo que esperaba.
 TK04724,2026-06-28,C00584,V120116,P068,email,Devolución,media,cerrado,18.9,3,Solicita la devolución de Pañuelo de seda (pedido V120116): ha encontrado mejor precio.
 TK04725,2026-06-28,C00016,V120212,P059,email,Devolución,media,cerrado,37.3,,Quiere devolver Neceser de viaje del pedido V120212 y pregunta por el reembolso: llegó dañado.
-TK04726,2026-06-28,C04190,,,email,Otro,media,cerrado,1.8,3,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04726,2026-06-28,C04190,,,email,Otro,media,cerrado,1.8,3,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04727,2026-06-29,C03005,V117971,P048,chat,Devolución,media,cerrado,35.4,,Quiere devolver Botella térmica 750 ml del pedido V117971 y pregunta por el reembolso: ha encontrado mejor precio.
 TK04728,2026-06-29,C01695,V118088,P046,chat,Devolución,media,cerrado,33.8,,Quiere devolver Mallas de running del pedido V118088 y pregunta por el reembolso: llegó dañado.
 TK04729,2026-06-29,C00669,V118458,P062,teléfono,Devolución,baja,resuelto,14.7,4,Solicita la devolución de Cinturón de piel (pedido V118458): la talla o medida no es correcta.
@@ -4758,7 +4758,7 @@ TK04756,2026-07-01,,V119269,P020,chat,Devolución,baja,resuelto,1.7,4,Quiere dev
 TK04757,2026-07-01,,V119333,P022,email,Facturación,media,resuelto,17.0,,Solicita factura con datos de empresa para el pedido V119333.
 TK04758,2026-07-01,C00795,V120190,P001,chat,Devolución,baja,cerrado,26.4,3,Quiere devolver Auriculares Voltix Pro X del pedido V120190 y pregunta por el reembolso: no es lo que esperaba.
 TK04759,2026-07-01,,,,teléfono,Otro,baja,resuelto,19.3,,Consulta sobre el horario de la tienda de Málaga.
-TK04760,2026-07-01,C02536,,,email,Otro,media,resuelto,1.5,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04760,2026-07-01,C02536,,,email,Otro,media,resuelto,1.5,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04761,2026-07-01,C01041,,P021,chat,Falta de stock,baja,cerrado,21.2,4,El cliente no encuentra Pack 2 toallas de baño en la tienda de Sevilla y pregunta cuándo habrá reposición.
 TK04762,2026-07-01,C02318,,P023,chat,Falta de stock,media,cerrado,30.3,3,El cliente no encuentra Manta de sofá de punto en la tienda de Sevilla y pregunta cuándo habrá reposición.
 TK04763,2026-07-02,,V118066,P001,teléfono,Producto defectuoso,alta,cerrado,11.3,5,"Auriculares Voltix Pro X defectuoso, solicita sustitución (pedido V118066): se calienta mucho al cargar."
@@ -4795,7 +4795,7 @@ TK04793,2026-07-04,,V121670,P001,email,Facturación,baja,resuelto,5.0,,El descue
 TK04794,2026-07-05,,V119496,P001,email,Producto defectuoso,media,cerrado,11.0,4,Auriculares Voltix Pro X del pedido V119496 presenta fallos: no carga tras actualizar el firmware.
 TK04795,2026-07-05,C01710,V119959,P009,email,Producto defectuoso,media,cerrado,15.0,2,Cargador rápido Voltix 65W del pedido V119959 presenta fallos: no enciende.
 TK04796,2026-07-05,,V120044,P009,teléfono,Devolución,media,resuelto,17.3,3,Devolución de Cargador rápido Voltix 65W (pedido V120044) pendiente de recogida: ha encontrado mejor precio.
-TK04797,2026-07-05,,,,email,Otro,media,cerrado,7.5,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04797,2026-07-05,,,,email,Otro,media,cerrado,7.5,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04798,2026-07-05,C01038,V120205,P007,teléfono,Devolución,baja,resuelto,27.7,4,Devolución de Smartwatch Pulsar S2 (pedido V120205) pendiente de recogida: la talla o medida no es correcta.
 TK04799,2026-07-05,C04011,V120315,P071,teléfono,Devolución,media,resuelto,18.3,,Devolución de Pack 5 pares de calcetines (pedido V120315) pendiente de recogida: ha encontrado mejor precio.
 TK04800,2026-07-05,C00294,V120447,P004,teléfono,Devolución,baja,cerrado,28.6,,Solicita la devolución de Altavoz Sonara Mini (pedido V120447): ha encontrado mejor precio.
@@ -4863,7 +4863,7 @@ TK04861,2026-07-10,C02619,,P021,chat,Falta de stock,baja,resuelto,38.6,5,Pregunt
 TK04862,2026-07-11,,V120438,P011,email,Devolución,media,resuelto,11.4,5,Quiere devolver Cable USB-C trenzado 2 m del pedido V120438 y pregunta por el reembolso: ha encontrado mejor precio.
 TK04863,2026-07-11,C00360,V120635,P001,teléfono,Devolución,media,cerrado,69.0,,Quiere devolver Auriculares Voltix Pro X del pedido V120635 y pregunta por el reembolso: no es lo que esperaba.
 TK04864,2026-07-11,C00873,V120747,P056,email,Devolución,media,resuelto,36.6,3,Quiere devolver Bolso bandolera Bruma del pedido V120747 y pregunta por el reembolso: la talla o medida no es correcta.
-TK04865,2026-07-11,,,,chat,Otro,media,cerrado,11.4,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04865,2026-07-11,,,,chat,Otro,media,cerrado,11.4,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04866,2026-07-11,C01822,,,chat,Otro,media,cerrado,4.6,5,Pide darse de baja de las comunicaciones comerciales y saber qué datos personales se guardan.
 TK04867,2026-07-11,C00422,V121321,P071,email,Devolución,baja,cerrado,17.3,3,Solicita la devolución de Pack 5 pares de calcetines (pedido V121321): ha encontrado mejor precio.
 TK04868,2026-07-11,,V121411,P039,email,Devolución,baja,cerrado,30.1,4,Quiere devolver Set de bandas elásticas del pedido V121411 y pregunta por el reembolso: era un regalo duplicado.
@@ -4927,7 +4927,7 @@ TK04925,2026-07-16,,V121695,P001,email,Producto defectuoso,alta,resuelto,101.5,2
 TK04926,2026-07-16,C03959,V122170,P001,chat,Producto defectuoso,alta,cerrado,84.0,3,Auriculares Voltix Pro X del pedido V122170 presenta fallos: se calienta mucho al cargar.
 TK04927,2026-07-16,,V122245,P009,chat,Facturación,media,resuelto,7.3,4,El descuento de la campaña no se aplicó en el pedido V122245.
 TK04928,2026-07-16,C02349,V122445,P004,email,Devolución,baja,resuelto,24.0,4,Quiere devolver Altavoz Sonara Mini del pedido V122445 y pregunta por el reembolso: la talla o medida no es correcta.
-TK04929,2026-07-16,,,,email,Otro,baja,cerrado,10.2,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04929,2026-07-16,,,,email,Otro,baja,cerrado,10.2,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04930,2026-07-16,C03457,V123168,P064,chat,Devolución,baja,cerrado,18.1,,Quiere devolver Paraguas plegable del pedido V123168 y pregunta por el reembolso: ha encontrado mejor precio.
 TK04931,2026-07-16,C02443,V123557,P072,teléfono,Devolución,media,cerrado,21.1,4,Devolución de Zapatillas de lona (pedido V123557) pendiente de recogida: la talla o medida no es correcta.
 TK04932,2026-07-16,C03704,V123596,P006,chat,Envío,alta,resuelto,8.3,3,Pedido V123596 entregado en una dirección equivocada.
@@ -4949,7 +4949,7 @@ TK04947,2026-07-17,C03785,V123680,P023,teléfono,Facturación,baja,cerrado,8.2,,
 TK04948,2026-07-17,,V123841,P011,chat,Facturación,media,cerrado,19.1,4,Solicita factura con datos de empresa para el pedido V123841.
 TK04949,2026-07-17,C01711,V124248,P088,email,Envío,alta,cerrado,22.9,5,El cliente pregunta por el retraso del pedido V124248; el transportista indica incidencia en almacén.
 TK04950,2026-07-17,C01784,V124657,P072,email,Devolución,media,resuelto,34.1,3,Solicita la devolución de Zapatillas de lona (pedido V124657): no es lo que esperaba.
-TK04951,2026-07-17,C00715,,,email,Otro,baja,cerrado,7.2,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK04951,2026-07-17,C00715,,,email,Otro,baja,cerrado,7.2,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK04952,2026-07-17,C01520,,P020,teléfono,Falta de stock,baja,cerrado,10.5,4,Pregunta por la reposición de Edredón nórdico 4 estaciones; lleva semanas agotado en Málaga.
 TK04953,2026-07-18,,V121594,P019,teléfono,Devolución,media,cerrado,26.3,,Solicita la devolución de Juego de sábanas algodón 150 (pedido V121594): llegó dañado.
 TK04954,2026-07-18,C03120,V122195,P059,chat,Devolución,baja,resuelto,81.9,2,Quiere devolver Neceser de viaje del pedido V122195 y pregunta por el reembolso: la talla o medida no es correcta.
@@ -5035,7 +5035,7 @@ TK05033,2026-07-24,C01449,V125995,P069,chat,Devolución,media,resuelto,8.6,5,Sol
 TK05034,2026-07-25,C02715,V123488,P078,chat,Devolución,media,cerrado,3.7,5,Devolución de Champú sólido (pedido V123488) pendiente de recogida: era un regalo duplicado.
 TK05035,2026-07-25,,V124521,P002,email,Devolución,media,cerrado,11.6,4,Quiere devolver Auriculares Voltix Lite del pedido V124521 y pregunta por el reembolso: era un regalo duplicado.
 TK05036,2026-07-25,C03811,V124532,P098,email,Facturación,media,resuelto,8.4,,El descuento de la campaña no se aplicó en el pedido V124532.
-TK05037,2026-07-25,C01292,,,chat,Otro,media,resuelto,2.8,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05037,2026-07-25,C01292,,,chat,Otro,media,resuelto,2.8,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05038,2026-07-25,C01247,V124715,P008,email,Devolución,media,cerrado,55.2,3,Quiere devolver Pulsera de actividad Pulsar Fit del pedido V124715 y pregunta por el reembolso: ha encontrado mejor precio.
 TK05039,2026-07-25,,V124741,P001,email,Producto defectuoso,media,resuelto,102.2,2,El cliente reclama por Auriculares Voltix Pro X (pedido V124741): la batería se agota en menos de dos horas.
 TK05040,2026-07-25,C00964,,,teléfono,Otro,media,resuelto,22.3,3,Sugiere ampliar el catálogo de productos gourmet.
@@ -5107,7 +5107,7 @@ TK05105,2026-07-31,C00176,V122927,P001,teléfono,Producto defectuoso,media,cerra
 TK05106,2026-07-31,C02731,V122962,P001,chat,Producto defectuoso,media,resuelto,31.6,4,Auriculares Voltix Pro X del pedido V122962 presenta fallos: no carga tras actualizar el firmware.
 TK05107,2026-07-31,,V126148,P057,chat,Devolución,baja,cerrado,23.8,,Devolución de Riñonera Altamar (pedido V126148) pendiente de recogida: la talla o medida no es correcta.
 TK05108,2026-07-31,C03399,V126320,P049,email,Devolución,media,cerrado,45.2,4,Quiere devolver Mochila de trekking 30 L del pedido V126320 y pregunta por el reembolso: era un regalo duplicado.
-TK05109,2026-07-31,C02572,,,email,Otro,media,cerrado,12.4,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05109,2026-07-31,C02572,,,email,Otro,media,cerrado,12.4,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05110,2026-07-31,,V126505,P056,chat,Devolución,media,resuelto,100.4,2,Devolución de Bolso bandolera Bruma (pedido V126505) pendiente de recogida: ha encontrado mejor precio.
 TK05111,2026-07-31,C00322,V126668,P072,chat,Devolución,media,resuelto,15.4,,Devolución de Zapatillas de lona (pedido V126668) pendiente de recogida: ha encontrado mejor precio.
 TK05112,2026-07-31,,V126820,P068,teléfono,Devolución,media,cerrado,13.7,4,Quiere devolver Pañuelo de seda del pedido V126820 y pregunta por el reembolso: no es lo que esperaba.
@@ -5159,14 +5159,14 @@ TK05157,2026-08-03,C00097,V127519,P072,email,Devolución,media,resuelto,44.3,,Qu
 TK05158,2026-08-03,C03764,V127724,P044,chat,Devolución,baja,resuelto,27.2,,Quiere devolver Zapatillas running Ritmo Air del pedido V127724 y pregunta por el reembolso: llegó dañado.
 TK05159,2026-08-03,,V128058,P078,email,Facturación,baja,cerrado,13.0,4,Solicita factura con datos de empresa para el pedido V128058.
 TK05160,2026-08-03,C03823,V128466,P057,email,Devolución,baja,cerrado,7.3,4,Devolución de Riñonera Altamar (pedido V128466) pendiente de recogida: ha encontrado mejor precio.
-TK05161,2026-08-03,C00917,,,email,Otro,media,cerrado,8.8,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05161,2026-08-03,C00917,,,email,Otro,media,cerrado,8.8,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05162,2026-08-04,C02265,V120047,P001,chat,Producto defectuoso,baja,resuelto,42.5,,El cliente reclama por Auriculares Voltix Pro X (pedido V120047): no carga tras actualizar el firmware.
 TK05163,2026-08-04,C00180,V121235,P001,chat,Producto defectuoso,alta,resuelto,23.6,3,"Auriculares Voltix Pro X defectuoso, solicita sustitución (pedido V121235): se calienta mucho al cargar."
 TK05164,2026-08-04,,V123349,P001,teléfono,Producto defectuoso,media,resuelto,76.1,2,Auriculares Voltix Pro X del pedido V123349 presenta fallos: se calienta mucho al cargar.
 TK05165,2026-08-04,,V126189,P004,chat,Producto defectuoso,media,resuelto,52.0,,Altavoz Sonara Mini del pedido V126189 presenta fallos: hace un ruido extraño.
 TK05166,2026-08-04,C02168,V126210,P060,teléfono,Devolución,media,resuelto,6.8,,Solicita la devolución de Gafas de sol polarizadas (pedido V126210): llegó dañado.
 TK05167,2026-08-04,C01660,V126529,P011,chat,Devolución,media,cerrado,22.9,,Solicita la devolución de Cable USB-C trenzado 2 m (pedido V126529): ha encontrado mejor precio.
-TK05168,2026-08-04,C03051,,,teléfono,Otro,media,cerrado,9.8,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05168,2026-08-04,C03051,,,teléfono,Otro,media,cerrado,9.8,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05169,2026-08-04,,V127783,P057,chat,Devolución,media,cerrado,24.3,5,Quiere devolver Riñonera Altamar del pedido V127783 y pregunta por el reembolso: no es lo que esperaba.
 TK05170,2026-08-04,,V127925,P069,teléfono,Devolución,baja,cerrado,82.7,3,Quiere devolver Sudadera básica del pedido V127925 y pregunta por el reembolso: era un regalo duplicado.
 TK05171,2026-08-04,,V128495,P074,chat,Devolución,baja,resuelto,12.3,3,Devolución de Sérum de vitamina C (pedido V128495) pendiente de recogida: llegó dañado.
@@ -5285,7 +5285,7 @@ TK05283,2026-08-14,C01304,V128826,P003,teléfono,Devolución,media,cerrado,17.1,
 TK05284,2026-08-14,C02518,V128995,P061,chat,Devolución,baja,resuelto,1.9,4,Quiere devolver Cartera de piel del pedido V128995 y pregunta por el reembolso: ha encontrado mejor precio.
 TK05285,2026-08-14,,V128998,P003,chat,Devolución,media,resuelto,11.8,4,Quiere devolver Auriculares deportivos Voltix Run del pedido V128998 y pregunta por el reembolso: ha encontrado mejor precio.
 TK05286,2026-08-14,,V129375,P069,chat,Devolución,media,resuelto,36.8,4,Quiere devolver Sudadera básica del pedido V129375 y pregunta por el reembolso: ha encontrado mejor precio.
-TK05287,2026-08-14,C03815,,,email,Otro,media,resuelto,4.6,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05287,2026-08-14,C03815,,,email,Otro,media,resuelto,4.6,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05288,2026-08-14,C03541,V129866,P040,email,Devolución,media,resuelto,36.8,4,Solicita la devolución de Comba de velocidad (pedido V129866): no es lo que esperaba.
 TK05289,2026-08-14,C03707,V130074,P066,email,Devolución,media,cerrado,24.0,4,Devolución de Gorro de punto (pedido V130074) pendiente de recogida: ha encontrado mejor precio.
 TK05290,2026-08-14,C01240,V130220,P029,chat,Devolución,media,resuelto,6.1,,Solicita la devolución de Sartén antiadherente 28 cm (pedido V130220): no es lo que esperaba.
@@ -5325,7 +5325,7 @@ TK05323,2026-08-20,,V130754,P003,email,Facturación,baja,resuelto,0.6,4,Solicita
 TK05324,2026-08-20,C01200,V130971,P009,chat,Envío,media,cerrado,9.9,,Pedido V130971 entregado incompleto: falta Cargador rápido Voltix 65W.
 TK05325,2026-08-20,,V131000,P044,email,Devolución,media,cerrado,15.4,5,Solicita la devolución de Zapatillas running Ritmo Air (pedido V131000): no es lo que esperaba.
 TK05326,2026-08-20,C03609,V131100,P012,chat,Envío,media,resuelto,33.7,,Pedido V131100 sin entregar tras 11 días. El seguimiento de LogiRápido no se actualiza.
-TK05327,2026-08-20,C01669,,,chat,Otro,media,cerrado,15.6,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05327,2026-08-20,C01669,,,chat,Otro,media,cerrado,15.6,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05328,2026-08-20,C02727,,P026,chat,Falta de stock,media,cerrado,3.6,5,Quiere comprar Vela aromática Kasa Viva pero aparece como agotado; amenaza con irse a la competencia.
 TK05329,2026-08-21,C02650,V128775,P001,chat,Producto defectuoso,alta,cerrado,19.7,4,"Auriculares Voltix Pro X defectuoso, solicita sustitución (pedido V128775): se calienta mucho al cargar."
 TK05330,2026-08-21,,V129344,P033,chat,Devolución,media,resuelto,39.2,2,Quiere devolver Set 6 vasos de cristal del pedido V129344 y pregunta por el reembolso: llegó dañado.
@@ -5387,7 +5387,7 @@ TK05385,2026-08-28,C01192,V131345,P032,email,Devolución,baja,cerrado,15.7,4,Qui
 TK05386,2026-08-28,C02727,V131467,P064,email,Devolución,media,resuelto,21.6,4,Quiere devolver Paraguas plegable del pedido V131467 y pregunta por el reembolso: no es lo que esperaba.
 TK05387,2026-08-28,,V131559,P062,teléfono,Devolución,media,cerrado,32.6,,Devolución de Cinturón de piel (pedido V131559) pendiente de recogida: ha encontrado mejor precio.
 TK05388,2026-08-28,,V131831,P100,teléfono,Facturación,media,resuelto,4.3,5,El descuento de la campaña no se aplicó en el pedido V131831.
-TK05389,2026-08-28,C04109,,,chat,Otro,media,resuelto,3.1,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05389,2026-08-28,C04109,,,chat,Otro,media,resuelto,3.1,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05390,2026-08-28,C02241,V132001,P032,email,Envío,baja,resuelto,8.1,,Pedido V132001 sin entregar tras 5 días. El seguimiento de LogiRápido no se actualiza.
 TK05391,2026-08-28,C03576,V132229,P021,chat,Devolución,media,cerrado,10.7,5,Quiere devolver Pack 2 toallas de baño del pedido V132229 y pregunta por el reembolso: era un regalo duplicado.
 TK05392,2026-08-28,C01691,V132275,P029,email,Devolución,baja,cerrado,28.2,,Solicita la devolución de Sartén antiadherente 28 cm (pedido V132275): era un regalo duplicado.
@@ -5399,7 +5399,7 @@ TK05397,2026-08-29,C04118,V132268,P021,email,Devolución,baja,cerrado,50.9,,Quie
 TK05398,2026-08-29,C01422,V132277,P059,chat,Devolución,baja,resuelto,41.2,,Quiere devolver Neceser de viaje del pedido V132277 y pregunta por el reembolso: no es lo que esperaba.
 TK05399,2026-08-29,,V132504,P032,teléfono,Facturación,baja,cerrado,3.6,5,El descuento de la campaña no se aplicó en el pedido V132504.
 TK05400,2026-08-29,,V132694,P059,email,Devolución,baja,cerrado,49.0,3,Quiere devolver Neceser de viaje del pedido V132694 y pregunta por el reembolso: la talla o medida no es correcta.
-TK05401,2026-08-29,C02866,,,teléfono,Otro,baja,resuelto,13.3,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05401,2026-08-29,C02866,,,teléfono,Otro,baja,resuelto,13.3,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05402,2026-08-30,,V125972,P001,chat,Producto defectuoso,media,cerrado,49.3,,"Auriculares Voltix Pro X defectuoso, solicita sustitución (pedido V125972): no carga tras actualizar el firmware."
 TK05403,2026-08-30,C03274,V128126,P001,email,Producto defectuoso,alta,resuelto,62.6,3,El cliente reclama por Auriculares Voltix Pro X (pedido V128126): la batería se agota en menos de dos horas.
 TK05404,2026-08-30,,V128160,P002,email,Producto defectuoso,media,cerrado,96.2,2,El cliente reclama por Auriculares Voltix Lite (pedido V128160): hace un ruido extraño.
@@ -5421,9 +5421,9 @@ TK05419,2026-08-31,C01615,V127322,P003,email,Producto defectuoso,media,cerrado,1
 TK05420,2026-08-31,,V131409,P067,chat,Devolución,baja,cerrado,7.9,5,Quiere devolver Guantes táctiles del pedido V131409 y pregunta por el reembolso: la talla o medida no es correcta.
 TK05421,2026-08-31,C02488,V132498,P027,chat,Devolución,media,cerrado,15.6,5,Solicita la devolución de Difusor de aromas (pedido V132498): ha encontrado mejor precio.
 TK05422,2026-08-31,,V132503,P055,chat,Devolución,baja,resuelto,58.1,2,Quiere devolver Mochila urbana Altamar del pedido V132503 y pregunta por el reembolso: era un regalo duplicado.
-TK05423,2026-08-31,C01894,,,email,Otro,media,resuelto,4.3,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05423,2026-08-31,C01894,,,email,Otro,media,resuelto,4.3,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05424,2026-08-31,C00983,V133066,P022,chat,Envío,baja,resuelto,7.3,5,El cliente pregunta por el retraso del pedido V133066; el transportista indica incidencia en almacén.
-TK05425,2026-08-31,C03992,,,email,Otro,media,cerrado,12.3,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05425,2026-08-31,C03992,,,email,Otro,media,cerrado,12.3,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05426,2026-09-01,C03299,V127860,P001,email,Producto defectuoso,baja,resuelto,17.6,4,"Auriculares Voltix Pro X defectuoso, solicita sustitución (pedido V127860): no carga tras actualizar el firmware."
 TK05427,2026-09-01,C03365,V128912,P001,chat,Producto defectuoso,alta,cerrado,63.0,2,El cliente reclama por Auriculares Voltix Pro X (pedido V128912): la batería se agota en menos de dos horas.
 TK05428,2026-09-01,C00802,V131236,P005,chat,Devolución,media,cerrado,26.5,5,Quiere devolver Altavoz Sonara Max del pedido V131236 y pregunta por el reembolso: llegó dañado.
@@ -5434,7 +5434,7 @@ TK05432,2026-09-01,C01554,V132475,P106,teléfono,Devolución,media,resuelto,26.6
 TK05433,2026-09-01,C00613,,P025,teléfono,Falta de stock,media,cerrado,9.4,5,Quiere comprar Alfombra de yute 160x230 pero aparece como agotado; amenaza con irse a la competencia.
 TK05434,2026-09-02,C02919,V127262,P006,chat,Producto defectuoso,alta,cerrado,78.3,2,Barra de sonido Sonara Cine del pedido V127262 presenta fallos: hace un ruido extraño.
 TK05435,2026-09-02,C00417,V132052,P024,chat,Devolución,media,cerrado,31.2,,Quiere devolver Cortina opaca 140x260 del pedido V132052 y pregunta por el reembolso: era un regalo duplicado.
-TK05436,2026-09-02,,,,email,Otro,baja,resuelto,4.0,3,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05436,2026-09-02,,,,email,Otro,baja,resuelto,4.0,3,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05437,2026-09-02,,V132612,P034,chat,Devolución,media,resuelto,11.6,4,Solicita la devolución de Lámpara de pie nórdica (pedido V132612): era un regalo duplicado.
 TK05438,2026-09-02,C01344,V132707,P019,chat,Devolución,media,resuelto,23.1,4,Quiere devolver Juego de sábanas algodón 150 del pedido V132707 y pregunta por el reembolso: ha encontrado mejor precio.
 TK05439,2026-09-02,C01275,V132878,P062,teléfono,Devolución,media,cerrado,39.8,4,Solicita la devolución de Cinturón de piel (pedido V132878): era un regalo duplicado.
@@ -5519,7 +5519,7 @@ TK05517,2026-09-11,C00051,V131128,P001,chat,Producto defectuoso,baja,cerrado,40.
 TK05518,2026-09-11,C03158,V132951,P001,email,Devolución,media,cerrado,50.3,,Devolución de Auriculares Voltix Pro X (pedido V132951) pendiente de recogida: no es lo que esperaba.
 TK05519,2026-09-11,C02384,V133399,P001,chat,Producto defectuoso,media,resuelto,36.6,3,El cliente reclama por Auriculares Voltix Pro X (pedido V133399): la batería se agota en menos de dos horas.
 TK05520,2026-09-11,C03242,V134840,P065,email,Envío,media,cerrado,6.3,5,Pedido V134840 sin entregar tras 10 días. El seguimiento de LogiRápido no se actualiza.
-TK05521,2026-09-11,C03713,,,teléfono,Otro,media,resuelto,18.7,3,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05521,2026-09-11,C03713,,,teléfono,Otro,media,resuelto,18.7,3,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05522,2026-09-11,,V135062,P064,teléfono,Devolución,media,cerrado,23.4,3,Solicita la devolución de Paraguas plegable (pedido V135062): era un regalo duplicado.
 TK05523,2026-09-11,C03051,V135317,P012,teléfono,Devolución,media,resuelto,32.0,4,"Quiere devolver Tablet Nébula 10"" del pedido V135317 y pregunta por el reembolso: era un regalo duplicado."
 TK05524,2026-09-12,C01105,V133129,P011,email,Devolución,media,resuelto,30.6,4,Quiere devolver Cable USB-C trenzado 2 m del pedido V133129 y pregunta por el reembolso: ha encontrado mejor precio.
@@ -5565,7 +5565,7 @@ TK05563,2026-09-16,C02613,V135189,P058,teléfono,Devolución,media,resuelto,48.6
 TK05564,2026-09-16,C02001,V135486,P032,chat,Facturación,media,resuelto,18.7,4,El descuento de la campaña no se aplicó en el pedido V135486.
 TK05565,2026-09-16,C02015,V135786,P065,chat,Envío,alta,resuelto,23.6,3,Pedido V135786 sin entregar tras 12 días. El seguimiento de LogiRápido no se actualiza.
 TK05566,2026-09-16,,,,chat,Otro,media,cerrado,12.4,5,Consulta sobre el horario de la tienda de Barcelona.
-TK05567,2026-09-16,C02006,,,teléfono,Otro,media,cerrado,25.1,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05567,2026-09-16,C02006,,,teléfono,Otro,media,cerrado,25.1,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05568,2026-09-16,C03889,,P025,chat,Falta de stock,media,resuelto,7.2,4,El cliente no encuentra Alfombra de yute 160x230 en la tienda de Sevilla y pregunta cuándo habrá reposición.
 TK05569,2026-09-17,C02121,V133948,P001,chat,Producto defectuoso,alta,cerrado,93.5,2,El cliente reclama por Auriculares Voltix Pro X (pedido V133948): no carga tras actualizar el firmware.
 TK05570,2026-09-17,C03448,V134031,P005,chat,Producto defectuoso,alta,resuelto,29.2,3,El cliente reclama por Altavoz Sonara Max (pedido V134031): falla a los pocos días de uso.
@@ -5590,7 +5590,7 @@ TK05588,2026-09-19,C03804,V134275,P020,teléfono,Devolución,media,resuelto,23.8
 TK05589,2026-09-19,C01837,V135324,P058,teléfono,Devolución,baja,resuelto,27.6,,Devolución de Maleta de cabina (pedido V135324) pendiente de recogida: ha encontrado mejor precio.
 TK05590,2026-09-19,,V136022,P001,email,Devolución,media,resuelto,16.2,4,Quiere devolver Auriculares Voltix Pro X del pedido V136022 y pregunta por el reembolso: era un regalo duplicado.
 TK05591,2026-09-19,C03662,V136152,P062,teléfono,Devolución,media,resuelto,16.3,4,Devolución de Cinturón de piel (pedido V136152) pendiente de recogida: ha encontrado mejor precio.
-TK05592,2026-09-19,,,,email,Otro,media,resuelto,9.7,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05592,2026-09-19,,,,email,Otro,media,resuelto,9.7,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05593,2026-09-19,C01000,,P026,chat,Falta de stock,media,cerrado,33.7,2,El cliente no encuentra Vela aromática Kasa Viva en la tienda de Sevilla y pregunta cuándo habrá reposición.
 TK05594,2026-09-20,,V134712,P015,email,Devolución,baja,resuelto,19.5,4,Devolución de Ratón ergonómico Kéntro (pedido V134712) pendiente de recogida: era un regalo duplicado.
 TK05595,2026-09-20,C00249,V135673,P001,chat,Producto defectuoso,alta,resuelto,33.4,3,El cliente reclama por Auriculares Voltix Pro X (pedido V135673): se desconecta del móvil constantemente.
@@ -5653,7 +5653,7 @@ TK05651,2026-09-25,C04012,,,chat,Otro,baja,resuelto,17.4,,Sugiere ampliar el cat
 TK05652,2026-09-25,C03750,,,email,Otro,media,cerrado,6.0,,Pide darse de baja de las comunicaciones comerciales y saber qué datos personales se guardan.
 TK05653,2026-09-25,C04075,V138151,P005,chat,Envío,media,cerrado,1.9,,El cliente pregunta por el retraso del pedido V138151; el transportista indica incidencia en almacén.
 TK05654,2026-09-25,C04026,V138455,P052,teléfono,Devolución,media,resuelto,38.7,4,Quiere devolver Linterna frontal del pedido V138455 y pregunta por el reembolso: la talla o medida no es correcta.
-TK05655,2026-09-25,C00939,,,email,Otro,baja,resuelto,5.6,5,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05655,2026-09-25,C00939,,,email,Otro,baja,resuelto,5.6,5,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05656,2026-09-26,C02650,V134030,P001,email,Producto defectuoso,alta,cerrado,21.8,4,Auriculares Voltix Pro X del pedido V134030 presenta fallos: no carga tras actualizar el firmware.
 TK05657,2026-09-26,,V136015,P039,email,Devolución,baja,cerrado,14.6,3,Solicita la devolución de Set de bandas elásticas (pedido V136015): llegó dañado.
 TK05658,2026-09-26,C03398,V136018,P038,chat,Devolución,baja,cerrado,37.5,,Quiere devolver Mancuernas ajustables 2x10 kg del pedido V136018 y pregunta por el reembolso: ha encontrado mejor precio.
@@ -5680,12 +5680,12 @@ TK05678,2026-09-27,C04184,V138598,P060,teléfono,Devolución,baja,resuelto,21.3,
 TK05679,2026-09-27,C03652,V138608,P011,chat,Devolución,media,resuelto,37.4,4,Devolución de Cable USB-C trenzado 2 m (pedido V138608) pendiente de recogida: no es lo que esperaba.
 TK05680,2026-09-27,C00675,V138996,P011,email,Devolución,media,cerrado,18.8,5,Solicita la devolución de Cable USB-C trenzado 2 m (pedido V138996): era un regalo duplicado.
 TK05681,2026-09-27,,V139159,P054,teléfono,Devolución,media,cerrado,38.6,4,Quiere devolver Saco de dormir del pedido V139159 y pregunta por el reembolso: llegó dañado.
-TK05682,2026-09-27,,,,chat,Otro,baja,resuelto,2.4,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05682,2026-09-27,,,,chat,Otro,baja,resuelto,2.4,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05683,2026-09-27,C03737,V139180,P036,chat,Facturación,media,resuelto,2.0,4,Solicita factura con datos de empresa para el pedido V139180.
 TK05684,2026-09-27,C01721,,,chat,Otro,baja,resuelto,11.7,,Consulta sobre el horario de la tienda de Barcelona.
 TK05685,2026-09-28,C04183,V135890,P006,email,Producto defectuoso,media,cerrado,9.8,4,"Barra de sonido Sonara Cine defectuoso, solicita sustitución (pedido V135890): llegó con un golpe."
 TK05686,2026-09-28,C00627,V136448,P063,chat,Devolución,media,cerrado,6.0,5,Solicita la devolución de Reloj analógico Altamar (pedido V136448): llegó dañado.
-TK05687,2026-09-28,C03390,,,email,Otro,media,cerrado,0.9,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05687,2026-09-28,C03390,,,email,Otro,media,cerrado,0.9,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05688,2026-09-28,C00309,V137915,P069,email,Devolución,media,cerrado,26.9,,Solicita la devolución de Sudadera básica (pedido V137915): no es lo que esperaba.
 TK05689,2026-09-28,C04095,V138130,P015,chat,Facturación,baja,resuelto,0.4,4,Cobro duplicado en el pedido V138130.
 TK05690,2026-09-28,C01404,V138560,P009,email,Devolución,media,resuelto,31.6,5,Quiere devolver Cargador rápido Voltix 65W del pedido V138560 y pregunta por el reembolso: no es lo que esperaba.
@@ -5717,7 +5717,7 @@ TK05715,2026-10-01,C00539,V137646,P077,email,Devolución,baja,resuelto,24.9,,Qui
 TK05716,2026-10-01,,V137905,P007,chat,Devolución,baja,cerrado,10.5,,Devolución de Smartwatch Pulsar S2 (pedido V137905) pendiente de recogida: llegó dañado.
 TK05717,2026-10-01,C00622,V138651,P079,teléfono,Devolución,media,cerrado,33.0,4,Devolución de Gel de ducha natural (pedido V138651) pendiente de recogida: era un regalo duplicado.
 TK05718,2026-10-01,C02361,V139119,P001,email,Producto defectuoso,media,cerrado,67.0,2,Auriculares Voltix Pro X del pedido V139119 presenta fallos: la batería se agota en menos de dos horas.
-TK05719,2026-10-01,C02627,,,chat,Otro,media,cerrado,3.7,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05719,2026-10-01,C02627,,,chat,Otro,media,cerrado,3.7,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05720,2026-10-01,,V139236,P007,teléfono,Devolución,media,cerrado,15.2,,Devolución de Smartwatch Pulsar S2 (pedido V139236) pendiente de recogida: llegó dañado.
 TK05721,2026-10-01,,V139255,P037,chat,Devolución,baja,cerrado,46.4,2,Quiere devolver Esterilla de yoga 6 mm del pedido V139255 y pregunta por el reembolso: no es lo que esperaba.
 TK05722,2026-10-01,C04060,V139500,P073,chat,Envío,media,cerrado,13.2,4,Pedido V139500 entregado incompleto: falta Crema facial hidratante.
@@ -5769,7 +5769,7 @@ TK05767,2026-10-06,C00777,V133232,P003,email,Producto defectuoso,media,resuelto,
 TK05768,2026-10-06,,V137655,P011,teléfono,Producto defectuoso,alta,cerrado,77.1,2,Cable USB-C trenzado 2 m del pedido V137655 presenta fallos: falla a los pocos días de uso.
 TK05769,2026-10-06,,V139520,P004,chat,Facturación,media,cerrado,3.5,4,Cobro duplicado en el pedido V139520.
 TK05770,2026-10-06,,V139663,P071,teléfono,Facturación,media,cerrado,27.3,4,El descuento de la campaña no se aplicó en el pedido V139663.
-TK05771,2026-10-06,C03766,,,chat,Otro,media,resuelto,9.9,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05771,2026-10-06,C03766,,,chat,Otro,media,resuelto,9.9,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05772,2026-10-06,C02298,V140199,P011,teléfono,Envío,alta,resuelto,21.7,,El cliente pregunta por el retraso del pedido V140199; el transportista indica incidencia en almacén.
 TK05773,2026-10-06,,V140687,P020,email,Devolución,baja,resuelto,29.4,4,Quiere devolver Edredón nórdico 4 estaciones del pedido V140687 y pregunta por el reembolso: llegó dañado.
 TK05774,2026-10-06,C00136,V141219,P062,teléfono,Facturación,baja,cerrado,4.3,5,Cobro duplicado en el pedido V141219.
@@ -5787,7 +5787,7 @@ TK05785,2026-10-08,C01205,V138649,P050,email,Devolución,media,cerrado,20.3,4,De
 TK05786,2026-10-08,C02150,V138672,P008,email,Devolución,media,cerrado,20.6,4,Quiere devolver Pulsera de actividad Pulsar Fit del pedido V138672 y pregunta por el reembolso: la talla o medida no es correcta.
 TK05787,2026-10-08,,V139118,P038,email,Devolución,media,cerrado,6.2,4,Quiere devolver Mancuernas ajustables 2x10 kg del pedido V139118 y pregunta por el reembolso: no es lo que esperaba.
 TK05788,2026-10-08,C02202,V139944,P064,email,Devolución,media,resuelto,32.4,4,Solicita la devolución de Paraguas plegable (pedido V139944): ha encontrado mejor precio.
-TK05789,2026-10-08,,V139949,P090,teléfono,Devolución,media,resuelto,13.6,,Devolución de Perfume Agua Almansa 100 ml (pedido V139949) pendiente de recogida: era un regalo duplicado.
+TK05789,2026-10-08,,V139949,P090,teléfono,Devolución,media,resuelto,13.6,,Devolución de Perfume Agua MUCDIA 100 ml (pedido V139949) pendiente de recogida: era un regalo duplicado.
 TK05790,2026-10-08,C01906,V141095,P036,email,Envío,media,cerrado,7.5,4,Pedido V141095 entregado en una dirección equivocada.
 TK05791,2026-10-08,C00611,V141278,P071,chat,Devolución,media,resuelto,24.7,4,Quiere devolver Pack 5 pares de calcetines del pedido V141278 y pregunta por el reembolso: era un regalo duplicado.
 TK05792,2026-10-08,C00722,V141653,P019,chat,Facturación,baja,resuelto,5.5,5,El descuento de la campaña no se aplicó en el pedido V141653.
@@ -5828,7 +5828,7 @@ TK05826,2026-10-13,,V140055,P020,teléfono,Devolución,media,resuelto,28.4,,Devo
 TK05827,2026-10-13,C02980,V140771,P051,email,Facturación,baja,resuelto,25.0,4,Cobro duplicado en el pedido V140771.
 TK05828,2026-10-13,C03304,V140875,P079,chat,Facturación,media,resuelto,13.0,,Solicita factura con datos de empresa para el pedido V140875.
 TK05829,2026-10-13,C01923,V140933,P091,chat,Facturación,baja,cerrado,15.5,5,Cobro duplicado en el pedido V140933.
-TK05830,2026-10-13,C03188,,,email,Otro,baja,cerrado,4.9,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05830,2026-10-13,C03188,,,email,Otro,baja,cerrado,4.9,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05831,2026-10-13,C03304,V141706,P012,chat,Devolución,baja,cerrado,55.1,4,"Quiere devolver Tablet Nébula 10"" del pedido V141706 y pregunta por el reembolso: no es lo que esperaba."
 TK05832,2026-10-13,C02306,V141767,P017,teléfono,Devolución,baja,resuelto,26.5,2,Quiere devolver Disco SSD portátil Datafy 1 TB del pedido V141767 y pregunta por el reembolso: ha encontrado mejor precio.
 TK05833,2026-10-13,C00267,V141999,P105,chat,Envío,media,cerrado,26.5,5,Pedido V141999 entregado en una dirección equivocada.
@@ -5876,7 +5876,7 @@ TK05874,2026-10-18,,V143551,P003,email,Facturación,media,resuelto,17.5,3,Solici
 TK05875,2026-10-18,,,,email,Otro,baja,cerrado,2.8,5,Sugiere ampliar el catálogo de productos gourmet.
 TK05876,2026-10-18,C02345,V143583,P102,email,Devolución,media,cerrado,40.7,3,Quiere devolver Galletas artesanas del pedido V143583 y pregunta por el reembolso: ha encontrado mejor precio.
 TK05877,2026-10-18,C01130,V143620,P039,teléfono,Devolución,media,resuelto,68.9,3,Quiere devolver Set de bandas elásticas del pedido V143620 y pregunta por el reembolso: ha encontrado mejor precio.
-TK05878,2026-10-18,,,,email,Otro,media,resuelto,6.2,4,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05878,2026-10-18,,,,email,Otro,media,resuelto,6.2,4,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05879,2026-10-18,C03543,V144095,P009,chat,Facturación,media,cerrado,5.8,4,El descuento de la campaña no se aplicó en el pedido V144095.
 TK05880,2026-10-19,,V136154,P004,email,Producto defectuoso,alta,cerrado,26.9,3,Altavoz Sonara Mini del pedido V136154 presenta fallos: no enciende.
 TK05881,2026-10-19,C02917,V137363,P001,chat,Producto defectuoso,alta,cerrado,70.2,2,"Auriculares Voltix Pro X defectuoso, solicita sustitución (pedido V137363): se desconecta del móvil constantemente."
@@ -5897,7 +5897,7 @@ TK05895,2026-10-21,C02198,V142789,P066,email,Devolución,baja,resuelto,37.1,5,So
 TK05896,2026-10-21,,V142829,P017,chat,Devolución,media,cerrado,16.7,5,Solicita la devolución de Disco SSD portátil Datafy 1 TB (pedido V142829): ha encontrado mejor precio.
 TK05897,2026-10-21,C00674,V143690,P011,email,Producto defectuoso,media,cerrado,47.6,3,"Cable USB-C trenzado 2 m defectuoso, solicita sustitución (pedido V143690): falla a los pocos días de uso."
 TK05898,2026-10-21,C02598,,,chat,Otro,baja,resuelto,3.4,,Sugiere ampliar el catálogo de productos gourmet.
-TK05899,2026-10-21,C00818,,,email,Otro,media,resuelto,2.0,,Pregunta por las ventajas de la tarjeta Almansa+.
+TK05899,2026-10-21,C00818,,,email,Otro,media,resuelto,2.0,,Pregunta por las ventajas de la tarjeta MUCDIA+.
 TK05900,2026-10-22,C00507,V142066,P037,chat,Devolución,media,cerrado,5.8,4,Devolución de Esterilla de yoga 6 mm (pedido V142066) pendiente de recogida: no es lo que esperaba.
 TK05901,2026-10-22,C01702,V142145,P009,teléfono,Devolución,media,cerrado,48.9,3,Quiere devolver Cargador rápido Voltix 65W del pedido V142145 y pregunta por el reembolso: la talla o medida no es correcta.
 TK05902,2026-10-22,C02975,V142847,P103,email,Devolución,media,cerrado,24.6,4,Solicita la devolución de Turrón artesano (pedido V142847): ha encontrado mejor precio.

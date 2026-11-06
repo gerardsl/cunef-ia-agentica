@@ -3,11 +3,11 @@
 **Fecha:** 2025-11-03
 **Versión:** 1.4
 **Estado:** Vigente
-**Responsable:** Delegado de Protección de Datos (DPO): dpo@almansa.es
+**Responsable:** Delegado de Protección de Datos (DPO): dpo@mucdia.es
 
 ## Ámbito
 
-Esta política aplica a todo el personal, proveedores y sistemas (incluidos los asistentes y agentes de IA) que traten datos personales de clientes de Almansa Market S.A., de acuerdo con el Reglamento General de Protección de Datos (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD).
+Esta política aplica a todo el personal, proveedores y sistemas (incluidos los asistentes y agentes de IA) que traten datos personales de clientes de MUCDIA S.A., de acuerdo con el Reglamento General de Protección de Datos (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD).
 
 ## Principios
 
@@ -21,7 +21,7 @@ Solo se pueden enviar comunicaciones comerciales a clientes con `consentimiento_
 
 ## Prohibición de envío de datos al exterior
 
-Está **prohibido enviar datos personales de clientes** (nombre, email, historial de compras, incidencias) a direcciones de correo o sistemas ajenos al dominio corporativo **@almansa.es**, salvo a los encargados del tratamiento con contrato en vigor (por ejemplo, LogiRápido para la entrega de pedidos) y a través de los canales establecidos. Nunca se envían listados de clientes por correo electrónico.
+Está **prohibido enviar datos personales de clientes** (nombre, email, historial de compras, incidencias) a direcciones de correo o sistemas ajenos al dominio corporativo **@mucdia.es**, salvo a los encargados del tratamiento con contrato en vigor (por ejemplo, LogiRápido para la entrega de pedidos) y a través de los canales establecidos. Nunca se envían listados de clientes por correo electrónico.
 
 ## Herramientas de IA
 

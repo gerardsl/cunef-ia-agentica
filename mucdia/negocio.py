@@ -1,4 +1,4 @@
-"""Funciones de negocio de Almansa reutilizables como herramientas de agentes.
+"""Funciones de negocio de MUCDIA reutilizables como herramientas de agentes.
 
 Todas devuelven texto compacto (CSV) pensado para que lo lea un modelo. Las fechas van en formato AAAA-MM-DD.
 Solo cuentan los pedidos con estado 'completada' (las devoluciones y cancelaciones no son ventas).

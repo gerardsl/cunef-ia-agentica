@@ -5,7 +5,7 @@ más lejos. Puedes hacerlo solo o con tu equipo, en cualquier momento después d
 
 ## La misión
 
-El comité de dirección de Almansa quiere un **agente investigador** que responda preguntas abiertas de negocio
+El comité de dirección de MUCDIA quiere un **agente investigador** que responda preguntas abiertas de negocio
 combinando datos y documentos, con cifras, fuentes y recomendaciones. Elige **dos** de estos misterios:
 
 1. ¿Por qué cayeron las ventas de Hogar en Andalucía en el tercer trimestre de 2026?
@@ -32,7 +32,7 @@ Contrasta lo que diga tu agente con tus propias consultas SQL: ¿ha acertado? ¿
 
 **🥇 Oro: un agente listo para enseñar.**
 - Compara **dos orquestaciones** (por ejemplo, un único agente frente al equipo secuencial, o *handoff* o
-  *magentic*) en calidad, número de llamadas y coste (`almansa.uso()`).
+  *magentic*) en calidad, número de llamadas y coste (`mucdia.uso()`).
 - Publícalo en DevUI o expón sus herramientas como un servidor MCP y úsalo desde GitHub Copilot.
 - Rellena el [Agent Canvas](../docs/agent_canvas.md) final con lo que has medido: ¿lo pondrías en producción?
 

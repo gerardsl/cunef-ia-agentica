@@ -14,12 +14,12 @@ Materiales prácticos de las masterclasses de **IA agéntica** del Máster Unive
 Los materiales de cada sesión se publican poco antes de la clase; las soluciones y las diapositivas (PDF), al día
 siguiente, en `soluciones/` y `diapositivas/`.
 
-## El caso: Almansa Market S.A.
+## El caso: MUCDIA S.A.
 
-Una cadena **ficticia** de 8 tiendas y venta online con dos años de actividad (enero de 2025 a octubre de 2026):
-147.115 pedidos, 4.200 clientes, 108 productos, campañas, inventario, tickets de soporte, reseñas, cuentas mensuales
-y 13 documentos internos (políticas, actas, contratos…). **Todos los datos son sintéticos.** Detalles en
-[data/README.md](data/README.md).
+Una cadena **ficticia** de 8 tiendas y venta online (sí, se llama como vuestro máster) con dos años de actividad
+(enero de 2025 a octubre de 2026): 147.115 pedidos, 4.200 clientes, 108 productos, campañas, inventario, tickets de
+soporte, reseñas, cuentas mensuales y 13 documentos internos (políticas, actas, contratos…). **Todos los datos son
+sintéticos.** Detalles en [data/README.md](data/README.md).
 
 Durante las tres sesiones seréis su equipo de analistas: primero con un agente, después con un equipo de agentes
 conectado a sus datos y, al final, decidiendo si eso puede llegar a producción.
@@ -44,8 +44,8 @@ minutos antes a la primera sesión.
 ├─ sesion1/                bucle agéntico desde cero · primer agente con Microsoft Agent Framework · DevUI
 ├─ sesion2/                servidor MCP · RAG agéntico · equipo de agentes        (se publica antes de la sesión 2)
 ├─ sesion3/                red team y blindaje · evaluación · observabilidad     (se publica antes de la sesión 3)
-├─ almansa/                paquete de apoyo: cliente del modelo, cuota, datos y herramientas de negocio
-├─ data/                   base de datos SQLite, CSV y documentos internos de Almansa (sintéticos)
+├─ mucdia/                paquete de apoyo: cliente del modelo, cuota, datos y herramientas de negocio
+├─ data/                   base de datos SQLite, CSV y documentos internos de MUCDIA (sintéticos)
 ├─ docs/                   instalación, problemas frecuentes, chuleta y Agent Canvas
 ├─ reto_opcional/          reto para casa (opcional, no evaluable)
 └─ replays/                respuestas grabadas para seguir si se agota la cuota
@@ -55,9 +55,9 @@ minutos antes a la primera sesión.
 
 - **Datos sintéticos, siempre.** No pegues en ningún modelo datos personales reales ni información de empresas.
 - **Tu clave es tuya.** No la compartas, no la escribas en el código y nunca subas el fichero `.env` a GitHub.
-- **Cuota gratuita:** unas 10 llamadas por minuto y unas 500 al día por modelo. El paquete `almansa` espera y
+- **Cuota gratuita:** unas 10 llamadas por minuto y unas 500 al día por modelo. El paquete `mucdia` espera y
   reintenta solo. Si se agota, sigue en el portátil de otra persona de tu equipo (cada uno con su clave) o usa las
-  respuestas grabadas: `almansa.usar_modo("replay")`.
+  respuestas grabadas: `mucdia.usar_modo("replay")`.
 - **El reto de la sesión 3 es un CTF de honor:** se ataca solo a nuestro agente de prácticas y solo conversando con
   él. Nada de contenido dañino ni de intentar saltarse los filtros de seguridad de Google (lo prohíben sus términos).
 - **No es evaluable.** Venid a probar, romper y preguntar.
@@ -76,5 +76,5 @@ Enlace a la encuesta de valoración: *se publicará el 2 de diciembre*.
 
 Profesor: **Gerard Salvador López** · [linkedin.com/in/gerardsl](https://www.linkedin.com/in/gerardsl)
 
-Almansa Market S.A. es una empresa inventada: cualquier parecido con una empresa real es casualidad. Las marcas
+MUCDIA S.A. es una empresa inventada: cualquier parecido con una empresa real es casualidad. Las marcas
 citadas (GitHub, Google, Microsoft…) pertenecen a sus titulares.

@@ -21,8 +21,8 @@
 
 ## Productos estrella de Navidad
 
-Pack regalo gourmet, turrón artesano, perfume Agua Almansa, smartwatch Pulsar S2 y barra de sonido Sonara Cine. En diciembre de 2025, el pack regalo gourmet y el turrón multiplicaron por más de diez sus ventas habituales.
+Pack regalo gourmet, turrón artesano, perfume Agua MUCDIA, smartwatch Pulsar S2 y barra de sonido Sonara Cine. En diciembre de 2025, el pack regalo gourmet y el turrón multiplicaron por más de diez sus ventas habituales.
 
-## Marca propia "Almansa Selección"
+## Marca propia "MUCDIA Selección"
 
 La marca propia (café, chocolate, galletas, frutos secos, té matcha, perfume y pack regalo) tiene un margen superior a la media y es prioritaria en las recomendaciones de venta cruzada.

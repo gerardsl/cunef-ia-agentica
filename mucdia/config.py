@@ -16,12 +16,12 @@ from dotenv import load_dotenv
 
 RAIZ = Path(__file__).resolve().parent.parent
 load_dotenv(RAIZ / ".env", override=False)
-load_dotenv(Path.home() / ".almansa" / ".env", override=False)
+load_dotenv(Path.home() / ".mucdia" / ".env", override=False)
 
-DB = RAIZ / "data" / "almansa.db"
+DB = RAIZ / "data" / "mucdia.db"
 # Las demos del profesor usan su propia carpeta de grabaciones para no mezclarlas con las del repositorio público.
-DIR_REPLAYS = Path(os.getenv("ALMANSA_DIR_REPLAYS") or RAIZ / "replays")
-DIR_USO = Path.home() / ".almansa"
+DIR_REPLAYS = Path(os.getenv("MUCDIA_DIR_REPLAYS") or RAIZ / "replays")
+DIR_USO = Path.home() / ".mucdia"
 GEMINI_OPENAI_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
 MODELO_POR_DEFECTO = "gemini-3.5-flash-lite"
 

@@ -18,11 +18,11 @@ Los clientes disponen de **30 días naturales** desde la fecha de entrega (pedid
 
 ## Devoluciones de pedidos online
 
-La devolución de pedidos online es **gratuita**: el cliente puede entregar el artículo en cualquier tienda Almansa o solicitar la recogida a domicilio, que realiza nuestro operador logístico LogiRápido en un plazo de 72 horas laborables.
+La devolución de pedidos online es **gratuita**: el cliente puede entregar el artículo en cualquier tienda MUCDIA o solicitar la recogida a domicilio, que realiza nuestro operador logístico LogiRápido en un plazo de 72 horas laborables.
 
 ## Reembolsos
 
-El reembolso se realiza en el mismo medio de pago utilizado en la compra en un plazo máximo de **14 días naturales** desde que recibimos el artículo. Las compras pagadas en efectivo se reembolsan en efectivo en tienda o, si el cliente lo prefiere, mediante vale Almansa+.
+El reembolso se realiza en el mismo medio de pago utilizado en la compra en un plazo máximo de **14 días naturales** desde que recibimos el artículo. Las compras pagadas en efectivo se reembolsan en efectivo en tienda o, si el cliente lo prefiere, mediante vale MUCDIA+.
 
 ## Garantía legal y productos defectuosos
 

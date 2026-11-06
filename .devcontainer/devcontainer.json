@@ -6,7 +6,7 @@
     "memory": "4gb"
   },
   "postCreateCommand": "pip install --user --no-cache-dir -r requirements.txt && pip install --user -e .",
-  "postAttachCommand": "python -c \"import almansa; almansa.comprobar(llamar_al_modelo=False)\"",
+  "postAttachCommand": "python -c \"import mucdia; mucdia.comprobar(llamar_al_modelo=False)\"",
   "secrets": {
     "GEMINI_API_KEY": {
       "description": "Tu clave GRATUITA de Google AI Studio. Créala en un proyecto SIN facturación (ver docs/setup.md).",

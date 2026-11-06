@@ -1,23 +1,23 @@
 # Chuleta
 
-## El paquete `almansa`
+## El paquete `mucdia`
 
 ```python
-import almansa
-from almansa import negocio
+import mucdia
+from mucdia import negocio
 
-almansa.comprobar()                      # entorno, datos, clave y una llamada de prueba
-cliente = almansa.cliente()              # cliente de chat para Microsoft Agent Framework (con límite y reintentos)
-oa = almansa.cliente_openai()            # cliente estilo OpenAI: oa.chat.completions.create(...)
-almansa.uso()                            # llamadas, tokens y lo que costaría en el plan de pago
+mucdia.comprobar()                      # entorno, datos, clave y una llamada de prueba
+cliente = mucdia.cliente()              # cliente de chat para Microsoft Agent Framework (con límite y reintentos)
+oa = mucdia.cliente_openai()            # cliente estilo OpenAI: oa.chat.completions.create(...)
+mucdia.uso()                            # llamadas, tokens y lo que costaría en el plan de pago
 
-almansa.usar_modelo("gemini-3.1-flash-lite")   # otro modelo (cuota propia); después vuelve a crear el cliente
-almansa.usar_modo("replay")              # auto (por defecto) | live | replay | record
+mucdia.usar_modelo("gemini-3.1-flash-lite")   # otro modelo (cuota propia); después vuelve a crear el cliente
+mucdia.usar_modo("replay")              # auto (por defecto) | live | replay | record
 
-df = almansa.consultar("SELECT * FROM tiendas")            # SQL → DataFrame de pandas
-print(almansa.esquema())                 # tablas, columnas y notas del diccionario de datos
-almansa.buscar_documentos("devolución", k=4)                # buscador de documentos internos (sin modelo)
-almansa.mostrar_traza(respuesta)         # qué herramientas ha llamado el agente y con qué argumentos
+df = mucdia.consultar("SELECT * FROM tiendas")            # SQL → DataFrame de pandas
+print(mucdia.esquema())                 # tablas, columnas y notas del diccionario de datos
+mucdia.buscar_documentos("devolución", k=4)                # buscador de documentos internos (sin modelo)
+mucdia.mostrar_traza(respuesta)         # qué herramientas ha llamado el agente y con qué argumentos
 ```
 
 **Herramientas de negocio ya hechas** (`negocio.HERRAMIENTAS_ANALISIS` las agrupa):
@@ -32,9 +32,9 @@ almansa.mostrar_traza(respuesta)         # qué herramientas ha llamado el agent
 from agent_framework import Agent
 
 agente = Agent(
-    client=almansa.cliente(),
+    client=mucdia.cliente(),
     name="analista",
-    instructions="Eres el analista de Almansa. Usa las herramientas y no inventes datos. Responde en español.",
+    instructions="Eres el analista de MUCDIA. Usa las herramientas y no inventes datos. Responde en español.",
     tools=[negocio.ventas_por_tienda, negocio.top_productos],
 )
 respuesta = await agente.run("¿Qué tienda vendió más en el tercer trimestre de 2026?")
@@ -50,7 +50,7 @@ from agent_framework import tool
 @tool
 def margen_producto(producto: Annotated[str, "Nombre o parte del nombre del producto"]) -> str:
     """Devuelve el precio, el coste y el margen unitario de un producto."""
-    df = almansa.consultar(
+    df = mucdia.consultar(
         "SELECT nombre, precio_lista, coste_unitario FROM productos WHERE nombre LIKE ?", (f"%{producto}%",))
     return df.to_csv(index=False)
 ```
@@ -95,8 +95,8 @@ for peticion in r.user_input_requests:                  # el agente se para y pi
 **Herramientas por MCP** (sesión 2)
 
 ```python
-servidor = almansa.servidor_mcp()                         # lanza sesion2/servidor_mcp_almansa.py por stdio
-analista_sql = Agent(client=almansa.cliente(), name="analista_sql",
+servidor = mucdia.servidor_mcp()                         # lanza sesion2/servidor_mcp_mucdia.py por stdio
+analista_sql = Agent(client=mucdia.cliente(), name="analista_sql",
                      instructions="Explora el esquema antes de escribir SQL.", tools=[servidor])
 ```
 
@@ -123,7 +123,7 @@ python sesion1/app_devui.py        # después: pestaña PUERTOS → 8080 → �
   `v_ventas_mensuales` (ventas completadas agregadas por mes, tienda, canal y categoría).
 - **Ventas reales:** filtra `estado = 'completada'`.
 - **Trimestres:** `trimestre` tiene el formato `'2026-T3'`.
-- Más detalle en [data/README.md](../data/README.md) o con `print(almansa.esquema())`.
+- Más detalle en [data/README.md](../data/README.md) o con `print(mucdia.esquema())`.
 
 ## Gemini: plan gratuito
 

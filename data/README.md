@@ -1,6 +1,6 @@
-# Datos de Almansa Market S.A.
+# Datos de MUCDIA S.A.
 
-**Almansa Market S.A. es una empresa inventada y todos sus datos son sintéticos.** Los genera
+**MUCDIA S.A. es una empresa inventada y todos sus datos son sintéticos.** Los genera
 [`generar_datos.py`](generar_datos.py) con una semilla fija, así que todo el mundo tiene exactamente los mismos
 datos. Los nombres y los emails (dominios `example.*`) son ficticios.
 
@@ -14,7 +14,7 @@ datos. Los nombres y los emails (dominios `example.*`) son ficticios.
 
 | Fichero | Contenido |
 |---|---|
-| `almansa.db` | Base de datos SQLite con todas las tablas, las vistas, el diccionario y el buscador de documentos |
+| `mucdia.db` | Base de datos SQLite con todas las tablas, las vistas, el diccionario y el buscador de documentos |
 | `csv/` | Copias en CSV de las tablas (salvo `ventas` y `lineas_venta`, que están agregadas en `ventas_mensuales.csv`) |
 | `docs/` | 13 documentos internos en Markdown (políticas, actas, contratos, informes, FAQ) |
 | `generar_datos.py` y `generador/` | El generador. Para regenerar todo: `python data/generar_datos.py` |
@@ -25,7 +25,7 @@ datos. Los nombres y los emails (dominios `example.*`) son ficticios.
 |---|---:|---|
 | `tiendas` | 9 | Tiendas físicas `T01`-`T08` y el canal online `WEB` |
 | `productos` | 108 | Catálogo con precio de venta, coste, proveedor y fechas de alta y baja |
-| `clientes` | 4.200 | Clientes identificados (tarjeta Almansa+ o compra online), segmento y consentimiento de marketing |
+| `clientes` | 4.200 | Clientes identificados (tarjeta MUCDIA+ o compra online), segmento y consentimiento de marketing |
 | `campanias` | 26 | Campañas de marketing con presupuesto, impresiones, clics, conversiones e ingresos atribuidos |
 | `ventas` | 147.115 | Cabecera de cada pedido: fecha, tienda, canal, cliente, campaña, importes y estado |
 | `lineas_venta` | 234.533 | Productos de cada pedido: unidades, precio, descuento e importe |
@@ -34,7 +34,7 @@ datos. Los nombres y los emails (dominios `example.*`) son ficticios.
 | `resenas` | 5.432 | Reseñas de clientes en la web (de 1 a 5 estrellas) |
 | `finanzas_mensuales` | 22 | Cuenta de resultados mensual simplificada (ingresos, costes, EBITDA) |
 | `objetivos_2026` | 36 | Objetivo de ventas por tienda y trimestre de 2026 |
-| `diccionario` | — | Descripción de tablas y columnas (lo que ves con `almansa.esquema()`) |
+| `diccionario` | — | Descripción de tablas y columnas (lo que ves con `mucdia.esquema()`) |
 | `documentos` | — | Buscador de texto completo (SQLite FTS5) sobre `docs/` |
 | `documentos_meta` | 13 | Título, fecha, versión y estado (vigente u obsoleto) de cada documento |
 
@@ -48,7 +48,7 @@ datos. Los nombres y los emails (dominios `example.*`) son ficticios.
 ## Antes de sacar conclusiones
 
 Como en cualquier empresa real, los datos tienen sus particularidades. Todas están en el diccionario
-(`print(almansa.esquema())`); un buen agente (y un buen analista) las lee antes de calcular:
+(`print(mucdia.esquema())`); un buen agente (y un buen analista) las lee antes de calcular:
 
 - **Ventas reales:** la tabla `ventas` incluye pedidos devueltos y cancelados. Filtra `estado = 'completada'`.
 - **Importes:** en euros, con IVA incluido. `descuento_pct` está en tanto por uno (0,25 = 25 %).
@@ -62,13 +62,13 @@ Como en cualquier empresa real, los datos tienen sus particularidades. Todas est
 ## Ejemplos
 
 ```python
-import almansa
+import mucdia
 
-almansa.consultar("""
+mucdia.consultar("""
     SELECT trimestre, ROUND(SUM(ingresos_netos)) AS ventas_eur
     FROM v_ventas_mensuales
     GROUP BY trimestre ORDER BY trimestre
 """)
 
-almansa.buscar_documentos("plazo de devolución")
+mucdia.buscar_documentos("plazo de devolución")
 ```

@@ -15,7 +15,7 @@ equipo o al profesor: lo importante es entender el bucle, no escribir cada líne
 
 ## Lab 1a · Un agente desde cero
 
-Sin frameworks: el modelo, tres herramientas en Python sobre las ventas de Almansa y un bucle de unas 20 líneas.
+Sin frameworks: el modelo, tres herramientas en Python sobre las ventas de MUCDIA y un bucle de unas 20 líneas.
 
 1. Un modelo sin herramientas (¿se inventa la cifra?).
 2. Las herramientas son funciones normales.

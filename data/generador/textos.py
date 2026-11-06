@@ -63,7 +63,7 @@ DETALLE_DEFECTUOSO = [
 CIERRE = {
     "pos": ["Lo recomiendo.", "Buena relación calidad-precio.", "El envío llegó antes de lo previsto.", "", ""],
     "neu": ["", "Para salir del paso está bien.", "Quizá pruebe otra marca la próxima vez."],
-    "neg": ["", "Atención al cliente tardó días en responder.", "Esperaba más de Almansa."],
+    "neg": ["", "Atención al cliente tardó días en responder.", "Esperaba más de MUCDIA."],
 }
 
 TICKETS = {
@@ -96,7 +96,7 @@ TICKETS = {
     ],
     "Otro": [
         "Consulta sobre el horario de la tienda de {c}.",
-        "Pregunta por las ventajas de la tarjeta Almansa+.",
+        "Pregunta por las ventajas de la tarjeta MUCDIA+.",
         "Sugiere ampliar el catálogo de productos gourmet.",
         "Pide darse de baja de las comunicaciones comerciales y saber qué datos personales se guardan.",
     ],

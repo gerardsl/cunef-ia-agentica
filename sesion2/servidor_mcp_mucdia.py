@@ -1,23 +1,23 @@
-"""Servidor MCP de Almansa Market: da acceso de SOLO LECTURA a la base de datos y a los documentos internos.
+"""Servidor MCP de MUCDIA: da acceso de SOLO LECTURA a la base de datos y a los documentos internos.
 
 Cualquier cliente MCP puede usarlo: un agente de Microsoft Agent Framework, GitHub Copilot en VS Code,
 Claude Desktop, etc. Se comunica por stdio (entrada/salida estándar), así que no hace falta abrir puertos.
 
-Probarlo con el inspector oficial:   mcp dev sesion2/servidor_mcp_almansa.py
-Lanzarlo a mano (se queda esperando): python sesion2/servidor_mcp_almansa.py
+Probarlo con el inspector oficial:   mcp dev sesion2/servidor_mcp_mucdia.py
+Lanzarlo a mano (se queda esperando): python sesion2/servidor_mcp_mucdia.py
 """
 
 from mcp.server import MCPServer
 from mcp.types import ToolAnnotations
 
-from almansa import datos, negocio
+from mucdia import datos, negocio
 
 SOLO_LECTURA = ToolAnnotations(readOnlyHint=True, destructiveHint=False, openWorldHint=False)
 
 mcp = MCPServer(
-    "almansa-datos",
+    "mucdia-datos",
     instructions=(
-        "Datos comerciales de Almansa Market S.A. (empresa ficticia): ventas, productos, clientes, campañas, "
+        "Datos comerciales de MUCDIA S.A. (empresa ficticia): ventas, productos, clientes, campañas, "
         "inventario, tickets de soporte y reseñas, más un buscador de documentos internos. Todo es de solo lectura. "
         "Llama primero a describir_datos para conocer las tablas antes de escribir SQL."
     ),
@@ -45,9 +45,9 @@ def buscar_documentos(consulta: str) -> str:
     return negocio.buscar_en_documentos(consulta)
 
 
-@mcp.resource("almansa://diccionario", name="Diccionario de datos", mime_type="text/plain")
+@mcp.resource("mucdia://diccionario", name="Diccionario de datos", mime_type="text/plain")
 def diccionario() -> str:
-    """Esquema y notas de la base de datos de Almansa."""
+    """Esquema y notas de la base de datos de MUCDIA."""
     return datos.esquema()
 
 
@@ -55,7 +55,7 @@ def diccionario() -> str:
 def informe_de_area(area: str, pregunta: str) -> str:
     """Plantilla para pedir un informe de negocio sobre un área (Finanzas, Marketing, Operaciones...)."""
     return (
-        f"Actúa como analista del área de {area} de Almansa Market. Pregunta: {pregunta}\n"
+        f"Actúa como analista del área de {area} de MUCDIA. Pregunta: {pregunta}\n"
         "1) Explora los datos con describir_datos y consultar_sql. 2) Busca contexto en los documentos internos. "
         "3) Responde con cifras concretas, cita las fuentes (tabla o documento) y termina con una recomendación."
     )

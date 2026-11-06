@@ -1,7 +1,7 @@
-"""Genera el dataset sintético de Almansa Market S.A. (empresa ficticia, datos 100 % sintéticos).
+"""Genera el dataset sintético de MUCDIA S.A. (empresa ficticia, datos 100 % sintéticos).
 
 Uso:   python data/generar_datos.py
-Crea:  data/almansa.db  (SQLite: tablas, vistas, diccionario y buscador de documentos)
+Crea:  data/mucdia.db  (SQLite: tablas, vistas, diccionario y buscador de documentos)
        data/csv/*.csv    (copias en CSV de las tablas principales)
 Es determinista: la misma semilla produce siempre los mismos datos.
 """
@@ -20,7 +20,7 @@ sys.path.insert(0, str(DIR))
 from generador import catalogo as C  # noqa: E402
 from generador.simulacion import Simulador  # noqa: E402
 
-DB = DIR / "almansa.db"
+DB = DIR / "mucdia.db"
 CSV_DIR = DIR / "csv"
 DOCS_DIR = DIR / "docs"
 PRODUCTOS_SIN_COSTE = ("Pañuelo de seda", "Pelota de pilates")
@@ -87,7 +87,7 @@ DICCIONARIO = [
     ("productos", "precio_lista", "Precio de venta al público con IVA, en euros."),
     ("productos", "coste_unitario", "Coste de compra en euros. ATENCIÓN: 2 productos tienen el coste sin informar (NULL)."),
     ("productos", "fecha_baja", "Fecha de descatalogación (NULL si sigue activo)."),
-    ("clientes", "*", "Clientes identificados (tarjeta Almansa+ o compra online). Datos sintéticos: emails en dominios example.*."),
+    ("clientes", "*", "Clientes identificados (tarjeta MUCDIA+ o compra online). Datos sintéticos: emails en dominios example.*."),
     ("clientes", "ciudad", "ATENCIÓN: hay variantes de escritura (mayúsculas, espacios). Normaliza con TRIM/LOWER antes de agrupar."),
     ("clientes", "segmento", "VIP (top 5 % de gasto), Fiel (6+ pedidos), Ocasional (2-5), Nuevo (0-1)."),
     ("clientes", "consentimiento_marketing", "1 si aceptó comunicaciones comerciales (RGPD). Sin consentimiento NO se le puede enviar marketing."),

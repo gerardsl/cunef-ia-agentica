@@ -1,4 +1,4 @@
-"""Sesión 1 · Agente analista de Almansa en DevUI (la interfaz de desarrollo de Microsoft Agent Framework).
+"""Sesión 1 · Agente analista de MUCDIA en DevUI (la interfaz de desarrollo de Microsoft Agent Framework).
 
 Ejecuta desde la raíz del repositorio:
     python sesion1/app_devui.py
@@ -9,10 +9,10 @@ la traza: cada llamada al modelo y a las herramientas.
 from agent_framework import Agent
 from agent_framework.devui import serve
 
-import almansa
-from almansa import negocio
+import mucdia
+from mucdia import negocio
 
-INSTRUCCIONES = """Eres el analista de negocio de Almansa Market S.A., una cadena ficticia de 8 tiendas y venta online.
+INSTRUCCIONES = """Eres el analista de negocio de MUCDIA S.A., una cadena ficticia de 8 tiendas y venta online.
 - Antes de concluir, verifica con datos: compara con el mismo periodo del año anterior y desglosa por tienda o categoría.
 - Si detectas una caída, busca causas operativas (roturas de stock, incidencias de clientes, campañas).
 - Cita siempre cifras concretas (en euros y en %) y di de qué herramienta salen.
@@ -20,9 +20,9 @@ INSTRUCCIONES = """Eres el analista de negocio de Almansa Market S.A., una caden
 - Hay datos desde 2025-01-01 hasta 2026-10-31."""
 
 analista = Agent(
-    client=almansa.cliente(),
-    name="analista_almansa",
-    description="Analista de ventas, stock, campañas y atención al cliente de Almansa Market",
+    client=mucdia.cliente(),
+    name="analista_mucdia",
+    description="Analista de ventas, stock, campañas y atención al cliente de MUCDIA",
     instructions=INSTRUCCIONES,
     tools=negocio.HERRAMIENTAS_ANALISIS,
 )

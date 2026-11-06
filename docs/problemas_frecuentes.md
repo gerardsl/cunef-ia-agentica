@@ -19,14 +19,14 @@ herramientas hace cuatro o cinco llamadas al modelo.
 **`⛔ Has agotado la cuota GRATUITA diaria…`**
 Se reinicia a las 09:00 (hora de Madrid). Mientras tanto:
 - sigue en el portátil de otra persona de tu equipo (con su clave, nunca compartáis claves);
-- cambia de modelo, porque cada uno tiene su propia cuota: `almansa.usar_modelo("gemini-3.1-flash-lite")` y vuelve a
-  crear el cliente (`cliente = almansa.cliente()`);
-- o usa las respuestas grabadas: `almansa.usar_modo("replay")`.
+- cambia de modelo, porque cada uno tiene su propia cuota: `mucdia.usar_modelo("gemini-3.1-flash-lite")` y vuelve a
+  crear el cliente (`cliente = mucdia.cliente()`);
+- o usa las respuestas grabadas: `mucdia.usar_modo("replay")`.
 
 **`⚠️ Sin cuota o sin clave: continúo con respuestas grabadas.`** /
 **`🎞️ Usando respuestas GRABADAS (modo replay)`**
 No es un error: ves lo que obtuvo el profesor al ejecutar ese mismo paso. Para volver al modelo en vivo:
-`almansa.usar_modo("auto")`.
+`mucdia.usar_modo("auto")`.
 
 **`SinGrabacion: No hay respuesta grabada para este paso`**
 Solo hay grabaciones de los pasos guiados tal y como vienen en el notebook. Si has cambiado la pregunta, las
@@ -41,7 +41,7 @@ modelo.
 **El notebook pide un kernel o no ejecuta nada.**
 **Select Kernel** (arriba a la derecha) → **Python Environments** → **Python 3.12** (`/usr/local/bin/python`).
 
-**`ModuleNotFoundError: No module named 'almansa'` (o `agent_framework`).**
+**`ModuleNotFoundError: No module named 'mucdia'` (o `agent_framework`).**
 La instalación inicial no terminó. En un terminal, desde la raíz del repositorio:
 `pip install --user -r requirements.txt && pip install --user -e .` y reinicia el kernel.
 
@@ -63,8 +63,8 @@ Revisa las instrucciones ("usa las herramientas y no inventes datos"), que la he
 *docstring*: el modelo decide qué herramienta usar solo a partir del nombre, la descripción y los parámetros.
 
 **Sesión 2 · el servidor MCP no arranca o se queda colgado.**
-Pruébalo solo: `python sesion2/servidor_mcp_almansa.py` (debe quedarse esperando sin errores; sal con **Ctrl+C**).
-En el notebook, usa siempre `almansa.servidor_mcp()`, que ya trae la configuración correcta.
+Pruébalo solo: `python sesion2/servidor_mcp_mucdia.py` (debe quedarse esperando sin errores; sal con **Ctrl+C**).
+En el notebook, usa siempre `mucdia.servidor_mcp()`, que ya trae la configuración correcta.
 
 ## Git y materiales nuevos
 

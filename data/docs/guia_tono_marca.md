@@ -7,7 +7,7 @@
 
 ## Personalidad de la marca
 
-Almansa es **cercana, clara y honesta**. Hablamos como un buen dependiente de barrio que conoce sus productos: sin exagerar, sin tecnicismos innecesarios y con un toque de humor cuando encaja. Nuestro lema es **"Lo bueno, cerca"**.
+MUCDIA es **cercana, clara y honesta**. Hablamos como un buen dependiente de barrio que conoce sus productos: sin exagerar, sin tecnicismos innecesarios y con un toque de humor cuando encaja. Nuestro lema es **"Lo bueno, cerca"**.
 
 ## Reglas de redacción
 

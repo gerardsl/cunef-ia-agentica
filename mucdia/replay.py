@@ -74,8 +74,8 @@ def clave_openai(kwargs: dict) -> str:
 
 
 def _registrar(clave: str) -> None:
-    """Si ALMANSA_REGISTRO_REPLAY apunta a un fichero, anota la clave usada (para publicar las grabaciones por sesión)."""
-    registro = os.getenv("ALMANSA_REGISTRO_REPLAY")
+    """Si MUCDIA_REGISTRO_REPLAY apunta a un fichero, anota la clave usada (para publicar las grabaciones por sesión)."""
+    registro = os.getenv("MUCDIA_REGISTRO_REPLAY")
     if registro:
         with open(registro, "a", encoding="utf-8") as f:
             f.write(clave + "\n")

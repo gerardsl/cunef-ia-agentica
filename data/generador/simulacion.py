@@ -1,4 +1,4 @@
-"""Simulación determinista de la actividad de Almansa Market S.A. (empresa ficticia)."""
+"""Simulación determinista de la actividad de MUCDIA S.A. (empresa ficticia)."""
 
 import math
 import random

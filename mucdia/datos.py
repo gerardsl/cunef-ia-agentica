@@ -1,4 +1,4 @@
-"""Acceso de solo lectura a la base de datos de Almansa y al buscador de documentos."""
+"""Acceso de solo lectura a la base de datos de MUCDIA y al buscador de documentos."""
 
 import re
 import sqlite3

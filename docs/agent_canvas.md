@@ -10,7 +10,7 @@ rellenadlo en papel.
 |---|---|---|---|
 | 1 | **Problema** | ¿Qué tarea resuelve? ¿Para quién? ¿Con qué frecuencia? ¿Cómo se hace hoy? | |
 | 2 | **Éxito** | ¿Cómo sabréis que funciona? Un KPI medible (tiempo, errores, satisfacción, €). | |
-| 3 | **Herramientas** | ¿Qué datos necesita leer? ¿Qué acciones puede ejecutar? ¿Alguna ya existe en `almansa.negocio`? | |
+| 3 | **Herramientas** | ¿Qué datos necesita leer? ¿Qué acciones puede ejecutar? ¿Alguna ya existe en `mucdia.negocio`? | |
 | 4 | **Autonomía** | ¿Qué hace solo? ¿Qué necesita aprobación humana? ¿Qué no debe hacer nunca? | |
 | 5 | **Riesgos** | ¿Qué puede salir mal (datos erróneos, fuga de información, acciones indebidas)? ¿A quién afecta? | |
 | 6 | **Supervisión** | ¿Quién revisa sus resultados? ¿Cuándo interviene una persona? ¿Qué se registra? | |
@@ -40,7 +40,7 @@ ROI            = (valor mensual − coste total mensual) / coste total mensual
 modelo cuesta unos 0,003 $ por pregunta (≈ 1,2 $ al mes). Lo caro no es el modelo, sino construirlo, supervisarlo
 y equivocarse.
 
-Usad `almansa.uso()` después de probar vuestro agente: os da las llamadas y los tokens reales y lo que costaría en
+Usad `mucdia.uso()` después de probar vuestro agente: os da las llamadas y los tokens reales y lo que costaría en
 el plan de pago.
 
 ## Lista de comprobación antes de "ponerlo en producción" (sesión 3)

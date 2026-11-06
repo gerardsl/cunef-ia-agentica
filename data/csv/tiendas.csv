@@ -1,10 +1,10 @@
 id_tienda,nombre,ciudad,comunidad,tipo,fecha_apertura,superficie_m2,responsable
-T01,Almansa Madrid · Almansa,Madrid,Comunidad de Madrid,fisica,2009-03-14,620,Lucía Ortega
-T02,Almansa Madrid · Salamanca,Madrid,Comunidad de Madrid,fisica,2012-10-05,480,Jorge Requena
-T03,Almansa Barcelona · Gràcia,Barcelona,Cataluña,fisica,2014-04-22,520,Marta Puig
-T04,Almansa Valencia · Ruzafa,Valencia,Comunitat Valenciana,fisica,2016-09-09,450,Andrés Climent
-T05,Almansa Sevilla · Nervión,Sevilla,Andalucía,fisica,2017-05-18,430,Rocío Barrera
-T06,Almansa Málaga · Centro,Málaga,Andalucía,fisica,2019-06-27,400,Pablo Navas
-T07,Almansa Bilbao · Abando,Bilbao,País Vasco,fisica,2020-11-12,380,Itziar Goikoetxea
-T08,Almansa Zaragoza · Delicias,Zaragoza,Aragón,fisica,2022-03-03,350,Sergio Lahoz
-WEB,Almansa Online,Online,Online,online,2015-02-01,,Elena Martos
+T01,MUCDIA Madrid · Chamberí,Madrid,Comunidad de Madrid,fisica,2009-03-14,620,Lucía Ortega
+T02,MUCDIA Madrid · Salamanca,Madrid,Comunidad de Madrid,fisica,2012-10-05,480,Jorge Requena
+T03,MUCDIA Barcelona · Gràcia,Barcelona,Cataluña,fisica,2014-04-22,520,Marta Puig
+T04,MUCDIA Valencia · Ruzafa,Valencia,Comunitat Valenciana,fisica,2016-09-09,450,Andrés Climent
+T05,MUCDIA Sevilla · Nervión,Sevilla,Andalucía,fisica,2017-05-18,430,Rocío Barrera
+T06,MUCDIA Málaga · Centro,Málaga,Andalucía,fisica,2019-06-27,400,Pablo Navas
+T07,MUCDIA Bilbao · Abando,Bilbao,País Vasco,fisica,2020-11-12,380,Itziar Goikoetxea
+T08,MUCDIA Zaragoza · Delicias,Zaragoza,Aragón,fisica,2022-03-03,350,Sergio Lahoz
+WEB,MUCDIA Online,Online,Online,online,2015-02-01,,Elena Martos

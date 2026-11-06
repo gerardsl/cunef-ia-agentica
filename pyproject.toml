@@ -3,10 +3,10 @@ requires = ["setuptools>=69"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "almansa"
+name = "mucdia"
 version = "1.0.0"
 description = "Paquete de apoyo del curso de IA agéntica (CUNEF · MUCDIA 2026-27)"
 requires-python = ">=3.11"
 
 [tool.setuptools]
-packages = ["almansa"]
+packages = ["mucdia"]

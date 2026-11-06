@@ -7,24 +7,24 @@
 
 ## Objetivo
 
-Establecer cómo Almansa diseña, despliega y supervisa sistemas de IA, incluidos los agentes que usan herramientas, de forma segura, transparente y conforme al Reglamento (UE) 2024/1689 de Inteligencia Artificial (AI Act) y al RGPD.
+Establecer cómo MUCDIA diseña, despliega y supervisa sistemas de IA, incluidos los agentes que usan herramientas, de forma segura, transparente y conforme al Reglamento (UE) 2024/1689 de Inteligencia Artificial (AI Act) y al RGPD.
 
 ## Inventario y clasificación de riesgo
 
 Todo sistema de IA debe darse de alta en el inventario del Comité de IA antes de usarse con datos reales. Para cada sistema se documenta: finalidad, proveedor del modelo, datos que trata, herramientas a las que tiene acceso, nivel de autonomía y clasificación de riesgo según el AI Act.
 
-Almansa **no utilizará** sistemas de IA para decisiones de selección de personal ni para evaluar la solvencia de clientes (casos de alto riesgo del Anexo III del AI Act) sin una evaluación específica aprobada por el Comité.
+MUCDIA **no utilizará** sistemas de IA para decisiones de selección de personal ni para evaluar la solvencia de clientes (casos de alto riesgo del Anexo III del AI Act) sin una evaluación específica aprobada por el Comité.
 
 ## Transparencia
 
-Los clientes deben saber siempre que están interactuando con un sistema de IA (artículo 50 del AI Act). El asistente de atención al cliente se presenta como "asistente virtual de Almansa" y ofrece en todo momento la opción de hablar con una persona.
+Los clientes deben saber siempre que están interactuando con un sistema de IA (artículo 50 del AI Act). El asistente de atención al cliente se presenta como "asistente virtual de MUCDIA" y ofrece en todo momento la opción de hablar con una persona.
 
 ## Supervisión humana y límites de autonomía
 
 Requieren aprobación humana explícita antes de ejecutarse:
 - descuentos superiores al 10 % o compensaciones superiores a 10 €;
 - reembolsos superiores a 100 €;
-- cualquier envío de información fuera de Almansa;
+- cualquier envío de información fuera de MUCDIA;
 - cambios en datos de clientes.
 
 ## Seguridad

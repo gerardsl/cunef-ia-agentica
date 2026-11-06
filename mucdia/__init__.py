@@ -2,10 +2,10 @@
 
 Uso típico en un notebook:
 
-    import almansa
-    almansa.comprobar()               # entorno, datos y clave
-    cliente = almansa.cliente()       # cliente de chat para Microsoft Agent Framework
-    almansa.uso()                     # llamadas, tokens y coste equivalente
+    import mucdia
+    mucdia.comprobar()               # entorno, datos y clave
+    cliente = mucdia.cliente()       # cliente de chat para Microsoft Agent Framework
+    mucdia.uso()                     # llamadas, tokens y coste equivalente
 """
 
 import os
@@ -30,7 +30,7 @@ def uso() -> None:
 def usar_modelo(modelo: str) -> None:
     """Cambia el modelo para los clientes que crees a partir de ahora (p. ej. 'gemini-3.1-flash-lite')."""
     os.environ["MODELO"] = modelo
-    print(f"Modelo activo: {modelo}. Vuelve a crear el cliente: cliente = almansa.cliente()")
+    print(f"Modelo activo: {modelo}. Vuelve a crear el cliente: cliente = mucdia.cliente()")
 
 
 def usar_modo(modo: str) -> None:
@@ -49,7 +49,7 @@ def comprobar(llamar_al_modelo: bool = True) -> bool:
         n = consultar("SELECT COUNT(*) AS n FROM ventas")["n"][0]
         print(f"✅ Base de datos encontrada ({n:,} pedidos)".replace(",", "."))
     else:
-        print("❌ No encuentro data/almansa.db. Ejecuta: python data/generar_datos.py")
+        print("❌ No encuentro data/mucdia.db. Ejecuta: python data/generar_datos.py")
         ok = False
     if config.clave():
         print(f"✅ Clave configurada para el proveedor '{config.proveedor()}' (modelo {config.modelo()})")

@@ -36,12 +36,12 @@ MENSAJE_CUOTA = (
     "⛔ Has agotado la cuota GRATUITA diaria de Gemini para el modelo {modelo}. "
     "Se reinicia a medianoche (hora del Pacífico), las 09:00 en Madrid.\n"
     "Opciones: 1) sigue en el portátil de otra persona de tu equipo; "
-    "2) cambia de modelo (cada modelo tiene su propia cuota), p. ej. almansa.usar_modelo('gemini-3.1-flash-lite'); "
-    "3) usa respuestas grabadas: almansa.usar_modo('replay')."
+    "2) cambia de modelo (cada modelo tiene su propia cuota), p. ej. mucdia.usar_modelo('gemini-3.1-flash-lite'); "
+    "3) usa respuestas grabadas: mucdia.usar_modo('replay')."
 )
 MENSAJE_CLAVE = (
     "🔑 No hay una clave válida para el modelo. Revisa docs/setup.md: en Codespaces, la clave va en el secret "
-    "GEMINI_API_KEY; en local, en el fichero .env. Mientras tanto puedes usar almansa.usar_modo('replay')."
+    "GEMINI_API_KEY; en local, en el fichero .env. Mientras tanto puedes usar mucdia.usar_modo('replay')."
 )
 
 

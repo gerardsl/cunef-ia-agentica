@@ -1,4 +1,4 @@
-"""Conexión al servidor MCP de Almansa desde Microsoft Agent Framework."""
+"""Conexión al servidor MCP de MUCDIA desde Microsoft Agent Framework."""
 
 import sys
 
@@ -6,7 +6,7 @@ from agent_framework import MCPStdioTool
 
 from . import config
 
-RUTA_SERVIDOR = config.RAIZ / "sesion2" / "servidor_mcp_almansa.py"
+RUTA_SERVIDOR = config.RAIZ / "sesion2" / "servidor_mcp_mucdia.py"
 
 
 class MCPLocal(MCPStdioTool):
@@ -30,10 +30,10 @@ class MCPLocal(MCPStdioTool):
 
 
 def servidor_mcp(herramientas: list[str] | None = None, **kwargs) -> MCPLocal:
-    """Servidor MCP de Almansa (solo lectura), listo para dárselo a un agente como herramienta.
+    """Servidor MCP de MUCDIA (solo lectura), listo para dárselo a un agente como herramienta.
 
-    Equivale a: MCPStdioTool(name="almansa", command="python", args=["sesion2/servidor_mcp_almansa.py"])
+    Equivale a: MCPStdioTool(name="mucdia", command="python", args=["sesion2/servidor_mcp_mucdia.py"])
     herramientas: lista opcional para limitar las herramientas expuestas, p. ej. ["describir_datos", "consultar_sql"].
     """
-    return MCPLocal(name="almansa", command=sys.executable, args=[str(RUTA_SERVIDOR)], load_prompts=False,
+    return MCPLocal(name="mucdia", command=sys.executable, args=[str(RUTA_SERVIDOR)], load_prompts=False,
                     allowed_tools=herramientas, **kwargs)

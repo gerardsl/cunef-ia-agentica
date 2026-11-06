@@ -1,4 +1,4 @@
-"""Catálogo maestro de Almansa Market S.A. (empresa ficticia, datos 100 % sintéticos)."""
+"""Catálogo maestro de MUCDIA S.A. (empresa ficticia, datos 100 % sintéticos)."""
 
 from datetime import date
 
@@ -7,15 +7,15 @@ FIN = date(2026, 10, 31)
 
 # id, nombre, ciudad, comunidad, tipo, apertura, m2, responsable, pedidos_dia_base, alquiler_mes
 TIENDAS = [
-    ("T01", "Almansa Madrid · Almansa", "Madrid", "Comunidad de Madrid", "fisica", "2009-03-14", 620, "Lucía Ortega", 34, 7500),
-    ("T02", "Almansa Madrid · Salamanca", "Madrid", "Comunidad de Madrid", "fisica", "2012-10-05", 480, "Jorge Requena", 26, 6500),
-    ("T03", "Almansa Barcelona · Gràcia", "Barcelona", "Cataluña", "fisica", "2014-04-22", 520, "Marta Puig", 28, 6500),
-    ("T04", "Almansa Valencia · Ruzafa", "Valencia", "Comunitat Valenciana", "fisica", "2016-09-09", 450, "Andrés Climent", 21, 4500),
-    ("T05", "Almansa Sevilla · Nervión", "Sevilla", "Andalucía", "fisica", "2017-05-18", 430, "Rocío Barrera", 21, 4000),
-    ("T06", "Almansa Málaga · Centro", "Málaga", "Andalucía", "fisica", "2019-06-27", 400, "Pablo Navas", 19, 4000),
-    ("T07", "Almansa Bilbao · Abando", "Bilbao", "País Vasco", "fisica", "2020-11-12", 380, "Itziar Goikoetxea", 16, 4500),
-    ("T08", "Almansa Zaragoza · Delicias", "Zaragoza", "Aragón", "fisica", "2022-03-03", 350, "Sergio Lahoz", 13, 3500),
-    ("WEB", "Almansa Online", "Online", "Online", "online", "2015-02-01", None, "Elena Martos", 30, 5000),
+    ("T01", "MUCDIA Madrid · Chamberí", "Madrid", "Comunidad de Madrid", "fisica", "2009-03-14", 620, "Lucía Ortega", 34, 7500),
+    ("T02", "MUCDIA Madrid · Salamanca", "Madrid", "Comunidad de Madrid", "fisica", "2012-10-05", 480, "Jorge Requena", 26, 6500),
+    ("T03", "MUCDIA Barcelona · Gràcia", "Barcelona", "Cataluña", "fisica", "2014-04-22", 520, "Marta Puig", 28, 6500),
+    ("T04", "MUCDIA Valencia · Ruzafa", "Valencia", "Comunitat Valenciana", "fisica", "2016-09-09", 450, "Andrés Climent", 21, 4500),
+    ("T05", "MUCDIA Sevilla · Nervión", "Sevilla", "Andalucía", "fisica", "2017-05-18", 430, "Rocío Barrera", 21, 4000),
+    ("T06", "MUCDIA Málaga · Centro", "Málaga", "Andalucía", "fisica", "2019-06-27", 400, "Pablo Navas", 19, 4000),
+    ("T07", "MUCDIA Bilbao · Abando", "Bilbao", "País Vasco", "fisica", "2020-11-12", 380, "Itziar Goikoetxea", 16, 4500),
+    ("T08", "MUCDIA Zaragoza · Delicias", "Zaragoza", "Aragón", "fisica", "2022-03-03", 350, "Sergio Lahoz", 13, 3500),
+    ("WEB", "MUCDIA Online", "Online", "Online", "online", "2015-02-01", None, "Elena Martos", 30, 5000),
 ]
 
 CATEGORIAS = ["Electrónica", "Hogar", "Deporte", "Moda y complementos", "Belleza y cuidado", "Gourmet"]
@@ -126,7 +126,7 @@ PRODUCTOS = {
         ("Cepillo dental eléctrico", "Electro-belleza", "Aura", "BelleCos Lab", 49.90, 0.7, "2023-01-01", None),
         ("Afeitadora eléctrica", "Electro-belleza", "Aura", "BelleCos Lab", 79.90, 0.5, "2023-01-01", None),
         ("Kit de manicura", "Electro-belleza", "Aura", "BelleCos Lab", 19.90, 0.6, "2023-01-01", None),
-        ("Perfume Agua Almansa 100 ml", "Perfumería", "Almansa Selección", "BelleCos Lab", 39.90, 0.9, "2023-01-01", None),
+        ("Perfume Agua MUCDIA 100 ml", "Perfumería", "MUCDIA Selección", "BelleCos Lab", 39.90, 0.9, "2023-01-01", None),
     ],
     "Gourmet": [
         ("Aceite de oliva virgen extra 1 L", "Despensa", "Oliva Real", "Gourmet del Sur", 12.90, 1.8, "2023-01-01", None),
@@ -136,17 +136,17 @@ PRODUCTOS = {
         ("Conservas de atún en aceite", "Despensa", "Gourmet del Sur", "Gourmet del Sur", 7.90, 1.1, "2023-01-01", None),
         ("Miel de romero", "Despensa", "Gourmet del Sur", "Gourmet del Sur", 8.90, 0.8, "2023-01-01", None),
         ("Mermelada de naranja amarga", "Despensa", "Gourmet del Sur", "Gourmet del Sur", 5.90, 0.6, "2023-01-01", None),
-        ("Café en grano 1 kg", "Café y té", "Almansa Selección", "Gourmet del Sur", 19.90, 1.3, "2023-01-01", None),
-        ("Café molido 250 g", "Café y té", "Almansa Selección", "Gourmet del Sur", 6.90, 1.6, "2023-01-01", None),
-        ("Té verde matcha", "Café y té", "Almansa Selección", "Gourmet del Sur", 18.90, 0.6, "2026-02-01", None),
-        ("Chocolate negro 85 %", "Dulces", "Almansa Selección", "Gourmet del Sur", 3.90, 1.5, "2023-01-01", None),
-        ("Galletas artesanas", "Dulces", "Almansa Selección", "Gourmet del Sur", 4.90, 1.1, "2023-01-01", None),
-        ("Turrón artesano", "Dulces", "Almansa Selección", "Gourmet del Sur", 9.90, 0.2, "2023-01-01", None),
-        ("Frutos secos premium", "Dulces", "Almansa Selección", "Gourmet del Sur", 9.90, 0.9, "2023-01-01", None),
+        ("Café en grano 1 kg", "Café y té", "MUCDIA Selección", "Gourmet del Sur", 19.90, 1.3, "2023-01-01", None),
+        ("Café molido 250 g", "Café y té", "MUCDIA Selección", "Gourmet del Sur", 6.90, 1.6, "2023-01-01", None),
+        ("Té verde matcha", "Café y té", "MUCDIA Selección", "Gourmet del Sur", 18.90, 0.6, "2026-02-01", None),
+        ("Chocolate negro 85 %", "Dulces", "MUCDIA Selección", "Gourmet del Sur", 3.90, 1.5, "2023-01-01", None),
+        ("Galletas artesanas", "Dulces", "MUCDIA Selección", "Gourmet del Sur", 4.90, 1.1, "2023-01-01", None),
+        ("Turrón artesano", "Dulces", "MUCDIA Selección", "Gourmet del Sur", 9.90, 0.2, "2023-01-01", None),
+        ("Frutos secos premium", "Dulces", "MUCDIA Selección", "Gourmet del Sur", 9.90, 0.9, "2023-01-01", None),
         ("Jamón ibérico loncheado 100 g", "Charcutería y quesos", "Gourmet del Sur", "Gourmet del Sur", 14.90, 1.0, "2023-01-01", None),
         ("Queso manchego curado", "Charcutería y quesos", "Gourmet del Sur", "Gourmet del Sur", 16.90, 0.8, "2023-01-01", None),
         ("Vino tinto crianza", "Bodega", "Gourmet del Sur", "Gourmet del Sur", 12.90, 0.9, "2023-01-01", None),
-        ("Pack regalo gourmet", "Regalo", "Almansa Selección", "Gourmet del Sur", 49.90, 0.2, "2023-01-01", None),
+        ("Pack regalo gourmet", "Regalo", "MUCDIA Selección", "Gourmet del Sur", 49.90, 0.2, "2023-01-01", None),
     ],
 }
 
@@ -192,10 +192,10 @@ CAMPANIAS = [
     ("CMP05", "Primavera en casa 2025", "Influencers", "Hogar", "2025-04-01", "2025-04-30", 12000, 1.45, 0.10, None),
     ("CMP06", "Día de la Madre 2025", "Email", "Belleza y cuidado", "2025-04-21", "2025-05-04", 3000, 1.35, 0.10, None),
     ("CMP07", "Operación verano 2025", "Buscadores", "Deporte", "2025-05-15", "2025-06-30", 8000, 1.30, 0.0, None),
-    ("CMP08", "Almansa Days 2025", "Redes sociales", "Electrónica", "2025-07-08", "2025-07-11", 10000, 2.20, 0.15, None),
+    ("CMP08", "MUCDIA Days 2025", "Redes sociales", "Electrónica", "2025-07-08", "2025-07-11", 10000, 2.20, 0.15, None),
     ("CMP09", "Rebajas de verano 2025", "Email", "Moda y complementos", "2025-07-01", "2025-08-31", 4000, 1.15, 0.0, None),
     ("CMP10", "Vuelta al cole 2025", "Buscadores", "Electrónica", "2025-08-25", "2025-09-21", 9000, 1.35, 0.05, None),
-    ("CMP11", "Lanzamiento app Almansa", "Influencers", "Todas", "2025-09-15", "2025-10-15", 15000, 1.10, 0.0, None),
+    ("CMP11", "Lanzamiento app MUCDIA", "Influencers", "Todas", "2025-09-15", "2025-10-15", 15000, 1.10, 0.0, None),
     ("CMP12", "Otoño gourmet 2025", "Email", "Gourmet", "2025-10-01", "2025-10-31", 2000, 1.30, 0.05, None),
     ("CMP13", "Black Friday 2025", "Redes sociales", "Electrónica", "2025-11-21", "2025-12-01", 20000, 2.00, 0.25, None),
     ("CMP14", "Navidad 2025 (campaña de marca)", "Exterior", "Gourmet", "2025-12-01", "2025-12-24", 25000, 1.10, 0.0, None),
@@ -208,7 +208,7 @@ CAMPANIAS = [
     ("CMP21", "Día de la Madre 2026", "Email", "Belleza y cuidado", "2026-04-20", "2026-05-03", 3200, 1.35, 0.10, None),
     ("CMP22", "Operación verano 2026", "Buscadores", "Deporte", "2026-05-15", "2026-06-30", 8500, 1.30, 0.0, None),
     ("CMP23", "Influencers Hogar verano 2026", "Influencers", "Hogar", "2026-07-01", "2026-08-15", 45000, 1.12, 0.15, None),
-    ("CMP24", "Almansa Days 2026", "Redes sociales", "Electrónica", "2026-07-07", "2026-07-10", 11000, 2.20, 0.15, None),
+    ("CMP24", "MUCDIA Days 2026", "Redes sociales", "Electrónica", "2026-07-07", "2026-07-10", 11000, 2.20, 0.15, None),
     ("CMP25", "Vuelta al cole 2026", "Buscadores", "Electrónica", "2026-08-24", "2026-09-20", 9500, 1.35, 0.05, None),
     ("CMP26", "Otoño gourmet 2026", "Email", "Gourmet", "2026-10-01", "2026-10-31", 2200, 1.30, 0.05, None),
 ]

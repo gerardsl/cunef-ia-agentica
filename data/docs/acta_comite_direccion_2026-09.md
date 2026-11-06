@@ -41,11 +41,11 @@ Desde junio, la tasa de devolución de los Auriculares Voltix Pro X ha pasado de
 
 La tienda de Valencia reabrió el 16 de marzo. En el segundo trimestre vendió un **23 % más** que en el mismo periodo de 2025, y en el tercero supera su objetivo.
 
-## 6. Piloto de IA: asistente "Almansa Soporte"
+## 6. Piloto de IA: asistente "MUCDIA Soporte"
 
 Se aprueba el piloto de un agente de IA para atención al cliente, con estas condiciones:
 - Debe identificarse siempre como asistente virtual (artículo 50 del AI Act).
-- Solo tendrá acceso de lectura a pedidos, productos y reseñas. Los descuentos superiores al 10 % y cualquier envío de información fuera de Almansa requerirán aprobación humana.
+- Solo tendrá acceso de lectura a pedidos, productos y reseñas. Los descuentos superiores al 10 % y cualquier envío de información fuera de MUCDIA requerirán aprobación humana.
 - Superará un ejercicio de red teaming antes del lanzamiento, previsto para el primer trimestre de 2027.
 - Se aprueba la nueva *Política de uso responsable de la IA* (versión 1.0).
 

@@ -68,7 +68,7 @@ python -m venv .venv
 pip install -r requirements.txt
 pip install -e .
 cp .env.example .env        # Windows: copy .env.example .env   → y pega tu clave en .env
-python -c "import almansa; almansa.comprobar()"
+python -c "import mucdia; mucdia.comprobar()"
 ```
 
 En VS Code, elige el intérprete `.venv` como kernel de los notebooks. En Windows con procesador ARM, si algún paquete
@@ -76,12 +76,12 @@ no se instala, usa un Python 3.12 de 64 bits x64.
 
 ## ¿Y si no puedo tener clave?
 
-Puedes seguir todas las sesiones con las respuestas grabadas (`almansa.usar_modo("replay")`) y trabajando con tu
+Puedes seguir todas las sesiones con las respuestas grabadas (`mucdia.usar_modo("replay")`) y trabajando con tu
 equipo en el portátil de otra persona. Cada uno usa su propia clave: **nunca compartáis claves**.
 
 ## Otros proveedores (opcional)
 
-El paquete `almansa` funciona con cualquier servicio compatible con la API de OpenAI (Azure OpenAI, OpenAI, Ollama,
+El paquete `mucdia` funciona con cualquier servicio compatible con la API de OpenAI (Azure OpenAI, OpenAI, Ollama,
 LM Studio…). En `.env`:
 
 ```

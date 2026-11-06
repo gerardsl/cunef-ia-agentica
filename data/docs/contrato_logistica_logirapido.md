@@ -7,7 +7,7 @@
 
 ## Objeto
 
-LogiRápido S.A. presta a Almansa el servicio de transporte y entrega a domicilio de los pedidos online y la recogida de devoluciones.
+LogiRápido S.A. presta a MUCDIA el servicio de transporte y entrega a domicilio de los pedidos online y la recogida de devoluciones.
 
 ## Niveles de servicio (SLA)
 
