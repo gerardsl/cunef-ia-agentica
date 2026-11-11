@@ -62,15 +62,17 @@ class Uso:
         self.espera_s = 0.0
 
     def registrar(self, uso: dict | None, replay: bool = False):
+        """Cuenta una llamada. Las grabadas no gastan cuota, pero sus tokens sí cuentan para el coste equivalente."""
         with self._lock:
             if replay:
                 self.replay += 1
-                return
-            self.llamadas += 1
+            else:
+                self.llamadas += 1
             if uso:
                 self.tokens_entrada += int(uso.get("input_token_count") or uso.get("prompt_tokens") or 0)
                 self.tokens_salida += int(uso.get("output_token_count") or uso.get("completion_tokens") or 0)
-        self._sumar_diario()
+        if not replay:
+            self._sumar_diario()
 
     def _sumar_diario(self):
         try:
@@ -99,8 +101,9 @@ class Uso:
         lineas = [
             f"Modelo: {config.modelo()}  ·  modo: {config.modo()}",
             f"Llamadas al modelo en esta sesión: {self.llamadas}  (respuestas grabadas: {self.replay}, reintentos: {self.reintentos})",
-            f"Tokens: {self.tokens_entrada:,} de entrada · {self.tokens_salida:,} de salida".replace(",", "."),
-            f"Coste si fuera de pago: {self.coste_equivalente_usd():.4f} USD (gratis en el plan gratuito)",
+            f"Tokens: {self.tokens_entrada:,} de entrada · {self.tokens_salida:,} de salida".replace(",", ".")
+            + (" (incluidas las respuestas grabadas)" if self.replay else ""),
+            "Coste si fuera de pago: " + f"{self.coste_equivalente_usd():.4f}".replace(".", ",") + " USD (gratis en el plan gratuito)",
             f"Llamadas hoy en este equipo con este modelo: {hoy} de ~{LIMITE_DIARIO_GRATIS} gratuitas",
         ]
         if self.espera_s:

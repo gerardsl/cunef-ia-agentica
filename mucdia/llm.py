@@ -13,7 +13,7 @@ from types import SimpleNamespace
 
 from agent_framework import ChatContext, ChatMiddleware, ChatResponse
 
-from . import config, replay
+from . import config, replay, telemetria
 from .cuota import LIMITADOR, USO, SinGrabacion, clasificar, error_amigable, segundos_reintento
 
 MAX_INTENTOS = 6
@@ -29,7 +29,7 @@ def _uso_dict(usage) -> dict | None:
 
 
 class MiddlewareCurso(ChatMiddleware):
-    """Se ejecuta en cada llamada al modelo: replay → límite por minuto → reintentos → contador."""
+    """Se ejecuta en cada llamada al modelo: replay → límite por minuto → reintentos → contador y telemetría."""
 
     async def process(self, context: ChatContext, call_next):
         if context.stream:
@@ -39,7 +39,7 @@ class MiddlewareCurso(ChatMiddleware):
             return
 
         clave = replay.clave_maf(context.messages, context.options)
-        if replay.debe_reproducir():
+        if replay.debe_reproducir(clave):
             if self._reproducir(context, clave):
                 return
             raise SinGrabacion("No hay respuesta grabada para este paso. Ejecútalo en vivo (con tu clave) o "
@@ -47,6 +47,7 @@ class MiddlewareCurso(ChatMiddleware):
 
         for intento in range(MAX_INTENTOS):
             await LIMITADOR.esperar_async()
+            t0 = time.perf_counter()
             try:
                 await call_next()
                 break
@@ -72,11 +73,16 @@ class MiddlewareCurso(ChatMiddleware):
                 if amigable is e:
                     raise
                 raise amigable from e
+        ms = (time.perf_counter() - t0) * 1000
 
         if isinstance(context.result, ChatResponse):
-            USO.registrar(_uso_dict(context.result.usage_details))
-            if config.modo() == "record":
-                replay.guardar(clave, "maf", context.result.to_dict())
+            uso = _uso_dict(context.result.usage_details)
+            USO.registrar(uso)
+            telemetria.registrar(cliente="maf", modelo=config.modelo(), grabada=False, uso=uso, ms=ms,
+                                 herramientas=telemetria.herramientas_maf(context.result),
+                                 mensajes=len(context.messages or []))
+            if config.graba():
+                replay.guardar(clave, "maf", context.result.to_dict(), ms=ms)
 
     @staticmethod
     def _contar(respuesta):
@@ -85,11 +91,16 @@ class MiddlewareCurso(ChatMiddleware):
 
     @staticmethod
     def _reproducir(context: ChatContext, clave: str) -> bool:
-        datos = replay.cargar(clave)
-        if datos is None:
+        grabacion = replay.cargar(clave)
+        if grabacion is None:
             return False
+        datos, ms = grabacion
         context.result = ChatResponse.from_dict(datos)
-        USO.registrar(None, replay=True)
+        uso = _uso_dict(context.result.usage_details)
+        USO.registrar(uso, replay=True)
+        telemetria.registrar(cliente="maf", modelo=config.modelo(), grabada=True, uso=uso, ms=ms,
+                             herramientas=telemetria.herramientas_maf(context.result),
+                             mensajes=len(context.messages or []))
         return True
 
 
@@ -115,19 +126,30 @@ class _Completions:
     def __init__(self, real):
         self._real = real
 
-    def create(self, **kwargs):
+    @staticmethod
+    def _desde_grabacion(grabacion, kwargs):
         from openai.types.chat import ChatCompletion
 
+        datos, ms = grabacion
+        respuesta = ChatCompletion.model_validate(datos)
+        uso = _uso_dict(respuesta.usage)
+        USO.registrar(uso, replay=True)
+        telemetria.registrar(cliente="openai", modelo=kwargs.get("model") or config.modelo(), grabada=True, uso=uso,
+                             ms=ms, herramientas=telemetria.herramientas_openai(respuesta),
+                             mensajes=len(kwargs.get("messages") or []))
+        return respuesta
+
+    def create(self, **kwargs):
         clave = replay.clave_openai(kwargs)
-        if replay.debe_reproducir():
-            datos = replay.cargar(clave)
-            if datos is not None:
-                USO.registrar(None, replay=True)
-                return ChatCompletion.model_validate(datos)
+        if replay.debe_reproducir(clave):
+            grabacion = replay.cargar(clave)
+            if grabacion is not None:
+                return self._desde_grabacion(grabacion, kwargs)
             raise SinGrabacion("No hay respuesta grabada para este paso. Ejecútalo en vivo (con tu clave).")
 
         for intento in range(MAX_INTENTOS):
             LIMITADOR.esperar()
+            t0 = time.perf_counter()
             try:
                 respuesta = self._real.chat.completions.create(**kwargs)
                 break
@@ -146,19 +168,23 @@ class _Completions:
                     continue
                 if tipo in ("diaria", "clave") and config.modo() == "auto":
                     replay.ESTADO.solo_replay = True
-                    datos = replay.cargar(clave)
-                    if datos is not None:
+                    grabacion = replay.cargar(clave)
+                    if grabacion is not None:
                         print("⚠️  Sin cuota o sin clave: continúo con respuestas grabadas.", flush=True)
-                        USO.registrar(None, replay=True)
-                        return ChatCompletion.model_validate(datos)
+                        return self._desde_grabacion(grabacion, kwargs)
                 amigable = error_amigable(e, tipo)
                 if amigable is e:
                     raise
                 raise amigable from e
+        ms = (time.perf_counter() - t0) * 1000
 
-        USO.registrar(_uso_dict(respuesta.usage))
-        if config.modo() == "record":
-            replay.guardar(clave, "openai", respuesta.model_dump(mode="json"))
+        uso = _uso_dict(respuesta.usage)
+        USO.registrar(uso)
+        telemetria.registrar(cliente="openai", modelo=kwargs.get("model") or config.modelo(), grabada=False, uso=uso,
+                             ms=ms, herramientas=telemetria.herramientas_openai(respuesta),
+                             mensajes=len(kwargs.get("messages") or []))
+        if config.graba():
+            replay.guardar(clave, "openai", respuesta.model_dump(mode="json"), ms=ms)
         return respuesta
 
 

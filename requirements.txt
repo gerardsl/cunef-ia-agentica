@@ -8,6 +8,8 @@ google-genai==2.34.0
 openai==3.42.1
 pandas==3.1.0
 matplotlib==3.11.2
+scikit-learn==1.9.1
+fastembed==0.9.1
 python-dotenv==1.2.4
 ipykernel==7.4.0
 httpx

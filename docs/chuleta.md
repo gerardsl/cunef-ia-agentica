@@ -18,6 +18,14 @@ df = mucdia.consultar("SELECT * FROM tiendas")            # SQL → DataFrame de
 print(mucdia.esquema())                 # tablas, columnas y notas del diccionario de datos
 mucdia.buscar_documentos("devolución", k=4)                # buscador de documentos internos (sin modelo)
 mucdia.mostrar_traza(respuesta)         # qué herramientas ha llamado el agente y con qué argumentos
+
+mucdia.traza_df()                       # una fila por llamada al modelo: tokens, milisegundos y herramientas pedidas
+mucdia.reiniciar_traza()                # empieza a medir desde cero
+mucdia.ejecutar_codigo("print(1 + 1)")  # Python en un proceso aparte: límite de tiempo, sin claves, BBDD de solo lectura
+falso = mucdia.ClienteSimulado(guion)   # modelo simulado con respuestas fijas: prueba un bucle sin gastar cuota
+
+mucdia.lab.pista("bucle")               # pista para un paso ✏️: "esquema", "bucle" o "codigo"
+mucdia.lab.solucion("bucle")            # solución de respaldo, para seguir adelante
 ```
 
 **Herramientas de negocio ya hechas** (`negocio.HERRAMIENTAS_ANALISIS` las agrupa):

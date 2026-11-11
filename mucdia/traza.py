@@ -9,6 +9,18 @@ def _corto(valor, n: int) -> str:
     return texto if len(texto) <= n else texto[: n - 1] + "…"
 
 
+def _codigo(argumentos) -> str | None:
+    """Si la herramienta recibe código (un agente que programa), lo devuelve para mostrarlo con sus saltos de línea."""
+    if isinstance(argumentos, str):
+        try:
+            argumentos = json.loads(argumentos)
+        except json.JSONDecodeError:
+            return None
+    if isinstance(argumentos, dict) and isinstance(argumentos.get("codigo"), str):
+        return argumentos["codigo"]
+    return None
+
+
 def mostrar_traza(respuesta, n: int = 220) -> None:
     """Imprime los pasos de una respuesta de Agent Framework: herramientas llamadas, resultados y texto."""
     paso = 0
@@ -16,7 +28,12 @@ def mostrar_traza(respuesta, n: int = 220) -> None:
         for c in m.contents or []:
             if c.type == "function_call":
                 paso += 1
-                print(f"🔧 Paso {paso} · {m.author_name or 'agente'} llama a {c.name}({_corto(c.arguments, n)})")
+                if (codigo := _codigo(c.arguments)) is not None:
+                    recorte = codigo if len(codigo) <= n else codigo[: n - 1] + "…"
+                    print(f"🔧 Paso {paso} · {m.author_name or 'agente'} ejecuta {c.name}:")
+                    print("\n".join("     │ " + linea for linea in recorte.strip().splitlines()))
+                else:
+                    print(f"🔧 Paso {paso} · {m.author_name or 'agente'} llama a {c.name}({_corto(c.arguments, n)})")
             elif c.type == "function_result":
                 print(f"   ↳ resultado: {_corto(c.result if c.exception is None else c.exception, n)}")
             elif c.type == "function_approval_request":

@@ -7,7 +7,7 @@ Materiales prácticos de las masterclasses de **IA agéntica** del Máster Unive
 
 | Sesión | Fecha | Qué construimos |
 |---|---|---|
-| **1 · Del LLM al agente** | miércoles 18-nov-2026 · 19:30-21:00 | Un bucle agéntico desde cero y tu primer agente con Microsoft Agent Framework |
+| **1 · Del LLM al agente** | miércoles 18-nov-2026 · 19:30-21:00 | Un agente por dentro: el bucle desde cero, medido (tokens, coste, variabilidad), y con Microsoft Agent Framework, incluido un agente que programa |
 | **2 · Agentes conectados** | miércoles 25-nov-2026 · 19:30-21:00 | Un servidor MCP, RAG agéntico sobre documentos internos y un equipo de agentes |
 | **3 · De la demo a producción** | miércoles 2-dic-2026 · 19:30-21:00 | Evaluar, atacar (*red team*), blindar… y analizar el agente con el AI Act |
 
@@ -41,10 +41,10 @@ minutos antes a la primera sesión.
 
 ```
 ├─ 00_comprobacion.ipynb   comprobación del entorno, la clave y la cuota
-├─ sesion1/                bucle agéntico desde cero · primer agente con Microsoft Agent Framework · DevUI
+├─ sesion1/                bucle agéntico desde cero · Microsoft Agent Framework · un agente que programa · DevUI
 ├─ sesion2/                servidor MCP · RAG agéntico · equipo de agentes        (se publica antes de la sesión 2)
 ├─ sesion3/                red team y blindaje · evaluación · observabilidad     (se publica antes de la sesión 3)
-├─ mucdia/                paquete de apoyo: cliente del modelo, cuota, datos y herramientas de negocio
+├─ mucdia/                paquete de apoyo: cliente del modelo, cuota, telemetría, datos, herramientas y pistas
 ├─ data/                   base de datos SQLite, CSV y documentos internos de MUCDIA (sintéticos)
 ├─ docs/                   instalación, problemas frecuentes, chuleta y Agent Canvas
 ├─ reto_opcional/          reto para casa (opcional, no evaluable)

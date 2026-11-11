@@ -6,20 +6,28 @@ Uso típico en un notebook:
     mucdia.comprobar()               # entorno, datos y clave
     cliente = mucdia.cliente()       # cliente de chat para Microsoft Agent Framework
     mucdia.uso()                     # llamadas, tokens y coste equivalente
+    mucdia.traza_df()                # una fila por llamada al modelo: tokens, latencia y herramientas
 """
 
+import importlib.util
 import os
 
-from . import config
+from . import config, lab
+from .codigo import ejecutar_codigo
 from .conectores import servidor_mcp
 from .cuota import USO, ClaveNoValida, CuotaDiariaAgotada, SinGrabacion
 from .datos import buscar_documentos, consultar, esquema, sql_seguro
 from .llm import cliente, cliente_openai
+from .simulado import ClienteSimulado
+from .telemetria import reiniciar_traza, traza_df
 from .traza import mostrar_traza
 
-__all__ = ["config", "cliente", "cliente_openai", "consultar", "sql_seguro", "esquema", "buscar_documentos",
-           "mostrar_traza", "servidor_mcp", "uso", "usar_modelo", "usar_modo", "comprobar", "CuotaDiariaAgotada",
-           "ClaveNoValida", "SinGrabacion"]
+__all__ = ["config", "lab", "cliente", "cliente_openai", "ClienteSimulado", "consultar", "sql_seguro", "esquema",
+           "buscar_documentos", "ejecutar_codigo", "mostrar_traza", "traza_df", "reiniciar_traza", "servidor_mcp",
+           "uso", "usar_modelo", "usar_modo", "comprobar", "CuotaDiariaAgotada", "ClaveNoValida", "SinGrabacion"]
+
+# Paquetes que se añadieron al curso después de crear algunos Codespaces (sesiones 2 y 3).
+PAQUETES_EXTRA = {"sklearn": "scikit-learn", "fastembed": "fastembed"}
 
 
 def uso() -> None:
@@ -56,6 +64,9 @@ def comprobar(llamar_al_modelo: bool = True) -> bool:
     else:
         print("⚠️  No hay clave configurada: solo funcionarán las respuestas grabadas (replay). Ver docs/setup.md")
         ok = False
+    if faltan := [pip for modulo, pip in PAQUETES_EXTRA.items() if importlib.util.find_spec(modulo) is None]:
+        print(f"⚠️  Faltan paquetes del curso ({', '.join(faltan)}). En un terminal:\n"
+              "     pip install --user -r requirements.txt")
     if llamar_al_modelo and config.clave():
         try:
             r = cliente_openai().chat.completions.create(

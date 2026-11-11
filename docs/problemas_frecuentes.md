@@ -45,6 +45,11 @@ modelo.
 La instalación inicial no terminó. En un terminal, desde la raíz del repositorio:
 `pip install --user -r requirements.txt && pip install --user -e .` y reinicia el kernel.
 
+**`ModuleNotFoundError: No module named 'sklearn'` (o `fastembed`), o `mucdia.comprobar()` avisa de que faltan
+paquetes.**
+Tu Codespace es anterior a esos paquetes. En un terminal: `git pull` y `pip install --user -r requirements.txt`;
+después, reinicia el kernel.
+
 **`SyntaxError: 'await' outside function` al copiar código a un `.py`.**
 En los notebooks se puede usar `await` directamente; en un script, mete el código en `async def main()` y ejecútalo
 con `asyncio.run(main())`.
@@ -57,6 +62,14 @@ abierta: ciérrala con **Ctrl+C** en su terminal (o `pkill -f devui`).
 **Lab 1a: `400 … thought_signature` o `Function call is missing a thought_signature`.**
 Al guardar el mensaje del modelo en la conversación, añádelo **tal cual** (`mensajes.append(mensaje)`). Si lo
 reconstruyes a mano se pierde la "firma de razonamiento" que Gemini 3 necesita para continuar.
+
+**Lab 1b: `ERROR: el código ha tardado más de 20 s…` en la traza del agente que programa.**
+El código del agente se corta a los 20 segundos; el agente lo ve como un error y suele simplificarlo. Si pasa
+siempre (máquina lenta), sube `segundos=` en `ejecutar_python`.
+
+**Lab 1b: `NameError: name 'df' is not defined` en la traza del agente que programa.**
+No es un fallo tuyo: cada ejecución de `ejecutar_python` es un proceso nuevo y el agente olvida que las variables de
+la anterior ya no existen. ¿Cómo se lo dirías en el *docstring*?
 
 **El agente se inventa cifras o no usa las herramientas.**
 Revisa las instrucciones ("usa las herramientas y no inventes datos"), que la herramienta esté en `tools=[...]` y su
@@ -82,6 +95,9 @@ git pull
 
 **He borrado o roto un notebook.**
 `git checkout -- ruta/del/notebook.ipynb` lo deja como estaba en el repositorio.
+
+**He tocado varios notebooks y `git pull` no me deja actualizar.**
+`git stash` aparta todos tus cambios de una vez (los recuperas con `git stash pop`); después, `git pull`.
 
 ## En tu ordenador (sin Codespaces)
 
