@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tu agente de candidaturas · CUNEF</title>
+<link rel="icon" href="data:,">
+<style>
+  :root {
+    --tinta: #101418; --gris: #5A6470; --azul: #2340FF; --amarillo: #FFC629; --linea: #D3D8DE;
+    --pizarra: #6F8291; --crema: #F4F1EA;
+    --titulo: Georgia, "Times New Roman", serif;
+    --texto: Calibri, "Segoe UI", Carlito, "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #fff; color: var(--tinta); font: 17px/1.5 var(--texto); }
+  main { max-width: 1180px; margin: 0 auto; padding: 40px 40px 24px; }
+  a { color: var(--azul); }
+  .kicker { font: 700 12px/1 var(--texto); letter-spacing: .2em; text-transform: uppercase; color: var(--azul); margin: 0 0 10px; }
+  h1, h2, h3 { font-family: var(--titulo); font-weight: 700; margin: 0; line-height: 1.15; }
+  h1 { font-size: 46px; margin-bottom: 14px; }
+  h2 { font-size: 30px; margin-bottom: 18px; }
+  h3 { font-size: 20px; margin-bottom: 8px; }
+  .marca { background: linear-gradient(to top, var(--amarillo) 46%, transparent 46%); padding: 0 4px; }
+  .entrada { color: var(--tinta); font-size: 20px; max-width: 780px; margin: 0 0 30px; }
+  .gris { color: var(--gris); }
+  .pequeno { font-size: 14px; }
+  .tarjeta { background: #fff; border: 1.5px solid var(--tinta); box-shadow: 6px 6px 0 var(--tinta); padding: 22px 24px; margin-bottom: 28px; }
+  .tarjeta.amarilla { background: var(--amarillo); }
+  .rejilla { display: grid; gap: 28px; }
+  .dos { grid-template-columns: 1.15fr .85fr; }
+  .tres { grid-template-columns: repeat(3, 1fr); }
+  @media (max-width: 900px) { .dos, .tres { grid-template-columns: 1fr; } main { padding: 24px 18px; } h1 { font-size: 36px; } }
+  label { display: block; font: 700 12px/1 var(--texto); letter-spacing: .14em; text-transform: uppercase; color: var(--gris); margin: 4px 0 8px; }
+  input[type=url], textarea { width: 100%; font: 17px/1.4 var(--texto); color: var(--tinta); border: 1.5px solid var(--tinta); padding: 12px 14px; background: #fff; outline: none; }
+  input[type=url]:focus, textarea:focus { box-shadow: 0 0 0 3px var(--amarillo); }
+  textarea { min-height: 170px; resize: vertical; }
+  .boton { display: inline-block; font: 700 17px/1 var(--texto); color: var(--tinta); background: var(--amarillo); border: 1.5px solid var(--tinta);
+           box-shadow: 4px 4px 0 var(--tinta); padding: 13px 22px; cursor: pointer; text-decoration: none; transition: transform .08s, box-shadow .08s; }
+  .boton:hover { transform: translate(-1px, -1px); box-shadow: 5px 5px 0 var(--tinta); }
+  .boton:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--tinta); }
+  .boton.blanco { background: #fff; }
+  .boton.mini { font-size: 14px; padding: 8px 12px; box-shadow: 3px 3px 0 var(--tinta); }
+  .boton[disabled] { opacity: .45; cursor: not-allowed; transform: none; }
+  .acciones { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; margin-top: 16px; }
+  details > summary { cursor: pointer; color: var(--azul); font-weight: 700; margin-top: 14px; }
+  .chip { display: inline-block; font: 700 11px/1 var(--texto); letter-spacing: .12em; text-transform: uppercase; border: 1px solid var(--tinta);
+          border-radius: 999px; padding: 6px 10px; margin: 0 6px 6px 0; background: #fff; white-space: nowrap; }
+  .chip.si, .chip.cubierto, .chip.imprescindible, .chip.alta { background: var(--amarillo); }
+  .chip.no, .chip.hueco { background: var(--tinta); color: var(--crema); }
+  .chip.parcial, .chip.deseable, .chip.media, .chip.baja { background: #fff; }
+  .clave { display: inline-block; border: 1px solid var(--linea); padding: 4px 9px; margin: 0 6px 6px 0; font-size: 14px; }
+  .clave.esta { border-color: var(--tinta); background: var(--amarillo); }
+  /* Pasos */
+  .pasos { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 16px; }
+  @media (max-width: 900px) { .pasos { grid-template-columns: 1fr 1fr; } }
+  .paso { border-top: 3px solid var(--linea); padding-top: 10px; }
+  .paso .n { font: 700 30px/1 var(--texto); color: var(--linea); }
+  .paso .t { font-weight: 700; }
+  .paso .e { font-size: 14px; color: var(--gris); }
+  .paso.marcha { border-color: var(--azul); } .paso.marcha .n { color: var(--azul); }
+  .paso.hecho { border-color: var(--tinta); } .paso.hecho .n { color: var(--azul); }
+  .paso.error { border-color: var(--tinta); } .paso.error .n { color: var(--tinta); }
+  .paso.marcha .e::after { content: ""; animation: puntos 1.2s steps(4) infinite; }
+  @keyframes puntos { 0% { content: ""; } 25% { content: "."; } 50% { content: ".."; } 75% { content: "..."; } }
+  .registro { list-style: none; margin: 0; padding: 0; max-height: 230px; overflow: auto; font: 13px/1.5 Consolas, "Cascadia Mono", Menlo, monospace;
+              border-top: 1px solid var(--linea); }
+  .registro li { padding: 5px 0; border-bottom: 1px solid var(--linea); }
+  .registro .agente { color: var(--azul); font-weight: 700; }
+  .registro .mal { color: #B00020; }
+  /* Pestañas */
+  .pestanas { display: flex; flex-wrap: wrap; gap: 26px; border-bottom: 1.5px solid var(--tinta); margin: 10px 0 26px; }
+  .pestana { font: 700 18px/1 var(--titulo); background: none; border: 0; padding: 0 2px 12px; cursor: pointer; color: var(--gris); }
+  .pestana .n { color: var(--azul); font-family: var(--texto); margin-right: 6px; }
+  .pestana.activa { color: var(--tinta); background: linear-gradient(to top, var(--amarillo) 34%, transparent 34%); }
+  .pestana[disabled] { opacity: .35; cursor: default; }
+  .panel { display: none; } .panel.activo { display: block; }
+  .numero { font: 700 54px/1 var(--texto); color: var(--azul); }
+  .numero small { font-size: 22px; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; }
+  th { text-align: left; font: 700 11px/1 var(--texto); letter-spacing: .14em; text-transform: uppercase; color: var(--gris); padding: 8px 8px 8px 0; border-bottom: 1.5px solid var(--tinta); }
+  td { padding: 9px 8px 9px 0; border-bottom: 1px solid var(--linea); vertical-align: top; }
+  .papel { border: 1px solid var(--linea); padding: 26px 30px; background: #fff; font-size: 15px; }
+  .papel h1 { font-size: 30px; margin-bottom: 6px; } .papel h2 { font-size: 19px; margin: 18px 0 6px; border-bottom: 1px solid var(--linea); padding-bottom: 4px; }
+  .papel ul { padding-left: 20px; margin: 6px 0; } .papel blockquote { margin: 8px 0; padding-left: 12px; border-left: 3px solid var(--amarillo); color: var(--gris); }
+  ol.lista { padding: 0; margin: 0; list-style: none; counter-reset: n; }
+  ol.lista > li { counter-increment: n; position: relative; padding: 0 0 16px 46px; }
+  ol.lista > li::before { content: counter(n); position: absolute; left: 0; top: -4px; font: 700 28px/1 var(--texto); color: var(--azul); }
+  .cita { font: 400 24px/1.45 var(--titulo); position: relative; padding-left: 64px; margin: 6px 0 10px; }
+  .cita::before { content: "\201C"; position: absolute; left: 0; top: -14px; font: 700 84px/1 var(--titulo); color: var(--azul); }
+  .cita p { margin: 0 0 10px; }
+  .semana .n { font: 700 13px/1 var(--texto); letter-spacing: .16em; text-transform: uppercase; color: var(--azul); }
+  .aviso { border-left: 4px solid var(--azul); padding: 4px 0 4px 14px; margin: 12px 0; }
+  .alerta { background: var(--amarillo); border: 1.5px solid var(--tinta); box-shadow: 6px 6px 0 var(--tinta); padding: 16px 20px; margin: 0 0 30px; }
+  .alerta code { background: #fff; padding: 1px 6px; }
+  #estado-cv { margin: 10px 0 0; }
+  #estado-cv.mal { color: #B00020; }
+  .oculto { display: none !important; }
+  footer { max-width: 1180px; margin: 0 auto; padding: 8px 40px 40px; display: flex; justify-content: space-between; font-size: 13px; color: var(--gris); }
+  footer b { color: var(--tinta); letter-spacing: .2em; }
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">CUNEF · IA agéntica · Sesión 2</p>
+  <h1>Tu agente de <span class="marca">candidaturas</span></h1>
+  <p class="entrada">Pega el enlace de la oferta que me mandaste. El agente la lee, adapta tu CV por MCP sin inventar nada,
+    investiga la empresa y te prepara un plan de cuatro semanas y tu pitch.</p>
+  <div id="sin-servidor" class="alerta oculto" role="alert"></div>
+
+  <div class="rejilla dos">
+    <section class="tarjeta">
+      <p class="kicker">La oferta</p>
+      <label for="url">Enlace de la oferta</label>
+      <input id="url" type="url" placeholder="https://…" autocomplete="off">
+      <details id="pegar">
+        <summary>¿La web no deja leerla (LinkedIn, InfoJobs…)? Pega aquí su texto</summary>
+        <textarea id="texto" placeholder="Copia de la oferta: puesto, empresa, funciones y requisitos"></textarea>
+      </details>
+      <div class="acciones">
+        <button id="preparar" class="boton">Preparar candidatura</button>
+        <button id="ejemplo" class="boton blanco mini">Usar la oferta de ejemplo</button>
+      </div>
+      <div id="necesito" class="aviso oculto"></div>
+    </section>
+
+    <section class="tarjeta">
+      <p class="kicker">Tu perfil</p>
+      <h3 id="perfil-titulo">…</h3>
+      <p id="perfil-texto" class="gris pequeno"></p>
+      <div id="piezas"></div>
+      <div class="acciones">
+        <button id="subir" class="boton blanco mini">Subir mi CV (PDF, Word o Markdown)</button>
+        <button id="volver" class="boton blanco mini oculto">Volver al ejemplo</button>
+        <input id="fichero" type="file" accept=".pdf,.docx,.md,.markdown,.txt" class="oculto">
+      </div>
+      <p id="estado-cv" class="pequeno oculto" role="status"></p>
+      <details><summary>Ver el CV que usará el agente</summary><div id="cv-actual" class="papel" style="margin-top:12px"></div></details>
+      <p id="modelo" class="gris pequeno" style="margin-top:14px"></p>
+    </section>
+  </div>
+
+  <section id="progreso" class="tarjeta oculto">
+    <p class="kicker">En directo</p>
+    <div class="pasos">
+      <div class="paso" data-paso="oferta"><div class="n">1</div><div class="t">Leer la oferta</div><div class="e">pendiente</div></div>
+      <div class="paso" data-paso="cv"><div class="n">2</div><div class="t">Adaptar tu CV (MCP)</div><div class="e">pendiente</div></div>
+      <div class="paso" data-paso="empresa"><div class="n">3</div><div class="t">Investigar la empresa</div><div class="e">pendiente</div></div>
+      <div class="paso" data-paso="plan"><div class="n">4</div><div class="t">Plan y pitch</div><div class="e">pendiente</div></div>
+    </div>
+    <ul id="registro" class="registro"></ul>
+  </section>
+
+  <section id="resultados" class="oculto">
+    <nav class="pestanas">
+      <button class="pestana" data-panel="oferta" disabled><span class="n">1</span>La oferta</button>
+      <button class="pestana" data-panel="cv" disabled><span class="n">2</span>Tu CV</button>
+      <button class="pestana" data-panel="empresa" disabled><span class="n">3</span>La empresa</button>
+      <button class="pestana" data-panel="plan" disabled><span class="n">4</span>Plan y pitch</button>
+    </nav>
+    <div id="panel-oferta" class="panel"></div>
+    <div id="panel-cv" class="panel"></div>
+    <div id="panel-empresa" class="panel"></div>
+    <div id="panel-plan" class="panel"></div>
+    <div id="medidas" class="tarjeta amarilla oculto"></div>
+  </section>
+</main>
+<footer><span>Tu agente de candidaturas · Microsoft Agent Framework · MCP · FastAPI</span><span>© Gerard Salvador López &nbsp; <b>CUNEF</b></span></footer>
+
+<script>
+const $ = (s) => document.querySelector(s);
+const ESTADO = { ejemplo: "", corriendo: false };
+const NOMBRES = { leer_cv: "leer tu CV", plan_de_estudios: "plan de estudios", buscar_competencias: "buscar competencias",
+  guardar_cv: "guardar el CV", ficha_empresa: "ficha de la empresa", noticias: "noticias", leer_web: "leer la web" };
+
+function el(tag, atributos = {}, ...hijos) {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(atributos)) {
+    if (k === "class") n.className = v; else if (k === "html") n.innerHTML = v; else n.setAttribute(k, v);
+  }
+  for (const h of hijos.flat()) if (h !== null && h !== undefined && h !== false) n.append(h instanceof Node ? h : document.createTextNode(String(h)));
+  return n;
+}
+const fmt = (x) => Number(x).toLocaleString("es-ES");
+const enlace = (url) => /^https?:\/\//.test(url) ? el("a", { href: url, target: "_blank", rel: "noopener noreferrer" }, url.replace(/^https?:\/\/(www\.)?/, "").slice(0, 70)) : url;
+// replaceChildren convierte null en el texto "null": quitamos los bloques opcionales vacíos
+const rellenar = (selector, ...hijos) => $(selector).replaceChildren(...hijos.flat().filter((h) => h !== null && h !== undefined && h !== false));
+// Una respuesta de error puede no ser JSON (un 500, un servidor que no es el nuestro…)
+async function leerJSON(r) { const t = await r.text(); try { return JSON.parse(t); } catch { return { detail: t.slice(0, 300) || `${r.status} ${r.statusText}` }; } }
+
+// Esta página es la cara de sesion2/webapp.py: abierta como fichero (o desde otro servidor) no tiene a quién preguntar.
+function sinServidor(detalle) {
+  ESTADO.sinServidor = true;
+  rellenar("#sin-servidor",
+    el("b", {}, "Esta página necesita su servidor (sesion2/webapp.py): sin él no puede leer ofertas ni subir tu CV."),
+    el("div", {}, "En un terminal, desde la raíz del repositorio y con el entorno del curso, escribe ",
+      el("code", {}, "python sesion2/webapp.py"), " y abre ", el("a", { href: "http://127.0.0.1:8000" }, "http://127.0.0.1:8000"),
+      " (en Codespaces, pestaña PUERTOS → 8000)."),
+    detalle ? el("div", { class: "pequeno" }, detalle) : null);
+  $("#sin-servidor").classList.remove("oculto");
+  $("#sin-servidor").scrollIntoView({ block: "nearest" });
+}
+function avisoCV(texto, error = false) { const p = $("#estado-cv"); p.textContent = texto; p.classList.toggle("mal", error); p.classList.remove("oculto"); }
+
+async function cargarEstado(datos) {
+  let e = datos;
+  if (!e) {
+    if (location.protocol === "file:") { sinServidor(); return; }
+    try {
+      const r = await fetch("/api/estado");
+      if (!r.ok) throw new Error(`/api/estado responde ${r.status}`);
+      e = await r.json();
+    } catch (error) { sinServidor(`(${error.message})`); return; }
+  }
+  ESTADO.sinServidor = false; $("#sin-servidor").classList.add("oculto");
+  ESTADO.ejemplo = e.ejemplo;
+  const tuyo = e.perfil === "tuyo";
+  $("#perfil-titulo").textContent = tuyo ? `Tu CV: ${e.nombre}` : `Ejemplo: ${e.nombre} (ficticia)`;
+  $("#perfil-texto").textContent = tuyo
+    ? `sesion2/mi_perfil/cv.md · grado: ${e.grado ? "sí" : "vacío"} · máster: ${e.master ? "sí" : "vacío"}. El agente solo puede usar lo que conste aquí.`
+    : "Aún no has puesto tu CV: el agente usa el de ejemplo. Súbelo o guárdalo en sesion2/mi_perfil/cv.md.";
+  $("#volver").classList.toggle("oculto", !tuyo);
+  $("#cv-actual").innerHTML = e.cv_html;
+  const piezas = $("#piezas"); piezas.replaceChildren(el("label", {}, "Tus piezas (labs 2a-2c)"));
+  for (const [pieza, mia] of Object.entries(e.piezas)) piezas.append(el("span", { class: "chip " + (mia ? "si" : "") }, (mia ? "✏️ tuya · " : "referencia · ") + pieza));
+  $("#modelo").textContent = `Modelo: ${e.modelo} · modo: ${e.modo}` + (e.clave ? "" : " · ⚠️ sin clave: solo funcionará la oferta de ejemplo, con respuestas grabadas");
+}
+
+function marcarPaso(paso, estado, texto) {
+  const n = document.querySelector(`.paso[data-paso="${paso}"]`); if (!n) return;
+  n.classList.remove("marcha", "hecho", "error"); n.classList.add(estado);
+  n.querySelector(".e").textContent = texto;
+}
+function anotar(...partes) { const li = el("li", {}, ...partes); $("#registro").append(li); li.scrollIntoView({ block: "nearest" }); }
+function activar(panel) {
+  document.querySelectorAll(".pestana").forEach((b) => b.classList.toggle("activa", b.dataset.panel === panel));
+  document.querySelectorAll(".panel").forEach((p) => p.classList.toggle("activo", p.id === `panel-${panel}`));
+}
+function habilitar(panel) {
+  const b = document.querySelector(`.pestana[data-panel="${panel}"]`); b.disabled = false;
+  if (!document.querySelector(".pestana.activa")) activar(panel);
+}
+
+function pintarOferta(o, pagina) {
+  rellenar("#panel-oferta",
+    el("p", { class: "kicker" }, `${o.empresa} · ${o.nivel} · ${o.modalidad}`),
+    el("h2", {}, o.puesto),
+    el("p", { class: "entrada" }, o.resumen),
+    el("div", { class: "rejilla dos" },
+      el("div", {}, el("table", {}, el("thead", {}, el("tr", {}, el("th", {}, "Requisito"), el("th", {}, "Tipo"))),
+        el("tbody", {}, o.requisitos.map((r) => el("tr", {}, el("td", {}, r.texto, el("div", { class: "gris pequeno" }, r.categoria)),
+          el("td", {}, el("span", { class: "chip " + r.tipo }, r.tipo))))))),
+      el("div", {},
+        el("label", {}, "Palabras clave (lo que busca un ATS)"), el("div", {}, o.palabras_clave.map((k) => el("span", { class: "clave" }, k))),
+        el("label", { style: "margin-top:18px" }, "Tareas"), el("ul", {}, o.tareas.map((t) => el("li", {}, t))),
+        el("p", { class: "gris pequeno" }, `Ubicación: ${o.ubicacion} · Salario: ${o.salario}`),
+        pagina ? el("p", { class: "gris pequeno" }, `Leída de: ${pagina.fuente} · robots.txt: ${pagina.robots}`) : null)));
+  habilitar("oferta");
+}
+
+function pintarCV(c) {
+  const antes = c.cobertura_antes.porcentaje, despues = c.cobertura_despues.porcentaje;
+  const presentes = new Set(c.cobertura_despues.presentes);
+  rellenar("#panel-cv", el("div", { class: "rejilla dos" },
+    el("div", {}, el("div", { class: "papel", html: c.html }),
+      el("div", { class: "aviso pequeno" }, el("b", {}, "Revísalo tú antes de enviarlo. "),
+        "El guardarraíl comprueba cifras y herramientas, pero no el tono: no ve si convierte 1.200 reseñas en «grandes conjuntos de datos». Un CV con una exageración es tuyo, no del agente."),
+      el("div", { class: "acciones" },
+        el("a", { class: "boton mini", href: `/descargas/${c.word}` }, "Descargar Word"),
+        el("a", { class: "boton blanco mini", href: `/descargas/${c.archivo}` }, "Descargar Markdown"),
+        el("span", { class: "gris pequeno" }, c.archivo))),
+    el("div", {},
+      el("div", { class: "tarjeta" }, el("p", { class: "kicker" }, "Cobertura de palabras clave"),
+        el("div", { class: "numero" }, `${antes} % → ${despues} %`),
+        el("p", { class: "gris pequeno" }, "Antes y después: cuántas palabras clave de la oferta aparecen en tu CV."),
+        el("div", {}, [...c.cobertura_despues.presentes, ...c.cobertura_despues.ausentes].map((k) => el("span", { class: "clave " + (presentes.has(k) ? "esta" : "") }, k)))),
+      el("div", { class: "tarjeta amarilla" }, el("p", { class: "kicker", style: "color:var(--tinta)" }, "Guardarraíl"),
+        el("div", { class: "numero", style: "color:var(--tinta)" }, String(c.sin_respaldo.length)),
+        el("p", {}, `afirmaciones sin respaldo en el CV guardado (${c.intentos_de_guardar} intento${c.intentos_de_guardar === 1 ? "" : "s"} de guardar_cv).`)),
+      el("h3", {}, "Encaje con la oferta"),
+      el("table", {}, el("tbody", {}, c.encaje.map((e) => el("tr", {}, el("td", {}, el("span", { class: "chip " + e.estado }, e.estado)),
+        el("td", {}, e.requisito, el("div", { class: "gris pequeno" }, e.evidencia || "sin prueba")))))),
+      el("h3", { style: "margin-top:22px" }, "Qué ha cambiado"),
+      el("ul", {}, c.cambios.map((x) => el("li", {}, x.que, el("span", { class: "gris" }, ` · ${x.por_que}`)))),
+      c.huecos.length ? el("div", {}, el("h3", { style: "margin-top:22px" }, "Huecos (van al plan, no al CV)"), el("ul", {}, c.huecos.map((h) => el("li", {}, h)))) : null)));
+  habilitar("cv");
+}
+
+function pintarEmpresa(d) {
+  rellenar("#panel-empresa",
+    el("p", { class: "kicker" }, "Qué preparar"), el("h2", {}, el("span", {}, "Antes de la entrevista con "), el("span", { class: "marca" }, d.empresa)),
+    el("div", { class: "rejilla dos" },
+      el("ol", { class: "lista" }, d.que_preparar.map((t) => el("li", {}, el("h3", {}, t.tema, " ", el("span", { class: "chip " + t.prioridad }, t.prioridad)), el("div", { class: "gris" }, t.por_que)))),
+      el("div", {},
+        el("div", { class: "tarjeta" }, el("p", { class: "kicker" }, "Te preguntarán"), el("ul", {}, d.preguntas_probables.map((q) => el("li", {}, q)))),
+        el("div", { class: "tarjeta amarilla" }, el("p", { class: "kicker", style: "color:var(--tinta)" }, "Pregúntales tú"), el("ul", {}, d.preguntas_para_ellos.map((q) => el("li", {}, q)))))),
+    el("p", { class: "kicker", style: "margin-top:10px" }, "El dossier"),
+    el("div", { class: "rejilla tres" }, d.secciones.map((s) => el("div", { class: "tarjeta" }, el("h3", {}, s.titulo), el("p", {}, s.contenido),
+      el("div", { class: "pequeno" }, s.fuentes.map((f) => el("div", {}, "Fuente: ", enlace(f))))))),
+    d.no_encontrado.length ? el("div", { class: "aviso" }, el("b", {}, "No encontrado en las fuentes: "), d.no_encontrado.join(" · ")) : null);
+  habilitar("empresa");
+}
+
+function pintarPlan(p) {
+  rellenar("#panel-plan",
+    el("p", { class: "kicker" }, "Tu pitch, en tres frases"),
+    el("div", { class: "cita" }, p.pitch.map((f) => el("p", {}, f))),
+    p.pitch_sin_respaldo && p.pitch_sin_respaldo.length ? el("div", { class: "aviso" }, "⚠️ Revisa: ", p.pitch_sin_respaldo.join(", "), " no constan en tus fuentes.") : null,
+    el("p", { class: "gris pequeno" }, "Compáralo con las tres frases que me mandaste por email: ¿cuál ficharías? Y léelo como lo diría tu voz: ¿sube algún nivel («dominio» donde tu CV dice «intermedio») o exagera algo? Lo dirás tú, no el agente."),
+    el("p", { class: "kicker", style: "margin-top:26px" }, "Tu plan de cuatro semanas"),
+    el("div", { class: "rejilla tres", style: "grid-template-columns:repeat(4,1fr)" }, p.plan.map((s) => el("div", { class: "tarjeta semana" },
+      el("div", { class: "n" }, `Semana ${s.semana}`), el("h3", { style: "margin-top:8px" }, s.objetivo),
+      el("ul", { class: "pequeno" }, s.acciones.map((a) => el("li", {}, a))), el("p", { class: "pequeno" }, el("b", {}, "Prueba: "), s.prueba)))));
+  habilitar("plan");
+}
+
+function manejar(ev) {
+  switch (ev.tipo) {
+    case "inicio": anotar(`Perfil: ${ev.perfil} · modelo ${ev.modelo} · modo ${ev.modo}`); break;
+    case "paso": marcarPaso(ev.paso, ev.estado === "inicio" ? "marcha" : (document.querySelector(`.paso[data-paso="${ev.paso}"]`).classList.contains("error") ? "error" : "hecho"), ev.estado === "inicio" ? "en marcha" : "hecho"); break;
+    case "pagina": ESTADO.pagina = ev; anotar(`📄 Oferta leída (${fmt(ev.caracteres)} caracteres) · ${ev.fuente} · robots.txt: ${ev.robots}`); break;
+    case "herramienta": anotar(el("span", { class: "agente" }, ev.agente), ` → ${NOMBRES[ev.nombre] || ev.nombre}(${Object.values(ev.args).map((v) => JSON.stringify(v)).join(", ")})`); break;
+    case "resultado_herramienta": if (!ev.ok) anotar(el("span", { class: "mal" }, `⚠️ ${ev.nombre}: ${ev.resumen}`)); break;
+    case "resultado":
+      $("#resultados").classList.remove("oculto");
+      if (ev.clave === "oferta") pintarOferta(ev.datos, ESTADO.pagina);
+      if (ev.clave === "cv") pintarCV(ev.datos);
+      if (ev.clave === "empresa") pintarEmpresa(ev.datos);
+      if (ev.clave === "plan") pintarPlan(ev.datos);
+      break;
+    case "necesito_texto":
+      marcarPaso("oferta", "error", ev.motivo === "robots" ? "prohibido por robots.txt" : "no se puede leer");
+      $("#necesito").replaceChildren(el("b", {}, ev.mensaje), el("div", {}, ev.consejo));
+      $("#necesito").classList.remove("oculto"); $("#pegar").open = true; $("#texto").focus();
+      anotar(el("span", { class: "mal" }, `🚫 ${ev.mensaje}`)); break;
+    case "error":
+      if (ev.paso) marcarPaso(ev.paso, "error", "error");
+      anotar(el("span", { class: "mal" }, `❌ ${ev.texto}`)); break;
+    case "fin": {
+      const m = $("#medidas"); m.classList.remove("oculto");
+      m.replaceChildren(el("p", { class: "kicker", style: "color:var(--tinta)" }, "Lo que ha costado"),
+        el("div", { class: "rejilla tres" },
+          el("div", {}, el("div", { class: "numero", style: "color:var(--tinta)" }, fmt(ev.segundos), el("small", {}, " s")), "de principio a fin"),
+          el("div", {}, el("div", { class: "numero", style: "color:var(--tinta)" }, fmt(ev.llamadas)), `llamadas al modelo${ev.grabadas ? ` (${ev.grabadas} grabadas)` : ""}`),
+          el("div", {}, el("div", { class: "numero", style: "color:var(--tinta)" }, fmt(ev.tokens)), "tokens")),
+        el("p", { class: "pequeno" }, `Todo guardado en ${ev.carpeta}/`));
+      anotar(ev.ok ? "✅ Candidatura preparada." : "⚠️ Terminado con errores: revisa los pasos en negro."); break;
+    }
+  }
+}
+
+async function preparar() {
+  if (ESTADO.corriendo) return;
+  if (ESTADO.sinServidor) { sinServidor(); return; }
+  const url = $("#url").value.trim(), texto = $("#texto").value.trim();
+  if (!url && !texto) { $("#url").focus(); return; }
+  ESTADO.corriendo = true; $("#preparar").disabled = true; $("#necesito").classList.add("oculto");
+  $("#progreso").classList.remove("oculto"); $("#registro").replaceChildren(); ESTADO.pagina = null;
+  document.querySelectorAll(".paso").forEach((n) => { n.classList.remove("marcha", "hecho", "error"); n.querySelector(".e").textContent = "pendiente"; });
+  document.querySelectorAll(".pestana").forEach((b) => { b.disabled = true; b.classList.remove("activa"); });
+  document.querySelectorAll(".panel").forEach((p) => p.classList.remove("activo"));
+  $("#resultados").classList.add("oculto"); $("#medidas").classList.add("oculto");
+  try {
+    const r = await fetch("/api/preparar", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ url, texto }) });
+    if (!r.ok) { anotar(el("span", { class: "mal" }, `❌ ${(await leerJSON(r)).detail}`)); return; }
+    const lector = r.body.getReader(), dec = new TextDecoder(); let resto = "";
+    for (;;) {
+      const { value, done } = await lector.read(); if (done) break;
+      resto += dec.decode(value, { stream: true }); let i;
+      while ((i = resto.indexOf("\n")) >= 0) { const linea = resto.slice(0, i); resto = resto.slice(i + 1); if (linea.trim()) manejar(JSON.parse(linea)); }
+    }
+  } catch (e) {
+    if (e instanceof TypeError && !$("#registro").childElementCount) sinServidor("(no responde al pedir la candidatura)");
+    anotar(el("span", { class: "mal" }, `❌ Se ha cortado la conexión con la webapp: ${e.message || e}`));
+  }
+  finally { ESTADO.corriendo = false; $("#preparar").disabled = false; }
+}
+
+$("#preparar").addEventListener("click", preparar);
+$("#url").addEventListener("keydown", (e) => { if (e.key === "Enter") preparar(); });
+$("#ejemplo").addEventListener("click", () => {
+  if (!ESTADO.ejemplo) { sinServidor(); return; }
+  $("#url").value = ESTADO.ejemplo; $("#texto").value = ""; preparar();
+});
+document.querySelectorAll(".pestana").forEach((b) => b.addEventListener("click", () => !b.disabled && activar(b.dataset.panel)));
+$("#subir").addEventListener("click", () => { if (ESTADO.sinServidor) { sinServidor(); return; } $("#fichero").click(); });
+$("#fichero").addEventListener("change", async () => {
+  const entrada = $("#fichero"), f = entrada.files[0]; if (!f) return;
+  entrada.value = "";   // si no, volver a elegir el mismo fichero no avisa de ningún cambio
+  avisoCV(`Subiendo ${f.name}…`);
+  try {
+    const r = await fetch(`/api/cv?nombre=${encodeURIComponent(f.name)}`, { method: "POST", body: f });
+    const datos = await leerJSON(r);
+    if (!r.ok) { avisoCV(`❌ ${datos.detail}`, true); return; }
+    await cargarEstado(datos);
+    avisoCV(`✅ ${f.name} importado en sesion2/mi_perfil/cv.md. Revísalo en «Ver el CV que usará el agente»: un PDF puede desordenar las columnas.`);
+  } catch (e) { sinServidor(); avisoCV(`❌ No he podido subirlo: ${e.message || e}`, true); }
+});
+$("#volver").addEventListener("click", async () => {
+  try {
+    const r = await fetch("/api/cv/ejemplo", { method: "POST" });
+    const datos = await leerJSON(r);
+    if (!r.ok) { avisoCV(`❌ ${datos.detail}`, true); return; }
+    await cargarEstado(datos); avisoCV("Vuelves a usar el CV de ejemplo. El tuyo está en sesion2/mi_perfil/cv_anterior.md.");
+  } catch (e) { sinServidor(); }
+});
+cargarEstado();
+</script>
+</body>
+</html>

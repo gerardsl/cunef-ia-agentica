@@ -1,0 +1,171 @@
+{
+  "titulo": "Máster Universitario en Ciencia de Datos e Inteligencia Artificial (MUCD-IA)",
+  "universidad": "CUNEF Universidad (Madrid)",
+  "curso": "2026-2027",
+  "fuentes": [
+    "BOE-A-2026-3903, de 19 de febrero de 2026: modificación del plan de estudios (asignaturas, créditos y cuatrimestre)",
+    "https://www.cunef.edu/estudios/master-universitario-en-ciencia-de-datos/ (consultada el 21 de noviembre de 2026)"
+  ],
+  "aviso": "Las asignaturas, los créditos y el cuatrimestre son los oficiales. Los contenidos, las competencias y las herramientas son ORIENTATIVOS: lo que de verdad hayas trabajado (prácticas, proyectos, notas) escríbelo en sesion2/mi_perfil/master.md.",
+  "calendario": {
+    "1": {"inicio": "2026-09-01", "fin": "2027-01-31"},
+    "2": {"inicio": "2027-02-01", "fin": "2027-06-30"}
+  },
+  "asignaturas": [
+    {
+      "id": "fundamentos",
+      "nombre": "Fundamentos para el Análisis de Datos y la Inteligencia Artificial",
+      "ects": 3, "cuatrimestre": 1, "caracter": "obligatoria",
+      "contenidos": ["probabilidad y estadística descriptiva e inferencial", "contrastes de hipótesis", "álgebra lineal y optimización para el aprendizaje automático", "muestreo y diseño de experimentos"],
+      "competencias": ["razonar con incertidumbre e interpretar intervalos y contrastes", "elegir el método estadístico adecuado para una pregunta de negocio"],
+      "herramientas": ["Python", "NumPy"]
+    },
+    {
+      "id": "programacion",
+      "nombre": "Herramientas de Programación para la Ciencia de Datos y la Inteligencia Artificial",
+      "ects": 6, "cuatrimestre": 1, "caracter": "obligatoria",
+      "contenidos": ["Python para análisis de datos", "manipulación de datos con pandas", "visualización básica", "control de versiones", "entornos de desarrollo y cuadernos", "consumo de APIs y ficheros JSON"],
+      "competencias": ["escribir código reproducible para limpiar, transformar y analizar datos", "trabajar con control de versiones en equipo"],
+      "herramientas": ["Python", "pandas", "NumPy", "matplotlib", "Jupyter", "Git", "GitHub"]
+    },
+    {
+      "id": "bases_de_datos",
+      "nombre": "Bases de Datos",
+      "ects": 3, "cuatrimestre": 1, "caracter": "obligatoria",
+      "contenidos": ["modelo relacional y diseño de esquemas", "SQL: consultas, joins, agregaciones y funciones de ventana", "introducción a las bases de datos NoSQL"],
+      "competencias": ["extraer y combinar datos de varias tablas con SQL", "diseñar un esquema sencillo para un caso de negocio"],
+      "herramientas": ["SQL", "PostgreSQL", "SQLite", "MongoDB"]
+    },
+    {
+      "id": "aprendizaje_automatico",
+      "nombre": "Aprendizaje Automático",
+      "ects": 6, "cuatrimestre": 1, "caracter": "obligatoria",
+      "contenidos": ["aprendizaje supervisado: regresión y clasificación", "regresión logística, árboles, random forest y gradient boosting", "aprendizaje no supervisado: clustering y reducción de dimensionalidad", "validación cruzada, métricas y sobreajuste", "pipelines e interpretabilidad de modelos"],
+      "competencias": ["entrenar, validar y comparar modelos predictivos con métricas adecuadas", "explicar un modelo y sus límites a negocio"],
+      "herramientas": ["scikit-learn", "XGBoost", "Python"]
+    },
+    {
+      "id": "visualizacion",
+      "nombre": "Técnicas de Visualización",
+      "ects": 3, "cuatrimestre": 1, "caracter": "obligatoria",
+      "contenidos": ["principios de percepción y diseño de gráficos", "storytelling con datos", "cuadros de mando interactivos"],
+      "competencias": ["comunicar resultados a quien decide con gráficos claros", "diseñar un cuadro de mando"],
+      "herramientas": ["matplotlib", "seaborn", "Plotly", "Power BI", "Tableau"]
+    },
+    {
+      "id": "deep_learning",
+      "nombre": "Redes Neuronales y Aprendizaje Profundo",
+      "ects": 3, "cuatrimestre": 1, "caracter": "obligatoria",
+      "contenidos": ["perceptrón multicapa y retropropagación", "redes convolucionales", "redes recurrentes", "entrenamiento y regularización"],
+      "competencias": ["entrenar y evaluar redes neuronales sencillas"],
+      "herramientas": ["TensorFlow", "Keras", "PyTorch"]
+    },
+    {
+      "id": "series_temporales",
+      "nombre": "Técnicas de Predicción: Series Temporales",
+      "ects": 3, "cuatrimestre": 1, "caracter": "obligatoria",
+      "contenidos": ["descomposición de series: tendencia y estacionalidad", "modelos ARIMA y de suavizado exponencial", "validación temporal y métricas de error de previsión"],
+      "competencias": ["construir y validar previsiones frente a una línea base"],
+      "herramientas": ["statsmodels", "Python"]
+    },
+    {
+      "id": "etl",
+      "nombre": "Extracción, Transformación y Carga",
+      "ects": 3, "cuatrimestre": 1, "caracter": "obligatoria",
+      "contenidos": ["procesos ETL y ELT", "calidad y limpieza de datos", "orquestación de flujos de datos", "formatos de datos y extracción desde APIs"],
+      "competencias": ["construir un flujo de datos de origen a destino con controles de calidad"],
+      "herramientas": ["Python", "SQL", "Apache Airflow"]
+    },
+    {
+      "id": "pln_ia_generativa",
+      "nombre": "Procesamiento del Lenguaje Natural e Inteligencia Artificial Generativa",
+      "ects": 3, "cuatrimestre": 2, "caracter": "obligatoria",
+      "contenidos": ["representación de texto y embeddings", "modelos transformer", "grandes modelos de lenguaje y técnicas de prompting", "generación aumentada por recuperación (RAG)"],
+      "competencias": ["aplicar modelos de lenguaje a problemas con texto"],
+      "herramientas": ["Hugging Face", "Python"]
+    },
+    {
+      "id": "etica",
+      "nombre": "Ética y Regulación de la Inteligencia Artificial",
+      "ects": 1.5, "cuatrimestre": 2, "caracter": "obligatoria",
+      "contenidos": ["sesgo y equidad", "explicabilidad", "Reglamento Europeo de Inteligencia Artificial"],
+      "competencias": ["evaluar los riesgos éticos y regulatorios de un sistema de IA"],
+      "herramientas": []
+    },
+    {
+      "id": "privacidad",
+      "nombre": "Privacidad y Protección de Datos",
+      "ects": 1.5, "cuatrimestre": 2, "caracter": "obligatoria",
+      "contenidos": ["RGPD", "anonimización y seudonimización", "privacidad desde el diseño"],
+      "competencias": ["aplicar el RGPD a un proyecto de datos"],
+      "herramientas": []
+    },
+    {
+      "id": "tecnologias_emergentes",
+      "nombre": "Tecnologías Emergentes (módulos: IA Generativa, Visión por Computadora y Computación Cuántica)",
+      "ects": 3, "cuatrimestre": 2, "caracter": "obligatoria",
+      "contenidos": ["IA generativa", "visión por computador", "computación cuántica"],
+      "competencias": ["valorar la madurez y los casos de uso de una tecnología emergente"],
+      "herramientas": []
+    },
+    {
+      "id": "ml_inversiones",
+      "nombre": "Aprendizaje Automático e Inversiones",
+      "ects": 3, "cuatrimestre": 2, "caracter": "obligatoria",
+      "contenidos": ["aprendizaje automático aplicado a decisiones de inversión", "validación de estrategias con datos históricos"],
+      "competencias": ["aplicar modelos predictivos a problemas financieros"],
+      "herramientas": ["Python"]
+    },
+    {
+      "id": "practicas",
+      "nombre": "Prácticas Académicas Externas",
+      "ects": 12, "cuatrimestre": 2, "caracter": "prácticas",
+      "contenidos": ["prácticas en empresa"],
+      "competencias": [],
+      "herramientas": []
+    },
+    {
+      "id": "tfm",
+      "nombre": "Trabajo de Fin de Máster",
+      "ects": 6, "cuatrimestre": 2, "caracter": "TFM",
+      "contenidos": ["proyecto aplicado de ciencia de datos e IA"],
+      "competencias": [],
+      "herramientas": []
+    },
+    {
+      "id": "intensificacion_finanzas",
+      "nombre": "Intensificación en Finanzas: Valoración Corporativa · Gestión Activa, Factor Investing e Inversiones Alternativas",
+      "ects": 6, "cuatrimestre": 2, "caracter": "optativa",
+      "contenidos": ["valoración de empresas", "gestión activa de carteras y factor investing"],
+      "competencias": [],
+      "herramientas": []
+    },
+    {
+      "id": "intensificacion_negocios",
+      "nombre": "Intensificación en Negocios: Marketing Digital · Estrategia y Modelos de Negocio Digitales",
+      "ects": 6, "cuatrimestre": 2, "caracter": "optativa",
+      "contenidos": ["marketing digital", "estrategia y modelos de negocio digitales"],
+      "competencias": [],
+      "herramientas": []
+    }
+  ],
+  "masterclasses": {
+    "nombre": "Masterclasses de IA agéntica (CUNEF Universidad)",
+    "sesiones": [
+      {
+        "fecha": "2026-11-25",
+        "nombre": "Sesión 2 · Agentes conectados: un agente que prepara tu candidatura",
+        "contenidos": ["agentes con herramientas", "servidores MCP (Model Context Protocol)", "lectura responsable de la web: robots.txt y JSON-LD", "salidas estructuradas con Pydantic", "guardarraíles en código", "webapp con FastAPI"],
+        "competencias": ["construir un agente de IA conectado por MCP a datos propios", "publicar un agente en una webapp"],
+        "herramientas": ["Microsoft Agent Framework", "MCP", "FastAPI", "Pydantic", "BeautifulSoup", "Python"]
+      },
+      {
+        "fecha": "2026-12-02",
+        "nombre": "Sesión 3 · De la demo a producción",
+        "contenidos": ["evaluación de agentes", "red teaming e inyección de instrucciones", "Reglamento Europeo de IA aplicado a un agente"],
+        "competencias": ["evaluar y blindar un agente antes de llevarlo a producción"],
+        "herramientas": []
+      }
+    ]
+  }
+}

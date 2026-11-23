@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+*.log
+# Tu CV y tus datos personales (nunca a GitHub), tus piezas de los labs y lo que genera el agente
+sesion2/mi_perfil/
+sesion2/mis_piezas/
+sesion2/trabajo/

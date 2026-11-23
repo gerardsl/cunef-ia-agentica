@@ -1,0 +1,47 @@
+{
+  "name": "CUNEF · IA agéntica",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "4gb"
+  },
+  "postCreateCommand": "pip install --user --no-cache-dir -r requirements.txt && pip install --user -e .",
+  "postAttachCommand": "python -c \"import mucdia; mucdia.comprobar(llamar_al_modelo=False)\"",
+  "secrets": {
+    "GEMINI_API_KEY": {
+      "description": "Tu clave GRATUITA de Google AI Studio. Créala en un proyecto SIN facturación (ver docs/setup.md).",
+      "documentationUrl": "https://aistudio.google.com/apikey"
+    }
+  },
+  "forwardPorts": [
+    8000
+  ],
+  "portsAttributes": {
+    "8000": {
+      "label": "Tu agente de candidaturas (sesión 2)",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "GitHub.copilot-chat"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "jupyter.notebookFileRoot": "${workspaceFolder}",
+        "files.exclude": {
+          "**/__pycache__": true,
+          "**/*.egg-info": true
+        }
+      }
+    },
+    "codespaces": {
+      "openFiles": [
+        "README.md"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "mi-carrera": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["${workspaceFolder}/sesion2/servidor_mcp_carrera.py"],
+      "env": {
+        "PYTHONIOENCODING": "utf-8"
+      }
+    }
+  }
+}
