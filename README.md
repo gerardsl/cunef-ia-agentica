@@ -17,7 +17,8 @@ propios hay un CV ficticio de ejemplo. Detalles en [sesion2/README.md](sesion2/R
    [docs/setup.md](docs/setup.md): la clave debe ser de un proyecto **sin facturación**, así nunca pagarás nada.
 3. **Abre tu Codespace** con el botón de arriba: en la pantalla de creación, pega tu clave en el campo
    `GEMINI_API_KEY` y pulsa **Create new codespace**. La primera vez tarda unos minutos en prepararse. Si tenías un
-   Codespace de antes, crea uno nuevo: este repositorio es nuevo.
+   Codespace de antes, crea uno nuevo: este repositorio es nuevo. Ya trae todo instalado: no hace falta ningún
+   `pip install`, y el kernel de los notebooks es **Python 3.12** (nunca *Create Python Environment*).
 4. Ten a mano **el enlace de tu oferta** y **tu CV** (PDF, Word o texto). Si la oferta es de LinkedIn, Indeed o
    InfoJobs, también su texto: esas webs no dejan que las lea un programa.
 
