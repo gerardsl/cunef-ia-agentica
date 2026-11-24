@@ -47,11 +47,25 @@ el repositorio es el del curso. Sin eso no arrancan ni el terminal ni los notebo
 **El notebook pide un kernel o no ejecuta nada.**
 **Select Kernel** (arriba a la derecha) → **Python Environments** → **Python 3.12** (`/usr/local/bin/python`). No
 elijas **Create Python Environment**, aunque ponga *Recommended*: crea un entorno vacío, sin las librerías del curso.
-Tampoco el Python 3.11 (`/usr/bin/python3`). Si ya creaste un `.venv`, vuelve a elegir el kernel 3.12.
+Tampoco el Python 3.11 (`/usr/bin/python3`). Si ya creaste un `.venv`, mira la pregunta siguiente.
+
+**`pip` dice `Can not perform a '--user' install. User site-packages are not visible in this virtualenv`, el
+terminal empieza por `(.venv)` o `mucdia.comprobar()` avisa de un `.venv`.**
+VS Code ha creado un entorno virtual `.venv` (con *Create Python Environment*) y lo usa en lugar del Python del
+Codespace, que es el que tiene todas las librerías. Ese `.venv` sobra y no tiene nada tuyo. En un terminal:
+
+```bash
+rm -rf .venv
+```
+
+Después, en cada notebook, **Select Kernel → Python Environments → Python 3.12** (`/usr/local/bin/python`); en
+**Ctrl+Shift+P → Python: Select Interpreter**, el mismo Python 3.12; y cierra los terminales (🗑) y abre uno nuevo.
+No hace falta ningún `pip install`: el Codespace ya lo trae todo.
 
 **`ModuleNotFoundError: No module named 'mucdia'` (o `agent_framework`, `bs4`, `docx` o `pypdf`), o
 `mucdia.comprobar()` avisa de que faltan paquetes.**
-La instalación inicial no terminó. En un terminal, desde la raíz del repositorio:
+Casi siempre es el kernel: comprueba que sea **Python 3.12** (`/usr/local/bin/python`) y no un `.venv` (ver arriba).
+Si lo es, la instalación inicial no terminó. En un terminal, desde la raíz del repositorio:
 `pip install --user -r requirements.txt && pip install --user -e .` y reinicia el kernel.
 
 **`SyntaxError: 'await' outside function` al copiar código a un `.py`.**

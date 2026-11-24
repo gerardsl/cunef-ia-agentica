@@ -11,6 +11,7 @@ Uso típico en un notebook:
 
 import importlib.util
 import os
+import sys
 
 from . import config, lab
 from .conectores import ClienteMCPCrudo, servidor_mcp
@@ -56,11 +57,18 @@ def comprobar(llamar_al_modelo: bool = True) -> bool:
         print("⚠️  No hay clave configurada: solo funcionarán las respuestas grabadas (replay). Ver docs/setup.md")
         ok = False
     if faltan := [pip for modulo, pip in PAQUETES_EXTRA.items() if importlib.util.find_spec(modulo) is None]:
-        print(f"⚠️  Faltan paquetes del curso ({', '.join(faltan)}). En un terminal:\n"
-              "     pip install --user -r requirements.txt")
+        # En un entorno virtual (en tu ordenador) no vale --user; en Codespaces, sin entorno virtual, sí hace falta.
+        orden = ("python -m pip install -r requirements.txt -e ." if sys.prefix != sys.base_prefix
+                 else "pip install --user -r requirements.txt && pip install --user -e .")
+        print(f"⚠️  Faltan paquetes del curso ({', '.join(faltan)}). En un terminal:\n     {orden}")
         ok = False
     else:
         print("✅ Paquetes del curso instalados")
+    if os.getenv("CODESPACES") == "true" and (config.RAIZ / ".venv").exists():
+        print("⚠️  Hay un entorno virtual .venv (lo crea «Create Python Environment»): está vacío y VS Code lo usa en vez "
+              "del Python del Codespace.\n     En un terminal: rm -rf .venv  · Después, el kernel Python 3.12 "
+              "(/usr/local/bin/python) y un terminal nuevo. Ver docs/problemas_frecuentes.md")
+        ok = False
     if llamar_al_modelo and config.clave():
         try:
             r = cliente_openai().chat.completions.create(
