@@ -19,13 +19,9 @@ frases para que os fichara. Hoy construís **el agente que lo hace con vosotros*
 | **2b** | [`lab2b_tu_cv_por_mcp.ipynb`](lab2b_tu_cv_por_mcp.ipynb) | 20' | MCP por dentro, un servidor con mínimo privilegio y un guardarraíl que no deja inventar |
 | **2c** | [`lab2c_empresa_y_webapp.ipynb`](lab2c_empresa_y_webapp.ipynb) | 15' | Investigar con fuentes, un flujo con agentes en paralelo y tu webapp |
 
-Las celdas ✏️ son tuyas, tienen comprobación automática y **las usa tu webapp** (se guardan en `sesion2/mis_piezas/`).
-¿Atascado más de 3 minutos?
-
-```python
-mucdia.lab.pista("jobposting")      # "jobposting", "oferta", "respaldo", "editor" o "investigador"
-mucdia.lab.solucion("jobposting")   # la solución, para seguir adelante
-```
+**Los notebooks están resueltos**: solo tienes que pegar el enlace de tu oferta en la primera celda del lab 2a
+(`MI_OFERTA`) y ejecutar los tres labs en orden. Las celdas ✏️ son las piezas del agente: tienen comprobación
+automática y **las usa tu webapp** (se guardan en `sesion2/mis_piezas/`).
 
 ## Antes de empezar
 
